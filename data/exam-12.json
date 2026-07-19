@@ -1,0 +1,1668 @@
+{
+  "id": "exam-12",
+  "title": "EXAM 12 AL2019-TTA1- không video chữa đề",
+  "questions": [
+    {
+      "id": "exam-12-q001",
+      "number": 1,
+      "options": [
+        {
+          "id": "A",
+          "text": "Control flow analysis"
+        },
+        {
+          "id": "B",
+          "text": "Data flow activities"
+        },
+        {
+          "id": "C",
+          "text": "Coding standards analysis"
+        },
+        {
+          "id": "D",
+          "text": "Cyclomatic complexity analysis"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [],
+      "question": "Definition-use pairs are identified during which of the following static analysis activities? Number of correct answers: 1",
+      "explanation": ""
+    },
+    {
+      "id": "exam-12-q002",
+      "number": 2,
+      "options": [
+        {
+          "id": "A",
+          "text": "Complexity of technology"
+        },
+        {
+          "id": "B",
+          "text": "Frequency of use of the affected failure"
+        },
+        {
+          "id": "C",
+          "text": "Interfacing and integration issues"
+        },
+        {
+          "id": "D",
+          "text": "Damage to image"
+        },
+        {
+          "id": "E",
+          "text": "Lack of reasonable workaround"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "C"
+      ],
+      "images": [],
+      "question": "As part of a risk analysis, technical risks are analyzed. Which TWO factors influence technical risk? Number of correct answers: 2",
+      "explanation": ""
+    },
+    {
+      "id": "exam-12-q003",
+      "number": 3,
+      "options": [
+        {
+          "id": "A",
+          "text": "I: Condition determination coverage, II: Decision Coverage, III: Statement coverage"
+        },
+        {
+          "id": "B",
+          "text": "I: Condition determination coverage, II: Statement coverage, III: Decision coverage"
+        },
+        {
+          "id": "C",
+          "text": "I: Decision coverage, II: Condition determination coverage, III: Statement Coverage"
+        },
+        {
+          "id": "D",
+          "text": "I: Multiple condition coverage, II: Decision coverage, III: Condition determination coverage"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [
+        "assets/questions/exam-12-q003-1.jpeg"
+      ],
+      "question": "The result of a product risk analysis performed on components I, II and III of the airplane control system shows the following risk matrix: The project wants to mitigate the risks by defining different types of coverage depending on the risk level of the components. Which of the following would be a meaningful solution for setting the coverage targets? Number of correct answers: 1",
+      "explanation": ""
+    },
+    {
+      "id": "exam-12-q004",
+      "number": 4,
+      "options": [
+        {
+          "id": "A",
+          "text": "60%"
+        },
+        {
+          "id": "B",
+          "text": "70%"
+        },
+        {
+          "id": "C",
+          "text": "80%"
+        },
+        {
+          "id": "D",
+          "text": "90%"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [
+        "assets/questions/exam-12-q004-1.jpeg"
+      ],
+      "question": "If you are flying with an economy ticket, there is a possibility that you may get upgraded to business class, especially if you hold a gold card in the airline’s frequent flier program. If you don’t hold a gold card, there is a possibility that you will get ‘bumped’ off the flight if it is full and you check in late. This is shown in the figure hereafter. Note that each box (i.e. statement) has been numbered. Three tests have been run: Test 1: Gold card holder who gets upgraded to business class Test 2: Non-gold card holder who stays in economy Test 3: A person who is bumped from the flight What is the statement coverage of these three tests? Number of correct answers: 1",
+      "explanation": ""
+    },
+    {
+      "id": "exam-12-q005",
+      "number": 5,
+      "options": [
+        {
+          "id": "A",
+          "text": "Both are performed using requirements as its major input document"
+        },
+        {
+          "id": "B",
+          "text": "Both are usually undertaken by integration testers"
+        },
+        {
+          "id": "C",
+          "text": "Both are usually undertaken by development during coding and unit testing"
+        },
+        {
+          "id": "D",
+          "text": "Both are related to reviews"
+        },
+        {
+          "id": "E",
+          "text": "Both usually use a toolv"
+        }
+      ],
+      "correctAnswers": [
+        "C",
+        "E"
+      ],
+      "images": [],
+      "question": "An embedded software company is considering to improve the quality of its software components to be delivered to the integration team. After studying various experience papers that report a higher level of quality for software components, two main alternative techniques are identified: static analysis and dynamic analysis. In deciding which one is most applicable and how they relate to each other a detailed study is performed. Which of the following are TWO key similarities between static analysis and dynamic analysis? Number of correct answers: 2",
+      "explanation": ""
+    },
+    {
+      "id": "exam-12-q006",
+      "number": 6,
+      "options": [
+        {
+          "id": "A",
+          "text": "That all bugs present in that module were necessarily revealed by those tests."
+        },
+        {
+          "id": "B",
+          "text": "That every control flow branch had been executed at least once by those tests."
+        },
+        {
+          "id": "C",
+          "text": "That every dataflow in that module was exercised at least once bythose tests."
+        },
+        {
+          "id": "D",
+          "text": "That every path through that module was exercised at least once by those tests"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [],
+      "question": "If we say that a set of tests has achieved 100% structural decision coverage on a particular module in a program, what does that mean? Number of correct answers: 1",
+      "explanation": ""
+    },
+    {
+      "id": "exam-12-q007",
+      "number": 7,
+      "options": [
+        {
+          "id": "A",
+          "text": "Code complexity analysis"
+        },
+        {
+          "id": "B",
+          "text": "Profiling"
+        },
+        {
+          "id": "C",
+          "text": "Network package sniffing"
+        },
+        {
+          "id": "D",
+          "text": "Spelling and grammar checking"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [],
+      "question": "Which of the following is a dynamic analysis technique related to improving application performance? Number of correct answers: 1",
+      "explanation": ""
+    },
+    {
+      "id": "exam-12-q008",
+      "number": 8,
+      "options": [
+        {
+          "id": "A",
+          "text": "Statement testing"
+        },
+        {
+          "id": "B",
+          "text": "Decision testing"
+        },
+        {
+          "id": "C",
+          "text": "Condition determination testing"
+        },
+        {
+          "id": "D",
+          "text": "Multiple condition testing"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [],
+      "question": "A component has been analyzed as being highly critical. Which of the following structure-based test design techniques provides the highest level of coverage? Number of correct answers: 1",
+      "explanation": ""
+    },
+    {
+      "id": "exam-12-q009",
+      "number": 9,
+      "options": [
+        {
+          "id": "A",
+          "text": "Application crashes when unsupported characters are pasted into an input field using the windows clipboard"
+        },
+        {
+          "id": "B",
+          "text": "Front page of the application has incorrect spelling of the company name"
+        },
+        {
+          "id": "C",
+          "text": "Application fails to display financial numbers in the correct currency format in reports"
+        },
+        {
+          "id": "D",
+          "text": "Application miscalculates total monthly balance due on credit cards"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [],
+      "question": "Consider the following fault attack: “Force all possible incoming errors from the software/OS interfaces to the application”. Which of the following is the kind of failure you are looking for when using this attack? Number of correct answers: 1",
+      "explanation": ""
+    },
+    {
+      "id": "exam-12-q010",
+      "number": 10,
+      "options": [
+        {
+          "id": "A",
+          "text": "Portability"
+        },
+        {
+          "id": "B",
+          "text": "Maintainability"
+        },
+        {
+          "id": "C",
+          "text": "Usability"
+        },
+        {
+          "id": "D",
+          "text": "Efficiency"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [],
+      "question": "The comment frequency of the code fragment is 13%. To which ISO 9126 quality attribute does a good level of comment frequency especially contribute? Number of correct answers: 1",
+      "explanation": ""
+    },
+    {
+      "id": "exam-12-q011",
+      "number": 11,
+      "options": [
+        {
+          "id": "A",
+          "text": "Boundary value analysis"
+        },
+        {
+          "id": "B",
+          "text": "Exploratory testing"
+        },
+        {
+          "id": "C",
+          "text": "State transition testing"
+        },
+        {
+          "id": "D",
+          "text": "Use case testing"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [],
+      "question": "Which specification-based technique could be used to enhance coverage for this code fragment? Number of correct answers: 1",
+      "explanation": ""
+    },
+    {
+      "id": "exam-12-q012",
+      "number": 12,
+      "options": [
+        {
+          "id": "A",
+          "text": "(5, 3, 2)"
+        },
+        {
+          "id": "B",
+          "text": "(5, 3, 2); (5, 4,0)"
+        },
+        {
+          "id": "C",
+          "text": "(5, 4, 0); (4, 5, 0)"
+        },
+        {
+          "id": "D",
+          "text": "(4, 5, 0); (5, 4, 5)"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [],
+      "question": "Consider the following code fragment If (a>b) and (b>c) then b = (a+c)/2 End if Assume that in the following options, each of the three numbers in parenthesis represent the inputs for a test case, where the first number represents variable “a”, the second number represents variable “b”, and the third number represents variable “c”. Which of the following gives a set of test case inputs that achieves 100% decision coverage for this fragment of code with the minimum number of test cases? Number of correct answers: 1",
+      "explanation": ""
+    },
+    {
+      "id": "exam-12-q013",
+      "number": 13,
+      "options": [
+        {
+          "id": "A",
+          "text": "Nodes Link Region"
+        },
+        {
+          "id": "B",
+          "text": "Nodes Region Link"
+        },
+        {
+          "id": "C",
+          "text": "Region Link Nodes"
+        },
+        {
+          "id": "D",
+          "text": "Region Nodes Link"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [],
+      "question": "For the control flow, what is the correct labelling? Number of correct answers: 1",
+      "explanation": ""
+    },
+    {
+      "id": "exam-12-q014",
+      "number": 14,
+      "options": [
+        {
+          "id": "A",
+          "text": "to address all major and minor defects as stated in the defect log"
+        },
+        {
+          "id": "B",
+          "text": "to fix all major and minor defects as stated in the defect log"
+        },
+        {
+          "id": "C",
+          "text": "to take action on only improvement suggestions from the defect log"
+        },
+        {
+          "id": "D",
+          "text": "to correct source documents that have major defects"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [],
+      "question": "During code reviews, it is the author’s responsibility… Number of correct answers: 1",
+      "explanation": ""
+    },
+    {
+      "id": "exam-12-q015",
+      "number": 15,
+      "options": [
+        {
+          "id": "A",
+          "text": "Condition testing"
+        },
+        {
+          "id": "B",
+          "text": "Multiple condition testing"
+        },
+        {
+          "id": "C",
+          "text": "Equivalence partitioning"
+        },
+        {
+          "id": "D",
+          "text": "Cause/effect graphing"
+        },
+        {
+          "id": "E",
+          "text": "Code reviews"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "B"
+      ],
+      "images": [],
+      "question": "Which TWO additional structure-based test design techniques could be used to dynamically test the code? Number of correct answers: 2",
+      "explanation": ""
+    },
+    {
+      "id": "exam-12-q016",
+      "number": 16,
+      "options": [
+        {
+          "id": "A",
+          "text": "Description: Boundary value not correctly implemented Priority: High Repeatability: Yes Tester: WVU Test case: 35 (test specification “bonus program”), V1.2"
+        },
+        {
+          "id": "B",
+          "text": "Description: Boundary value not correctly implemented for bonus Priority: Medium Tester: WVU Test case: 35 (test specification “bonus program”)"
+        },
+        {
+          "id": "C",
+          "text": "Description: Boundary value not correctly implemented for bonus (line 26: 10 according to design, now 5 implemented) Priority: High Repeatability: Yes Tester: WVU Test case: 35 (test specification “bonus program”), V1.2"
+        },
+        {
+          "id": "D",
+          "text": "Description: Boundary value not correctly implemented for bonus Priority: High Repeatability: Yes Tester: WVU Test case: 35 (test specification “bonus program”), V1.2"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [],
+      "question": "You have tested the program and have found that with “bonus” a boundary value has not been implemented according to design. You have written an incident report. Which of the following is the incident report of the highest quality? Number of correct answers: 1",
+      "explanation": ""
+    },
+    {
+      "id": "exam-12-q017",
+      "number": 17,
+      "options": [
+        {
+          "id": "A",
+          "text": "The ability to utilize a very experienced test team"
+        },
+        {
+          "id": "B",
+          "text": "The ability to accurately predict the residual risk prior to delivery"
+        },
+        {
+          "id": "C",
+          "text": "The ability to prevent defects during requirements analysis"
+        },
+        {
+          "id": "D",
+          "text": "The ability to test effectively without a complete test basis"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "images": [],
+      "question": "Which of the following is the most important benefit of making exploratory testing part of your test approach for the “Bonus Program”? Number of correct answers: 1",
+      "explanation": ""
+    },
+    {
+      "id": "exam-12-q018",
+      "number": 18,
+      "options": [
+        {
+          "id": "A",
+          "text": "Conformance to coding standards"
+        },
+        {
+          "id": "B",
+          "text": "Conformance to design"
+        },
+        {
+          "id": "C",
+          "text": "Endless loop"
+        },
+        {
+          "id": "D",
+          "text": "Cyclomatic complexity too high"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [],
+      "question": "An organisation has already implemented a static analysis tool and is considering whether code reviews would have any added value. Which of the following defect types can only be found by means of code reviews? Number of correct answers: 1",
+      "explanation": ""
+    },
+    {
+      "id": "exam-12-q019",
+      "number": 19,
+      "options": [
+        {
+          "id": "A",
+          "text": "Informal review"
+        },
+        {
+          "id": "B",
+          "text": "Inspection"
+        },
+        {
+          "id": "C",
+          "text": "Walkthrough"
+        },
+        {
+          "id": "D",
+          "text": "Management review"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [],
+      "question": "The Bonus Program is perceived by management to be critical. Defects in the program would almost immediately lead to financial loss. In the past an improvement program has been run to implement review based on IEEE 1028. Knowledge and skills on both formal and informal reviews are available. There is also an existing pool of review leaders. Which of the following review types would you choose to review the program? Number of correct answers: 1",
+      "explanation": ""
+    },
+    {
+      "id": "exam-12-q020",
+      "number": 20,
+      "options": [
+        {
+          "id": "A",
+          "text": "Number of decisions + 2"
+        },
+        {
+          "id": "B",
+          "text": "Number of enclosed regions - 1"
+        },
+        {
+          "id": "C",
+          "text": "Number of statements - 2"
+        },
+        {
+          "id": "D",
+          "text": "Links - Nodes + 2"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "images": [],
+      "question": "Which of the following is a valid way to calculate the cyclomatic complexity? Number of correct answers: 1",
+      "explanation": ""
+    },
+    {
+      "id": "exam-12-q021",
+      "number": 21,
+      "options": [
+        {
+          "id": "A",
+          "text": "Test log &coverage outline"
+        },
+        {
+          "id": "B",
+          "text": "Test charter"
+        },
+        {
+          "id": "C",
+          "text": "Heuristics"
+        },
+        {
+          "id": "D",
+          "text": "Test case specification"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [],
+      "question": "Applying exploratory testing (ET) during unit testing is being considered. Which ET deliverable would be the primary candidate for informal reviews? Number of correct answers: 1",
+      "explanation": ""
+    },
+    {
+      "id": "exam-12-q022",
+      "number": 22,
+      "options": [
+        {
+          "id": "A",
+          "text": "Are any magic numbers (numeric literals) used, other than 0 or 1?"
+        },
+        {
+          "id": "B",
+          "text": "Can each item be implemented with the techniques, tools, and resources available?"
+        },
+        {
+          "id": "C",
+          "text": "Is it possible during acceptance testing to verify whether the item has been satisfied?"
+        },
+        {
+          "id": "D",
+          "text": "Is the item specified in an exact, unambiguous way?"
+        },
+        {
+          "id": "E",
+          "text": "Is there any logic containing no statements and no explanation as to why it is empty?"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "E"
+      ],
+      "images": [],
+      "question": "To support code reviews a checklist will be developed. Which TWO questions from the list would you implement as part of the code review checklist? Number of correct answers: 2",
+      "explanation": ""
+    },
+    {
+      "id": "exam-12-q023",
+      "number": 23,
+      "options": [
+        {
+          "id": "A",
+          "text": "Equivalence Partitioning"
+        },
+        {
+          "id": "B",
+          "text": "State Transition Testing"
+        },
+        {
+          "id": "C",
+          "text": "Decision Table Testing"
+        },
+        {
+          "id": "D",
+          "text": "Use Cases"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [],
+      "question": "The application of multiple condition testing is also being considered. Which specification-based technique is largely based on the principle of multiple condition testing? Number of correct answers: 1",
+      "explanation": ""
+    },
+    {
+      "id": "exam-12-q024",
+      "number": 24,
+      "options": [
+        {
+          "id": "A",
+          "text": "1"
+        },
+        {
+          "id": "B",
+          "text": "2"
+        },
+        {
+          "id": "C",
+          "text": "3"
+        },
+        {
+          "id": "D",
+          "text": "4"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [
+        "assets/questions/exam-12-q024-1.jpeg"
+      ],
+      "question": "Which additional set of test cases is needed to achieve both 100% statement coverage and 100% decision coverage? Number of correct answers: 1",
+      "explanation": ""
+    },
+    {
+      "id": "exam-12-q025",
+      "number": 25,
+      "options": [
+        {
+          "id": "A",
+          "text": "Dead code"
+        },
+        {
+          "id": "B",
+          "text": "Variable used that is not defined"
+        },
+        {
+          "id": "C",
+          "text": "Memory issues"
+        },
+        {
+          "id": "D",
+          "text": "Conformance to design"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [],
+      "question": "When performing code reviews, which of the following defect types will be most difficult to find? Number of correct answers: 1",
+      "explanation": ""
+    },
+    {
+      "id": "exam-12-q026",
+      "number": 26,
+      "options": [
+        {
+          "id": "A",
+          "text": "Dynamic analysis"
+        },
+        {
+          "id": "B",
+          "text": "Review tool"
+        },
+        {
+          "id": "C",
+          "text": "Coverage measurement tool"
+        },
+        {
+          "id": "D",
+          "text": "Monitoring"
+        },
+        {
+          "id": "E",
+          "text": "Test management"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "C"
+      ],
+      "images": [],
+      "question": "It has been decided to improve the efficiency and effectiveness of unit testing by acquiring a number of test tools. Which TWO of the following tools would you select to support unit testing? Number of correct answers: 2",
+      "explanation": ""
+    },
+    {
+      "id": "exam-12-q027",
+      "number": 27,
+      "options": [
+        {
+          "id": "A",
+          "text": "Lack of good process as a baseline"
+        },
+        {
+          "id": "B",
+          "text": "Cost of maintenance of test scripts"
+        },
+        {
+          "id": "C",
+          "text": "Test management will become more time-consuming"
+        },
+        {
+          "id": "D",
+          "text": "Need to train testers and gain skills"
+        },
+        {
+          "id": "E",
+          "text": "Coverage measurements are often difficult"
+        }
+      ],
+      "correctAnswers": [
+        "B",
+        "D"
+      ],
+      "images": [],
+      "question": "What are the TWO most significant pitfalls the organisation should be aware of? Number of correct answers: 2",
+      "explanation": ""
+    },
+    {
+      "id": "exam-12-q028",
+      "number": 28,
+      "options": [
+        {
+          "id": "A",
+          "text": "Performance tool"
+        },
+        {
+          "id": "B",
+          "text": "Hyperlink tool"
+        },
+        {
+          "id": "C",
+          "text": "Usability testing tool"
+        },
+        {
+          "id": "D",
+          "text": "Static analysis tool"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [],
+      "question": "A new web site has been launched for a conference organisation. There are a number of links to other related websites for information purposes. Customers like the new site but complaints are being made that some (not all) of the links to other sites do not work. Number of correct answers: 1",
+      "explanation": ""
+    },
+    {
+      "id": "exam-12-q029",
+      "number": 29,
+      "options": [
+        {
+          "id": "A",
+          "text": "Static analysis tool"
+        },
+        {
+          "id": "B",
+          "text": "Code coverage tool"
+        },
+        {
+          "id": "C",
+          "text": "Dynamic analysis tool"
+        },
+        {
+          "id": "D",
+          "text": "Test execution tool"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [],
+      "question": "A developer has spent three days looking at a system that crashes now and then. The problem was caused by two coding faults: i. A variable was being used but had not been defined; ii. There was a ‘goto’ statement to an undefined label Number of correct answers: 1",
+      "explanation": ""
+    },
+    {
+      "id": "exam-12-q030",
+      "number": 30,
+      "options": [
+        {
+          "id": "A",
+          "text": "Less expensive and time consuming regression testing"
+        },
+        {
+          "id": "B",
+          "text": "More structured incident management"
+        },
+        {
+          "id": "C",
+          "text": "Improved control and monitoring"
+        },
+        {
+          "id": "D",
+          "text": "Visibility on test coverage"
+        },
+        {
+          "id": "E",
+          "text": "More coverage during regression testing"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "E"
+      ],
+      "images": [],
+      "question": "What are the TWO most significant benefits a test execution tool should bring to the organisation? Number of correct answers: 2",
+      "explanation": ""
+    },
+    {
+      "id": "exam-12-q031",
+      "number": 31,
+      "options": [
+        {
+          "id": "A",
+          "text": "Introduce data-driven or keyword driven scripting techniques"
+        },
+        {
+          "id": "B",
+          "text": "Change the development process"
+        },
+        {
+          "id": "C",
+          "text": "Select and implement a test management tool to complement the test suite"
+        },
+        {
+          "id": "D",
+          "text": "Identify critical parts of the system and concentrate on automating some of those tests for that particular area"
+        },
+        {
+          "id": "E",
+          "text": "Get business testers involved in the automation process"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "D"
+      ],
+      "images": [],
+      "question": "Select TWO solutions how the team could achieve significant benefits in the use of this tool within the next 6 months? (3 credits, for 1 out of 2 correct 1 credit) Number of correct answers: 2",
+      "explanation": ""
+    },
+    {
+      "id": "exam-12-q032",
+      "number": 32,
+      "options": [
+        {
+          "id": "A",
+          "text": "Test management tool"
+        },
+        {
+          "id": "B",
+          "text": "Load testing tool"
+        },
+        {
+          "id": "C",
+          "text": "Static analysis tool"
+        },
+        {
+          "id": "D",
+          "text": "Monitoring tool"
+        },
+        {
+          "id": "E",
+          "text": "Test oracle tool"
+        }
+      ],
+      "correctAnswers": [
+        "B",
+        "D"
+      ],
+      "images": [],
+      "question": "You have been asked to select a number of tools to support the performance testing. Which TWO of the following tools would you recommend? Number of correct answers: 2",
+      "explanation": ""
+    },
+    {
+      "id": "exam-12-q033",
+      "number": 33,
+      "options": [
+        {
+          "id": "A",
+          "text": "Slow response time"
+        },
+        {
+          "id": "B",
+          "text": "Excessive memory consumption"
+        },
+        {
+          "id": "C",
+          "text": "Random application termination"
+        },
+        {
+          "id": "D",
+          "text": "Failure to encrypt data"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [],
+      "question": "Which of the following is the best example of a reliability failure for the application? Number of correct answers: 1",
+      "explanation": ""
+    },
+    {
+      "id": "exam-12-q034",
+      "number": 34,
+      "options": [
+        {
+          "id": "A",
+          "text": "Defect analysis time"
+        },
+        {
+          "id": "B",
+          "text": "Change parameter success ratio"
+        },
+        {
+          "id": "C",
+          "text": "Number of errors made by the user"
+        },
+        {
+          "id": "D",
+          "text": "Time to perform the function"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "images": [],
+      "question": "It has been suggested to organise a performance test to find out more regarding the third risk. Which of the following would you use to quantify the situation and as a basis for defining a performance exit criteria? Number of correct answers: 1",
+      "explanation": ""
+    },
+    {
+      "id": "exam-12-q035",
+      "number": 35,
+      "options": [
+        {
+          "id": "A",
+          "text": "Define Operational Profiles"
+        },
+        {
+          "id": "B",
+          "text": "State Transition Testing"
+        },
+        {
+          "id": "C",
+          "text": "Usability testing"
+        },
+        {
+          "id": "D",
+          "text": "Perform design FMEAs"
+        },
+        {
+          "id": "E",
+          "text": "Exploratory test"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "D"
+      ],
+      "images": [],
+      "question": "To address reliability a number of measures will be taken throughout the development and testing process. Select TWO appropriate measures that are typically taken as part of reliability engineering and/or testing of an application. Number of correct answers: 2",
+      "explanation": ""
+    },
+    {
+      "id": "exam-12-q036",
+      "number": 36,
+      "options": [
+        {
+          "id": "A",
+          "text": "Are traceability matrices provided to the requirements?"
+        },
+        {
+          "id": "B",
+          "text": "Is all code supported by a reviewed design document?"
+        },
+        {
+          "id": "C",
+          "text": "Is the comment frequency at the correct level?"
+        },
+        {
+          "id": "D",
+          "text": "Is a dual set of hardware available?"
+        },
+        {
+          "id": "E",
+          "text": "Are features available for a periodic check of the database consistency?"
+        }
+      ],
+      "correctAnswers": [
+        "D",
+        "E"
+      ],
+      "images": [],
+      "question": "It has been decided by management to ask an external consultant to perform a reliability assessment. The external consultant will use a checklist to support the assessment. Select TWO checklist items that are most likely to be part of a reliability checklist. Number of correct answers: 2",
+      "explanation": ""
+    },
+    {
+      "id": "exam-12-q037",
+      "number": 37,
+      "options": [
+        {
+          "id": "A",
+          "text": "Component Testing"
+        },
+        {
+          "id": "B",
+          "text": "Integration Testing"
+        },
+        {
+          "id": "C",
+          "text": "System Testing"
+        },
+        {
+          "id": "D",
+          "text": "User Acceptance Testing"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [],
+      "question": "At which test level would performance testing most likely be performed? Number of correct answers: 1",
+      "explanation": ""
+    },
+    {
+      "id": "exam-12-q038",
+      "number": 38,
+      "options": [
+        {
+          "id": "A",
+          "text": "Usability"
+        },
+        {
+          "id": "B",
+          "text": "Accuracy"
+        },
+        {
+          "id": "C",
+          "text": "Portability"
+        },
+        {
+          "id": "D",
+          "text": "Fault-tolerance"
+        },
+        {
+          "id": "E",
+          "text": "Install ability"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "C"
+      ],
+      "images": [],
+      "question": "A company wants to develop a web site to implement an on-line sales channel. Which TWO ISO 9126 quality attributes are most likely to be of importance? Number of correct answers: 2",
+      "explanation": ""
+    },
+    {
+      "id": "exam-12-q039",
+      "number": 39,
+      "options": [
+        {
+          "id": "A",
+          "text": "Boundary Value Analysis"
+        },
+        {
+          "id": "B",
+          "text": "Statement Testing"
+        },
+        {
+          "id": "C",
+          "text": "Use Cases"
+        },
+        {
+          "id": "D",
+          "text": "Fault Attacks"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "images": [],
+      "question": "To address the second risk mentioned in the scenario, security testing will be performed. Which test techniques would be most applicable for security testing? Number of correct answers: 1",
+      "explanation": ""
+    },
+    {
+      "id": "exam-12-q040",
+      "number": 40,
+      "options": [
+        {
+          "id": "A",
+          "text": "2"
+        },
+        {
+          "id": "B",
+          "text": "3"
+        },
+        {
+          "id": "C",
+          "text": "4"
+        },
+        {
+          "id": "D",
+          "text": "5"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [
+        "assets/questions/exam-12-q040-1.jpeg"
+      ],
+      "question": "Consider the following decision table, How many cases are left when this decision table is collapsed? Number of correct answers: 1",
+      "explanation": ""
+    },
+    {
+      "id": "exam-12-q041",
+      "number": 41,
+      "options": [
+        {
+          "id": "A",
+          "text": "Equivalence Partitioning"
+        },
+        {
+          "id": "B",
+          "text": "Exploratory Testing"
+        },
+        {
+          "id": "C",
+          "text": "State transition Testing"
+        },
+        {
+          "id": "D",
+          "text": "Boundary Value Analysis"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [],
+      "question": "You are testing a set of signal changes at a railway station. The system is newly build using a traditional V-model approach. A full set of documentation is available that can be used as a test basis. Furthermore the system is identified as being safety critical. Which technique would you most likely use? Number of correct answers: 1",
+      "explanation": ""
+    },
+    {
+      "id": "exam-12-q042",
+      "number": 42,
+      "options": [
+        {
+          "id": "A",
+          "text": "4"
+        },
+        {
+          "id": "B",
+          "text": "5"
+        },
+        {
+          "id": "C",
+          "text": "6"
+        },
+        {
+          "id": "D",
+          "text": "8"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [
+        "assets/questions/exam-12-q042-1.jpeg"
+      ],
+      "question": "For equivalence partitioning based on this specification, how many input classes can be determined?",
+      "explanation": ""
+    },
+    {
+      "id": "exam-12-q043",
+      "number": 43,
+      "options": [
+        {
+          "id": "A",
+          "text": "2"
+        },
+        {
+          "id": "B",
+          "text": "4"
+        },
+        {
+          "id": "C",
+          "text": "6"
+        },
+        {
+          "id": "D",
+          "text": "8"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "images": [],
+      "question": "How many test cases are required to test a specification that has three conditions using a decision table testing which is not collapsed? Number of correct answers: 1",
+      "explanation": ""
+    },
+    {
+      "id": "exam-12-q044",
+      "number": 44,
+      "options": [
+        {
+          "id": "A",
+          "text": "2"
+        },
+        {
+          "id": "B",
+          "text": "3"
+        },
+        {
+          "id": "C",
+          "text": "4"
+        },
+        {
+          "id": "D",
+          "text": "5"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [
+        "assets/questions/exam-12-q044-1.jpeg"
+      ],
+      "question": "For equivalence partitioning based on this specification, how many output classes can be determined?",
+      "explanation": ""
+    },
+    {
+      "id": "exam-12-q045",
+      "number": 45,
+      "options": [
+        {
+          "id": "A",
+          "text": "A design review meeting"
+        },
+        {
+          "id": "B",
+          "text": "An architect translating requirements into design"
+        },
+        {
+          "id": "C",
+          "text": "Performing unit tests against design"
+        },
+        {
+          "id": "D",
+          "text": "A test log showing code coverage achieved"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [],
+      "question": "Which of the following is an example of testing as part of the software design phase? Number of correct answers: 1",
+      "explanation": ""
+    },
+    {
+      "id": "exam-12-q046",
+      "number": 46,
+      "options": [
+        {
+          "id": "A",
+          "text": "Incident report."
+        },
+        {
+          "id": "B",
+          "text": "Requirements Specification"
+        },
+        {
+          "id": "C",
+          "text": "Test summary report"
+        },
+        {
+          "id": "D",
+          "text": "Legacy system"
+        },
+        {
+          "id": "E",
+          "text": "Test plan"
+        }
+      ],
+      "correctAnswers": [
+        "B",
+        "D"
+      ],
+      "images": [],
+      "question": "Which TWO of the following artefacts can be useful as a test oracle the first time a test case is run? Number of correct answers: 2",
+      "explanation": ""
+    },
+    {
+      "id": "exam-12-q047",
+      "number": 47,
+      "options": [
+        {
+          "id": "A",
+          "text": "E-mail: “Until I have received an updated version of the design document, I will not do any work on the test design.”"
+        },
+        {
+          "id": "B",
+          "text": "E-mail: “When will it be possible to receive the missing information? Test design is impeded by a lack of clarity here.”"
+        },
+        {
+          "id": "C",
+          "text": "E-mail: “Here we go again. The developer gave us incomplete and ambiguous design specifications. Typical.”"
+        },
+        {
+          "id": "D",
+          "text": "Do not communicate the problem, just log the delaying effect of the information problem and be ready to explain the delays to the test manager later."
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [],
+      "question": "As a technical test analyst, you have found out during test case design that the design document is incomplete. Which is an example of a good way to communicate that problem in an email? Number of correct answers: 1",
+      "explanation": ""
+    },
+    {
+      "id": "exam-12-q048",
+      "number": 48,
+      "options": [
+        {
+          "id": "A",
+          "text": "Excel list may not be in synchronisation with Word documents"
+        },
+        {
+          "id": "B",
+          "text": "Low level of usability"
+        },
+        {
+          "id": "C",
+          "text": "Spreadsheet/text files may not be complete"
+        },
+        {
+          "id": "D",
+          "text": "Does not map to IEEE 1044"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [
+        "assets/questions/exam-12-q048-1.jpeg"
+      ],
+      "question": "Identify the most significant risk introduced by this approach to incident management. Number of correct answers: 1",
+      "explanation": ""
+    },
+    {
+      "id": "exam-12-q049",
+      "number": 49,
+      "options": [
+        {
+          "id": "A",
+          "text": "Test plan, test design, test cases and test log"
+        },
+        {
+          "id": "B",
+          "text": "Test plan, test log, test design and test summary report"
+        },
+        {
+          "id": "C",
+          "text": "Test script, test log, incident report and test design"
+        },
+        {
+          "id": "D",
+          "text": "Incident report, test item transmittal report, test cases and test procedure"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [],
+      "question": "As a technical test analyst, which documents would you typically create? Number of correct answers: 1",
+      "explanation": ""
+    },
+    {
+      "id": "exam-12-q050",
+      "number": 50,
+      "options": [
+        {
+          "id": "A",
+          "text": "Level test plan"
+        },
+        {
+          "id": "B",
+          "text": "Test procedure specification"
+        },
+        {
+          "id": "C",
+          "text": "Test design specification"
+        },
+        {
+          "id": "D",
+          "text": "Master test plan"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [],
+      "question": "In which of the following test documents would you expect to find the preconditions to start executing a set of test cases? Number of correct answers: 1",
+      "explanation": ""
+    },
+    {
+      "id": "exam-12-q051",
+      "number": 51,
+      "options": [
+        {
+          "id": "A",
+          "text": "100% statement coverage B."
+        },
+        {
+          "id": "B",
+          "text": "No critical outstanding defects"
+        },
+        {
+          "id": "C",
+          "text": "Test log available"
+        },
+        {
+          "id": "D",
+          "text": "Code review completed"
+        },
+        {
+          "id": "E",
+          "text": "Static analysis shows no major violations"
+        }
+      ],
+      "correctAnswers": [
+        "D",
+        "E"
+      ],
+      "images": [],
+      "question": "The development manager asks you to identify suitable test coverage entry criteria for a component test. Which TWO of the following would you recommend as appropriate for entry criteria to a component testing phase? Number of correct answers: 2",
+      "explanation": ""
+    },
+    {
+      "id": "exam-12-q052",
+      "number": 52,
+      "options": [
+        {
+          "id": "A",
+          "text": "Severity and priority"
+        },
+        {
+          "id": "B",
+          "text": "Functionality, reliability, usability, maintainability, efficiency and portability"
+        },
+        {
+          "id": "C",
+          "text": "Likelihood and impact"
+        },
+        {
+          "id": "D",
+          "text": "Financial damage, frequency of use and external visibility"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "C"
+      ],
+      "images": [],
+      "question": "As a technical test analyst, you are involved in a risk analysis session using the Failure Mode and Effect Analysis technique. You are calculating risk priorities. Which of the following are the major factors in this exercise? Number of correct answers: 1",
+      "explanation": ""
+    },
+    {
+      "id": "exam-12-q053",
+      "number": 53,
+      "options": [
+        {
+          "id": "A",
+          "text": "Quick to set up and cheap"
+        },
+        {
+          "id": "B",
+          "text": "Electronic rather than manual"
+        },
+        {
+          "id": "C",
+          "text": "Allows attachments (e.g. screen prints) to be linked to the incident reports"
+        },
+        {
+          "id": "D",
+          "text": "Can easily be integrated with open source tools"
+        },
+        {
+          "id": "E",
+          "text": "Large files are not a problem"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "B"
+      ],
+      "images": [],
+      "question": "Identify TWO main advantages of this approach to incident management. Number of correct answers: 2",
+      "explanation": ""
+    },
+    {
+      "id": "exam-12-q054",
+      "number": 54,
+      "options": [
+        {
+          "id": "A",
+          "text": "Priority, version of software under test, incident identification"
+        },
+        {
+          "id": "B",
+          "text": "Date to be fixed, priority, incident identification"
+        },
+        {
+          "id": "C",
+          "text": "Developer assigned to the fix, version of software under test, incident identification"
+        },
+        {
+          "id": "D",
+          "text": "Priority, version of software under test, date to be fixed"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [
+        "assets/questions/exam-12-q054-1.jpeg"
+      ],
+      "question": "Which of the following would you recommend as the best combination of fields to add? Number of correct answers: 1",
+      "explanation": ""
+    },
+    {
+      "id": "exam-12-q055",
+      "number": 55,
+      "options": [
+        {
+          "id": "A",
+          "text": "the tasks involve extracting information from the test basis"
+        },
+        {
+          "id": "B",
+          "text": "developers are involved in writing test cases"
+        },
+        {
+          "id": "C",
+          "text": "the cost of fixing a defect will increase if found later on"
+        },
+        {
+          "id": "D",
+          "text": "the author of the test basis will have made errors"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [],
+      "question": "Defects are discovered through test analysis and design because… Number of correct answers: 1",
+      "explanation": ""
+    },
+    {
+      "id": "exam-12-q056",
+      "number": 56,
+      "options": [
+        {
+          "id": "A",
+          "text": "2"
+        },
+        {
+          "id": "B",
+          "text": "3"
+        },
+        {
+          "id": "C",
+          "text": "4"
+        },
+        {
+          "id": "D",
+          "text": "8"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "images": [
+        "assets/questions/exam-12-q056-1.jpeg"
+      ],
+      "question": "How many test cases are needed to test code fragment lines 26 – 32 to achieve 100% multiple condition coverage? Number of correct answers: 1",
+      "explanation": ""
+    }
+  ]
+}

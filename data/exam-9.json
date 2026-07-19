@@ -1,0 +1,662 @@
+{
+  "id": "exam-9",
+  "title": "EXAM 9 AL2021-Update 2021- ko video chữa đề",
+  "questions": [
+    {
+      "id": "exam-9-q001",
+      "number": 1,
+      "options": [
+        {
+          "id": "A",
+          "text": "Adjust the existing test estimates for i. All others should be monitored by project management."
+        },
+        {
+          "id": "B",
+          "text": "Set triggers for i, iii, iv, v. Initiate control measures for vi. Monitor ii."
+        },
+        {
+          "id": "C",
+          "text": "Monitor i, ii, iii. Set a trigger date for iv. Initiate control measures for v. Adjust the existing test estimates for vi."
+        },
+        {
+          "id": "D",
+          "text": "Ignore i and ii as those are issues for the development team. Adjust existing test estimates for iv, v, vi. Transfer iii to the business team."
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [
+        "assets/questions/exam-9-q001-1.jpeg"
+      ],
+      "question": "Regarding these risk items, which one of the following should the Test Manager do? [K4]",
+      "explanation": "chapter 3. Ignore là ko đc loại D, A cũng loại vì chưa biết risk có xảy ra ko đã điều chỉnh estimation, còn lăn tăng BC"
+    },
+    {
+      "id": "exam-9-q002",
+      "number": 2,
+      "options": [
+        {
+          "id": "A",
+          "text": "Quality management requires software quality assurance activities to be integrated into the project lifecycle."
+        },
+        {
+          "id": "B",
+          "text": "Quality assurance and testing should not be merged into one team so that the focus of quality assurance is not confused with the scheduling aspects of testing."
+        },
+        {
+          "id": "C",
+          "text": "Quality management practices must be assessed by an external audit team to ensure compliance."
+        },
+        {
+          "id": "D",
+          "text": "Unit test documentation is a deliverable that is part of quality management."
+        },
+        {
+          "id": "E",
+          "text": "Quality management excludes activities to deliver projects within budget."
+        },
+        {
+          "id": "F",
+          "text": "The test plan is the basis for forming quality policies for an organization."
+        },
+        {
+          "id": "G",
+          "text": "Tracking metrics is an important aspect of quality management."
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "D",
+        "G"
+      ],
+      "images": [],
+      "question": "You have been asked to create a presentation regarding the role of quality management in your organization. Which of the following points should be included in your presentation to ensure that the audience understands the scope and importance of quality management? (pick three)",
+      "explanation": ""
+    },
+    {
+      "id": "exam-9-q003",
+      "number": 3,
+      "options": [
+        {
+          "id": "A",
+          "text": "The average number of days from defect discovery and reporting to the ultimate resolution of the defect report"
+        },
+        {
+          "id": "B",
+          "text": "The number of defects detected by testing divided by the sum of the number of defects detected by testing and the number of defects subsequently detected by users"
+        },
+        {
+          "id": "C",
+          "text": "The person hours of test design and implementation effort divided by the number of test basis elements covered by the tests cases produced"
+        },
+        {
+          "id": "D",
+          "text": "The total amount of effort expended on a project, including all activities in the fundamental test process"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [],
+      "question": "Which one of the following is an efficiency metric for the test process?",
+      "explanation": ""
+    },
+    {
+      "id": "exam-9-q004",
+      "number": 4,
+      "options": [
+        {
+          "id": "A",
+          "text": "Strategies i, iii, iv, v, and vi can be used."
+        },
+        {
+          "id": "B",
+          "text": "All of these strategies can be used."
+        },
+        {
+          "id": "C",
+          "text": "Strategies i, iv, and vi can be used."
+        },
+        {
+          "id": "D",
+          "text": "Strategies i, v, and vi can be used."
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [
+        "assets/questions/exam-9-q004-1.jpeg"
+      ],
+      "question": "Which one of the following statements best summarizes which test strategies can be used for this project?",
+      "explanation": ""
+    },
+    {
+      "id": "exam-9-q005",
+      "number": 5,
+      "options": [
+        {
+          "id": "A",
+          "text": "Business Analyst"
+        },
+        {
+          "id": "B",
+          "text": "Customer"
+        },
+        {
+          "id": "C",
+          "text": "User"
+        },
+        {
+          "id": "D",
+          "text": "Project Manager"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "images": [],
+      "question": "Which one of the following is LEAST likely to be involved in the review of requirements specifications?",
+      "explanation": ""
+    },
+    {
+      "id": "exam-9-q006",
+      "number": 6,
+      "options": [
+        {
+          "id": "A",
+          "text": "email – iii; post to intranet – iv; group meeting – vi; face-toface – ii."
+        },
+        {
+          "id": "B",
+          "text": "email – ii; post to intranet – vi; group meeting – iv; face-toface –v."
+        },
+        {
+          "id": "C",
+          "text": "email –iv; post to intranet –vi; group meeting – v; face-toface – i."
+        },
+        {
+          "id": "D",
+          "text": "email –v; post to intranet – iii; group meeting – i; face-toface – iv."
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "images": [],
+      "question": "Which one of the following BEST matches the following scenarios with the most effective means of communication? i. Brainstorming to identify risks to the test project and item under test ii. Informing offshore testers regarding updates to incident status iii. Reporting the weekly test status to interested stakeholders iv. Informing the Project Manager of the suspension of testing due to test environment failure v. Communicating dates for the internal test conferences for the next year vi. Reporting an incident to a specific developer",
+      "explanation": ""
+    },
+    {
+      "id": "exam-9-q007",
+      "number": 7,
+      "options": [
+        {
+          "id": "A",
+          "text": "A contract will be signed to make the client jointly-responsible for maintenance of the integrated INCITOOL data and functionality."
+        },
+        {
+          "id": "B",
+          "text": "An impact analysis shall be performed to determine which users will be affected by the change and by how much."
+        },
+        {
+          "id": "C",
+          "text": "An analysis of the technical feasibility of the change and the available capabilities of staff to perform the change will be performed."
+        },
+        {
+          "id": "D",
+          "text": "The migration of the MULTI-TOOL incident database into INCITOOL shall be studied to determine if this is possible without compromising the quality of the original data."
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [],
+      "question": "A multi-use testing tool, MULTI-TOOL, is used within your organization to support all testing projects. It includes test management, incident management and dynamic testing support tools. However, the clients for a major new project use the INCITOOL incident management tool, and require this tool to be used for this project. It has been suggested that INCITOOL be integrated into MULTI-TOOL and replace the current incident management functionality. Which one of the following activities is LEAST likely to be performed in response to this suggested change?",
+      "explanation": ""
+    },
+    {
+      "id": "exam-9-q008",
+      "number": 8,
+      "options": [
+        {
+          "id": "A",
+          "text": "Training in using TransGlobe’s systems and familiarity with project documentation"
+        },
+        {
+          "id": "B",
+          "text": "Training in using the debugging tools for the web applications"
+        },
+        {
+          "id": "C",
+          "text": "Test training in standard test fundamentals"
+        },
+        {
+          "id": "D",
+          "text": "Walkthrough of the test model and test procedures used by IO-IS"
+        },
+        {
+          "id": "E",
+          "text": "Overview of and walkthrough of samples from the existing regression tests"
+        },
+        {
+          "id": "F",
+          "text": "Introduction to java and walkthrough of selected java modules"
+        },
+        {
+          "id": "G",
+          "text": "Training in using the test management and defect management tools used by IO-IS"
+        }
+      ],
+      "correctAnswers": [
+        "B",
+        "C",
+        "F"
+      ],
+      "images": [
+        "assets/questions/exam-9-q008-1.jpeg"
+      ],
+      "question": "Scenario 5 “Testing for TransGlobe” provides the context for this question. As Test Manager in IO-IS you have made a draft of an induction training program for the new testers in the offshore team. Pick the three options that are LEAST likely to be included in your draft.",
+      "explanation": ""
+    },
+    {
+      "id": "exam-9-q009",
+      "number": 9,
+      "options": [
+        {
+          "id": "A",
+          "text": "Regression testing at component level"
+        },
+        {
+          "id": "B",
+          "text": "Regression testing at integration level"
+        },
+        {
+          "id": "C",
+          "text": "User acceptance testing"
+        },
+        {
+          "id": "D",
+          "text": "Manual regression testing at system level"
+        },
+        {
+          "id": "E",
+          "text": "System integration testing"
+        },
+        {
+          "id": "F",
+          "text": "Automated system regression tests"
+        },
+        {
+          "id": "G",
+          "text": "Hardware software integration testing"
+        }
+      ],
+      "correctAnswers": [
+        "C",
+        "E",
+        "F"
+      ],
+      "images": [
+        "assets/questions/exam-9-q009-1.jpeg"
+      ],
+      "question": "Analyze the scenario to determine the appropriate level of testing required of the onsite test team in relation to the third party freight schedule planning system provided by FS_Planner. Which three of the options will most likely be chosen?.",
+      "explanation": ""
+    },
+    {
+      "id": "exam-9-q010",
+      "number": 10,
+      "options": [
+        {
+          "id": "A",
+          "text": "i, iii, iv,vi"
+        },
+        {
+          "id": "B",
+          "text": "i, ii, iii, vi"
+        },
+        {
+          "id": "C",
+          "text": "iii, iv, v, vii"
+        },
+        {
+          "id": "D",
+          "text": "I, ii, iii, iv"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [
+        "assets/questions/exam-9-q010-1.jpeg"
+      ],
+      "question": "Select one of the following options. [K4]",
+      "explanation": ""
+    },
+    {
+      "id": "exam-9-q011",
+      "number": 11,
+      "options": [
+        {
+          "id": "A",
+          "text": "Able to prevent 98 % of all regression defects to escape to production after three months"
+        },
+        {
+          "id": "B",
+          "text": "Able to design test cases without consulting onsite senior Business Analysts and senior onsite tester after four months"
+        },
+        {
+          "id": "C",
+          "text": "Able to create automated regression test scripts after six months"
+        },
+        {
+          "id": "D",
+          "text": "Able to operate all standard functions of the test management and defect management tool after two weeks"
+        },
+        {
+          "id": "E",
+          "text": "Able to execute 90% of the manual regression tests after three months"
+        }
+      ],
+      "correctAnswers": [
+        "D",
+        "E"
+      ],
+      "images": [],
+      "question": "Scenario 5 “Testing for TransGlobe” provides the context for this question. The delivery manager at the offshore site has defined S.M.A.R.T goals for both the developers and testers of the offshore teams working for IO-IS on the systems of TransGlobe. Your task as Test Manager is to review and comment on the goals regarding the offshore testers. Which two of the following items do you consider most appropriate as S.M.A.R.T goals seen in relation to the test strategy defined for the first year of transition?",
+      "explanation": ""
+    },
+    {
+      "id": "exam-9-q012",
+      "number": 12,
+      "options": [
+        {
+          "id": "A",
+          "text": "Use Cases"
+        },
+        {
+          "id": "B",
+          "text": "Equivalence Partitioning and Boundary Value Analysis"
+        },
+        {
+          "id": "C",
+          "text": "State Transition Testing"
+        },
+        {
+          "id": "D",
+          "text": "Pairwise Testing"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [],
+      "question": "Which technique is most appropriate to use for the suitability test? For the on-line portal a test will be planned that will focus on suitability. Which technique is most appropriate to use for the suitability test?",
+      "explanation": "Refer chapter 5, test cho suitability là 1 sub-characteristics của functional đó, chọn kỹ thuật use case để tìm các lỗi trong business flow và lỗi trong thực tế sử dụng của hệ thống"
+    },
+    {
+      "id": "exam-9-q013",
+      "number": 13,
+      "options": [
+        {
+          "id": "A",
+          "text": "Get the areas the programmer is most worried about finished first"
+        },
+        {
+          "id": "B",
+          "text": "Get finished within the time and budget available"
+        },
+        {
+          "id": "C",
+          "text": "Ensure that when you stop you have done the best tests in the time available"
+        },
+        {
+          "id": "D",
+          "text": "To ensure as many tests as possible are run"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [],
+      "question": "It is possible that the test execution phase will be shortened and that test cases will need to be prioritised. What is the main reason to prioritise the test cases?",
+      "explanation": "Chú ý vào câu \"test execution phase will be shortened\" giai đoạn test bị cắt ngắn thì cần phải sắp xếp priority cho TC, vì đảm bảo rằng những cái quan trọng nhất sẽ test trước tiên và bạn có thể dừng test trong thời gian hạn hẹp cho phép chứ ko cần chạy hết test case như D, hay A, B đều vô lý"
+    },
+    {
+      "id": "exam-9-q014",
+      "number": 14,
+      "options": [
+        {
+          "id": "A",
+          "text": "3 and 6"
+        },
+        {
+          "id": "B",
+          "text": "1 and 4"
+        },
+        {
+          "id": "C",
+          "text": "2, 4, and 6"
+        },
+        {
+          "id": "D",
+          "text": "2 and 5"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "images": [],
+      "question": "A remote subsystem developer has delivered a module that decides whether to sound an alarm based on three inputs (a HEAT sensor, a SMOKE sensor, and a user-triggered BUTTON). An alarm should sound if both the HEAT sensor and the SMOKE sensor are triggered, or if the alarm BUTTON is triggered. What is the minimum set of test combinations from the following sets of input values that achieve 100% Decision Condition coverage? 1. HEAT=true, SMOKE=true, BUTTON=false 2. HEAT=true, SMOKE=true, BUTTON=true 3. HEAT=true, SMOKE=false, BUTTON=false 4. HEAT=false, SMOKE=false, BUTTON=true 5. HEAT=false, SMOKE=false, BUTTON=false 6. HEAT=false, SMOKE=true, BUTTON=false",
+      "explanation": ""
+    },
+    {
+      "id": "exam-9-q015",
+      "number": 15,
+      "options": [
+        {
+          "id": "A",
+          "text": "Click rapidly on company enrollment button to see what happens."
+        },
+        {
+          "id": "B",
+          "text": "Click on URL for our home page; check that home page displays."
+        },
+        {
+          "id": "C",
+          "text": "Click on company enrollment button; verify that you go to that company’s enrollment page."
+        },
+        {
+          "id": "D",
+          "text": "Click on company enrollment button; verify that you go to our home page."
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [
+        "assets/questions/exam-9-q015-1.jpeg"
+      ],
+      "question": "Which of the following is a positive logical test that is complete, is correct, and covers this risk item?",
+      "explanation": ""
+    },
+    {
+      "id": "exam-9-q016",
+      "number": 16,
+      "options": [
+        {
+          "id": "A",
+          "text": "2"
+        },
+        {
+          "id": "B",
+          "text": "4"
+        },
+        {
+          "id": "C",
+          "text": "5"
+        },
+        {
+          "id": "D",
+          "text": "7"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [],
+      "question": "You have received the following use case steps: 1. Returning user logs into the application. 1a. User is new and decides to create an account 1b. User creates account and is returned to login 2. User selects calendar duration (6, 12 or 18 months) 3. User selects standard day captions 3a. User chooses custom day captions 3b. User is taken to other application to define captions 3c. After captions defined, user is returned 4. User selects standard pictures 4a. User chooses custom pictures 4b. User is taken to other application to upload pictures 4c. After pictures are uploaded, user is returned 5. User enters shipping information 6. User purchases calendar 6a. User cancels purchase 7. User exits What is the minimum number of test cases needed to test this use case?",
+      "explanation": "Basic flow: 1 2 3 4 5 6 7 Exception 1: 1a, 1b Exception 2: 3a, 3b, 3c Exception 3: 4a, 4b, 4c Exception 4: 6a"
+    },
+    {
+      "id": "exam-9-q017",
+      "number": 17,
+      "options": [
+        {
+          "id": "A",
+          "text": "Work closely with end-users to better define needs in areas identified as having additional risk"
+        },
+        {
+          "id": "B",
+          "text": "Re-order test cases if test results have caused a reprioritization of risks"
+        },
+        {
+          "id": "C",
+          "text": "Re-order test cases if numerous usability issues are noted during demonstrations"
+        },
+        {
+          "id": "D",
+          "text": "Continue testing to the original risk analysis and address new risks when the scheduled testing is completed"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [],
+      "question": "In what ways should a Technical Test Analyst respond to risks that are identified after testing has started?",
+      "explanation": ""
+    },
+    {
+      "id": "exam-9-q018",
+      "number": 18,
+      "options": [
+        {
+          "id": "A",
+          "text": "Priority, version of software under test, incident identification"
+        },
+        {
+          "id": "B",
+          "text": "Date to be fixed, priority, incident identification"
+        },
+        {
+          "id": "C",
+          "text": "Developer assigned to the fix, version of software under test, incident identification"
+        },
+        {
+          "id": "D",
+          "text": "Priority, version of software under test, date to be fixed"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [],
+      "question": "You have now also been given the task to identify the key fields for logging the incident reports. So far the following fields have been in use in the Excel sheet: - Incident description - Date - Author - State Which of the following would you recommend as the best combination of fields to add?",
+      "explanation": ""
+    },
+    {
+      "id": "exam-9-q019",
+      "number": 19,
+      "options": [
+        {
+          "id": "A",
+          "text": "Quick to set up and cheap"
+        },
+        {
+          "id": "B",
+          "text": "Electronic rather than manual"
+        },
+        {
+          "id": "C",
+          "text": "Allows attachments (e.g. screen prints) to be linked to the incident reports"
+        },
+        {
+          "id": "D",
+          "text": "Can easily be integrated with open source tools"
+        },
+        {
+          "id": "E",
+          "text": "Large files are not a problem"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "B"
+      ],
+      "images": [
+        "assets/questions/exam-9-q019-1.jpeg"
+      ],
+      "question": "Identify TWO main advantages of this approach to incident management",
+      "explanation": ""
+    },
+    {
+      "id": "exam-9-q020",
+      "number": 20,
+      "options": [
+        {
+          "id": "A",
+          "text": "Equivalence Partitioning"
+        },
+        {
+          "id": "B",
+          "text": "Exploratory Testing"
+        },
+        {
+          "id": "C",
+          "text": "State transition Testing"
+        },
+        {
+          "id": "D",
+          "text": "Boundary Value Analysis"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [],
+      "question": "You are testing a set of signal changes at a railway station. The system is newly build using a traditional V-model approach. A full set of documentation is available that can be used as a test basis. Furthermore the system is identified as being safety critical. Which technique would you most likely use?",
+      "explanation": ""
+    },
+    {
+      "id": "exam-9-q021",
+      "number": 21,
+      "options": [
+        {
+          "id": "A",
+          "text": "E-mail: “Until I have received an updated version of the design document, I will not do any work on the test design.”"
+        },
+        {
+          "id": "B",
+          "text": "E-mail: “When will it be possible to receive the missing information? Test design is impeded by a lack of clarity here.”"
+        },
+        {
+          "id": "C",
+          "text": "E-mail: “Here we go again. The developer gave us incomplete and ambiguous design specifications. Typical.”"
+        },
+        {
+          "id": "D",
+          "text": "Do not communicate the problem, just log the delaying effect of the information problem and be ready to explain the delays to the test manager later."
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [
+        "assets/questions/exam-9-q021-1.jpeg"
+      ],
+      "question": "As a technical test analyst, you have found out during test case design that the design document is incomplete. Which is an example of a good way to communicate that problem in an email?",
+      "explanation": ""
+    }
+  ]
+}

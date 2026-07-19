@@ -1,0 +1,1866 @@
+{
+  "id": "exam-8",
+  "title": "EXAM 8 Advanced TM12- có video chữa đề",
+  "questions": [
+    {
+      "id": "exam-8-q001",
+      "number": 1,
+      "options": [
+        {
+          "id": "A",
+          "text": "The approach described in the system test plan document is consistent with the test strategy"
+        },
+        {
+          "id": "B",
+          "text": "The approach described in the system test plan document is consistent with the risk-based testing strategy, but it is inconsistent with the regression testing strategy"
+        },
+        {
+          "id": "C",
+          "text": "The approach described in the system test plan document is consistent with the regression testing strategy, but it is inconsistent with the risk-based testing strategy"
+        },
+        {
+          "id": "D",
+          "text": "The approach described the system test plan document is inconsistent with both the risk-based and regression testing strategies"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "images": [
+        "assets/questions/exam-8-q001-1.jpeg"
+      ],
+      "question": "Based only on the given information, which of the following statements is true? K4 3 credits",
+      "explanation": "Refer 2.2.1, Bạn cần gạch đầu dòng yêu cầu của công ty về test strategy và yêu cầu của dự án test approach ra nháp, bạn sẽ thấy sự mâu thuẫn của công ty và dự án. Test strategy của công ty: V-model, risk based, Regression-averse ( tự động hóa cao nhất), test approach của dự án là: manual test."
+    },
+    {
+      "id": "exam-8-q002",
+      "number": 2,
+      "options": [
+        {
+          "id": "A",
+          "text": "Don't prepare any test and just run the regression test suite to check that the new features don't introduce regression"
+        },
+        {
+          "id": "B",
+          "text": "Make reasonable assumptions about the missing details and design lightweight tests that can be easily updated during test execution"
+        },
+        {
+          "id": "C",
+          "text": "Don't design any test until the test execution starts, then communicate that test execution is blocked due to incomplete requirements"
+        },
+        {
+          "id": "D",
+          "text": "Even if there are only few details missing, escalate the risk to the project manager without preparing any tests"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [],
+      "question": "In the next two months some new features will be constantly added to new releases of a project you are working on as Test Manager. You have identified as one of the main project risks, that the requirements specification will still be incomplete when your team starts the test design and implementation phase. Some requirements will most likely be completed too late to allow a proper test preparation. You and your test team have already worked on several similar past projects in the same organization. Which one of the following options would you expect to be the most effective at mitigating this risk? K4 3 credits",
+      "explanation": "Chapter 3 mục 3.2.3 , xem sách bản full có 10 cái Top risks khi nói về trường hợp Blank spot requirement thì cần thiết kế test case dạng đơn giản, đưa ra các giả định để test và dễ dàng update khi có đủ thông tin"
+    },
+    {
+      "id": "exam-8-q003",
+      "number": 3,
+      "options": [
+        {
+          "id": "A",
+          "text": "I-2; II-3; III-4; IV-1"
+        },
+        {
+          "id": "B",
+          "text": "I-3; II-2; III-1; IV-4"
+        },
+        {
+          "id": "C",
+          "text": "I-1; II-2; III-3; IV-4"
+        },
+        {
+          "id": "D",
+          "text": "I-2; II-3; III-1; IV-4"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "images": [],
+      "question": "Consider: I. Consultative test strategy II. Reactive test strategy III. Analytical test strategy IV. Process-compliant test strategy Consider also the following examples of test activities: 1. Prioritize the test cases, based on the results of a FMEA analysis, to ensure early coverage of the most important areas and discovery of the most important defects during test execution 2. Execute usability testing driven by the guidance of a sample of users (external to the test team) 3. Perform exploratory testing sessions throughout the system test phase 4. On an Agile project, execute tests that cover the test conditions identified for each user story of a feature planned for an iteration Which of the following correctly matches each test strategy with an appropriate example? K2 1 credit",
+      "explanation": "Xem chapter 2, 2.2.1, có 7 cái test strategy, match các key word của bài với các nội dung của 7 cái test strategy này với nhau sẽ ra đáp án. cái số 1 có FMEA là phương pháp Risk based nên match với Analytical, số 2 guide bởi user match với Consultative, số 3 exploratory testing match với Reactive, số 4 Agile process match với Process compliance"
+    },
+    {
+      "id": "exam-8-q004",
+      "number": 4,
+      "options": [
+        {
+          "id": "A",
+          "text": "Your test team executes exploratory tests following a session-based test management approach throughout the system test phase"
+        },
+        {
+          "id": "B",
+          "text": "Your test team executes system tests under the guidance of a sample of users throughout the system test phase"
+        },
+        {
+          "id": "C",
+          "text": "Your test team executes scripted tests designed and implemented before the execution of the system test phase, to cover the identified product risks. It also performs exploratory testing sessions throughout the system test phase"
+        },
+        {
+          "id": "D",
+          "text": "Your test team autonomously performs some exploratory testing sessions and, at the very end of the system testing phase, it also executes more system tests under the guidance of a sample of users"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [],
+      "question": "You are the Test Manager of a new project that will have three formal levels of testinG. unit, integration and system testing. The testing strategy you decide to adopt a blend of risk-based testing and reactive testing strategies. Which of the following answers describes the most consistent example of implementation of this test strategy during the execution of the system tests? K2 1 credit",
+      "explanation": "bạn chọn đáp án làm sao nó chỉ ra được 2 cái mà dự án này đang dùng \"risk-based testing and reactive testing strategies.\""
+    },
+    {
+      "id": "exam-8-q005",
+      "number": 5,
+      "options": [
+        {
+          "id": "A",
+          "text": "Produce a single master test plan that covers in detail all four levels, describing the particular activities for all test levels"
+        },
+        {
+          "id": "B",
+          "text": "B. Produce a master test plan that covers three levels (component, integration, system test) and a separate acceptance test plan"
+        },
+        {
+          "id": "C",
+          "text": "Produce a master test plan describing the relationship between the four levels, and four separate detailed level test plans, one for each level"
+        },
+        {
+          "id": "D",
+          "text": "Produce four separate detailed level test plans, one for each level, without a master test plan"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [],
+      "question": "You are the Test Manager of a new project aimed at developing a software system that must be certified at level B of the DO-178B standard. The project will follow a V-Model software development life cycle and it will have four formal levels of testing: component, integration, system and acceptance testing. You must produce the test plan documentation for this project by providing an adequate coordination across the four levels of testing in order to assure audit ability. Which of the following answers would you expect to best describe how to organize the test plan? K3 2 credits",
+      "explanation": "Dự án lớn, có 4 test levels nên phải có 1 master test plan chung cho cả dự án, mỗi level test plan cho mỗi test level"
+    },
+    {
+      "id": "exam-8-q006",
+      "number": 6,
+      "options": [
+        {
+          "id": "A",
+          "text": "The code for the new project contains a higher defect density than the code of the past projects"
+        },
+        {
+          "id": "B",
+          "text": "The number of defects found during the system test phase on the new project is approximately proportional to the development team effort"
+        },
+        {
+          "id": "C",
+          "text": "40000 LOC have been delivered to system testing (against the 20000 LOC planned by the project manager)"
+        },
+        {
+          "id": "D",
+          "text": "More LOC than planned have been delivered to system testing with a higher defect density than the past projects"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [],
+      "question": "Based on the historical data of 5 past and similar projects, you have calculated these average numbers of defects detected in system testinG. - For each 10000 LOC (lines of code), 200 defects - For each person-month of development team effort, 49 defects You want to use this information to perform estimation for a new project. The project manager tells you that he/she has estimated 20000 new LOC for this new project. Four developers work for four months on this project before system testing. During system testing, 797 defects are discovered. Assume that the system test of this new project is using the same amount of work as spent in the past projects. Based on this information only, which of the following statement is certainly true about this project? K3 3 credits",
+      "explanation": ""
+    },
+    {
+      "id": "exam-8-q007",
+      "number": 7,
+      "options": [
+        {
+          "id": "A",
+          "text": "I. and II. can negatively affect the estimation; III. and IV. usually favor the accuracy of the estimation effort"
+        },
+        {
+          "id": "B",
+          "text": "II. and III. can negatively affect the estimation; I and IV. usually favor the accuracy of the estimation effort"
+        },
+        {
+          "id": "C",
+          "text": "II. and IV. can negatively affect the estimation; I and III. usually favor the accuracy of the estimation effort"
+        },
+        {
+          "id": "D",
+          "text": "III. and IV. can negatively affect the estimation; Iand II. usually favor the accuracy of the estimation effort"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [],
+      "question": "You are estimating the effort for the integration testing activities of a new project. Consider the following factors, which can affect that estimation: I.Availability of re-usable test systems and documentation from previous, similar projects II. Unexpected timing of components arrival III. Stability of the integration test team (no turnover) IV. Many and geographically distributed sub-teams Which of the following statements is true? K2 1 credit",
+      "explanation": "refer 2.2.2 Test Estimation: ở đây xác định nhân tố ảnh hưởng tiêu cực và nhân tố ảnh hưởng tích cực là đc"
+    },
+    {
+      "id": "exam-8-q008",
+      "number": 8,
+      "options": [
+        {
+          "id": "A",
+          "text": "The chart indicates that you have plenty of problems left to find"
+        },
+        {
+          "id": "B",
+          "text": "The chart can be used to reveal test progress problems"
+        },
+        {
+          "id": "C",
+          "text": "The chart seems to indicate that the defect management process is not working well"
+        },
+        {
+          "id": "D",
+          "text": "The chart seems to indicate that the defect management process is working well"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "images": [
+        "assets/questions/exam-8-q008-1.jpeg"
+      ],
+      "question": "The following chart plots the cumulative number of defects opened against the cumulative number of defects closed during system testing of a software product. Which of the following statements is true? K2 1 credit",
+      "explanation": "Nhìn vào chart thấy tiến độ sửa lỗi bắt kịp tiến độ tìm lỗi, và lỗi tìm đc đang đi ngang"
+    },
+    {
+      "id": "exam-8-q009",
+      "number": 9,
+      "options": [
+        {
+          "id": "A",
+          "text": "Requirements coverage"
+        },
+        {
+          "id": "B",
+          "text": "Trends in the lag time from defect reporting to resolution"
+        },
+        {
+          "id": "C",
+          "text": "Mean time between failures for the system"
+        },
+        {
+          "id": "D",
+          "text": "Cumulative number of reported defects versus cumulative number of resolved defects"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [],
+      "question": "Which one of the following metrics to be produced needs traceability between the test cases and each item in a proper test basis? K2 1 credit",
+      "explanation": ""
+    },
+    {
+      "id": "exam-8-q010",
+      "number": 10,
+      "options": [
+        {
+          "id": "A",
+          "text": "SOA"
+        },
+        {
+          "id": "B",
+          "text": "CRM"
+        },
+        {
+          "id": "C",
+          "text": "BRM"
+        },
+        {
+          "id": "D",
+          "text": "SMS"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [
+        "assets/questions/exam-8-q010-1.jpeg"
+      ],
+      "question": "Which of the following subsystems, based on the risk scores of the table, is most risky? K4 3 credits",
+      "explanation": ""
+    },
+    {
+      "id": "exam-8-q011",
+      "number": 11,
+      "options": [
+        {
+          "id": "A",
+          "text": "Writing test specifications according to the test design"
+        },
+        {
+          "id": "B",
+          "text": "Training developers to better understand the new features of the coding language they will use on the project"
+        },
+        {
+          "id": "C",
+          "text": "Re-running a test case, during the system testing phase, to verify that a fix eliminates a previously found defect"
+        },
+        {
+          "id": "D",
+          "text": "Fixing field failures"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [],
+      "question": "For which of the following activities would the costs be classified as a cost of detection?",
+      "explanation": ""
+    },
+    {
+      "id": "exam-8-q012",
+      "number": 12,
+      "options": [
+        {
+          "id": "A",
+          "text": "300 person-hours have been spent on the project during the system testing phase, because of the failed confirmation tests and this cost belongs to the costs of internal failure"
+        },
+        {
+          "id": "B",
+          "text": "340 person-hours have been spent on the project during the system testing phase, because of the failed confirmation tests and this cost belongs to the costs of external failure"
+        },
+        {
+          "id": "C",
+          "text": "340 person-hours have been spent on the project during the system testing phase, because of the failed confirmation tests and this cost belongs to the costs of internal failure"
+        },
+        {
+          "id": "D",
+          "text": "300 person-hours have been spent on the project during the system testing phase, because of the failed confirmation tests and this cost belongs to the costs of detection"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [],
+      "question": "Assume you have some data related to confirmation testing during system testing of a past project. In that project 240 bug reports have been opened once, 80 were opened twice, 10 were opened three times and no bug reports have been opened more than three times. You estimate that a bug report, which has failed its confirmation test, costs, on average, 3 person-hours. Which of the following statements correctly describe the value of these confirmatory testing activities based on cost of quality? K3 2 credits",
+      "explanation": ""
+    },
+    {
+      "id": "exam-8-q013",
+      "number": 13,
+      "options": [
+        {
+          "id": "A",
+          "text": "Difficulties in communication between the distributed test teams due to time zone differences"
+        },
+        {
+          "id": "B",
+          "text": "With several distributed test teams, every team assumes that some test conditions are covered by other teams but actually no one covers them"
+        },
+        {
+          "id": "C",
+          "text": "With several distributed test teams, two or more teams assume some test conditions are covered by their team and their team alone. But all of the teams actually cover them"
+        },
+        {
+          "id": "D",
+          "text": "With several distributed test teams, all of the distributed test teams use a single unified test dashboard"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "images": [],
+      "question": "Which of the following answers describes a factor that may reduce the effort spent when using distributed test teams without negatively affecting system quality? K2 1 credit",
+      "explanation": "refer 3.5 Distributed, Outsourced, and Insourced Testing. Cách tốt để TM quản lý dc team phân tán là • Alignment of methodologies vì thế mà phải \"use a single unified test dashboard\""
+    },
+    {
+      "id": "exam-8-q014",
+      "number": 14,
+      "options": [
+        {
+          "id": "A",
+          "text": "The system test phase should start when all the requirements are frozen"
+        },
+        {
+          "id": "B",
+          "text": "You should allocate a large effort for system testing during the first three iterations"
+        },
+        {
+          "id": "C",
+          "text": "You should allocate all the effort for the system test phase only in the last iteration"
+        },
+        {
+          "id": "D",
+          "text": "You should apply the same test strategy as used in a sequential life cycle model"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [],
+      "question": "You are the Test Manager on a project following an iterative life-cycle model. The project should consist of nine iterations of one month duration each. It is planned to develop the most important features to have a stable core of the application in the first three iterations and to add the additional features in the last six iterations. At the beginning of the first iteration, only a draft version of the requirements specification document for the core features is available. Assume that during each of the first three iterations, the chosen features are fully completed and unit tested. Which of the following statements is true in this context? K4 3 credits",
+      "explanation": "Mô hình iterative bạn nhớ là mỗi giai đoạn test nhiều test levels khác nhau, nên system test được thực hiện rất sớm và tập trung luôn vào 3 iteration đầu tiên"
+    },
+    {
+      "id": "exam-8-q015",
+      "number": 15,
+      "options": [
+        {
+          "id": "A",
+          "text": "Test reporting activities can't be influenced by the use of an iterative lifecycle model with short iterations"
+        },
+        {
+          "id": "B",
+          "text": "Test reporting activities are not important for projects adopting an iterative lifecycle model with short iterations"
+        },
+        {
+          "id": "C",
+          "text": "Test reporting activities are less important for projects adopting an iterative life cycle model with short iterations. They should be performed at the end of the last iteration"
+        },
+        {
+          "id": "D",
+          "text": "Test reporting activities are still important with an iterative lifecycle. The reports can be used to conduct post-iteration review sessions before starting with the next iteration"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "images": [],
+      "question": "Which of the following statements, about the test reporting activities for a project adopting an iterative lifecycle model with very short iterations (e.g. two weeks iterations), is correct? K2 1 credit",
+      "explanation": "Nói chung iterative ngắn hay dài thì cũng phải làm báo cáo test, và nó giúp summary thông tin test, sử dụng cho retrospective meeting"
+    },
+    {
+      "id": "exam-8-q016",
+      "number": 16,
+      "options": [
+        {
+          "id": "A",
+          "text": "Developing unit tests"
+        },
+        {
+          "id": "B",
+          "text": "Executing unit tests"
+        },
+        {
+          "id": "C",
+          "text": "Planning and executing tests during the integration test phase to detect interface defects"
+        },
+        {
+          "id": "D",
+          "text": "Supporting the customer in the execution of acceptance testing"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "images": [],
+      "question": "Consider an agile team adopting Extreme Programming (XP) with five developers and one tester without any coding experience. To which of the following activities would you expect the tester will contribute most? K2 1 credit",
+      "explanation": "XP là 1 model của Agile, phát triển nhanh, thường xuyên demo cho KH nên TA hỗ trợ KH làm acceptance test là có ý nghĩa"
+    },
+    {
+      "id": "exam-8-q017",
+      "number": 17,
+      "options": [
+        {
+          "id": "A",
+          "text": "Define very detailed mission statements, which allow testing work to be broken into sessions of up to 10 minutes duration in which testing is guided by these mission statements"
+        },
+        {
+          "id": "B",
+          "text": "Break the testing work in 30 to 120 minutes sessions and use properly defined mission statements consisting of two or three sentences to guide testing during these sessions"
+        },
+        {
+          "id": "C",
+          "text": "Define very generic charters to drive exploratory testing sessions of 2 days where testers are completely free to decide what to test"
+        },
+        {
+          "id": "D",
+          "text": "Exploratory testing should not be managed because such testing is inherently unmanageable and not measurable"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [],
+      "question": "Which of the following statements best describes an appropriate approach for managing exploratory testing? Number of correct responses: 1 K2 1 credit",
+      "explanation": "refer 3.7 Managing reactive test strategies and experience-based test techniques"
+    },
+    {
+      "id": "exam-8-q018",
+      "number": 18,
+      "options": [
+        {
+          "id": "A",
+          "text": "You should plan for lightweight exit-phase reviews at the end of each development and testing phase, and plan for a process of gathering information from testing to perform an analysis aimed at identifying the larger cluster of defects"
+        },
+        {
+          "id": "B",
+          "text": "You should plan for formal exit-phase reviews at the end of each development and testing phase, and plan for a process of gathering information from testing to perform an analysis aimed at identifying the larger cluster of defects"
+        },
+        {
+          "id": "C",
+          "text": "You should plan for formal exit-phase reviews at the end of each development phase and testing phase, and plan for a process of gathering information from testing to perform an analysis of the bugs found during testing to determine the people responsible for those bugs"
+        },
+        {
+          "id": "D",
+          "text": "You should plan for formal exit-phase reviews at the end of each development and testing phase, and plan for a process of gathering information from testing to perform an analysis of the bugs found during testing to determine the phase in which they have been introduced"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "images": [],
+      "question": "The main objectives the senior management team wants to achieve are: - to reduce the costs associated with dynamic testing - to use reviews to ensure that the project is on course for success and following the plan - to use reviews as a well-documented and effective bug-removal activity following a formal process with well-defined roles - to determine the effectiveness of reviews in terms of phase containment - to improve phase containment effectiveness Which of the following answers would you expect to describe the best way to achieve these objectives? K4 3 credits",
+      "explanation": "refer 6.1.4 Managing Formal Reviews. Để đạt được các objective trên phải áp dụng các tiêu chí của formal review : planning đầy đủ, define entry exit criteria, có đo đạc metrics"
+    },
+    {
+      "id": "exam-8-q019",
+      "number": 19,
+      "options": [
+        {
+          "id": "A",
+          "text": "I. and III. are true; II. and IV. are false;"
+        },
+        {
+          "id": "B",
+          "text": "II. and III are true; I. and IV. are false;"
+        },
+        {
+          "id": "C",
+          "text": "I, III and IV are true; II. is false;"
+        },
+        {
+          "id": "D",
+          "text": "III. and IV. are true; I and II are false;"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "images": [],
+      "question": "Consider the following list of statements about audits and management reviews: I. Audits are usually more effective than management reviews at finding defects II. Audits and management reviews have the same main goals, the only difference is related to the roles and level of formality III. A typical outcome of an audit includes observations and recommendations, corrective actions and a pass/fail assessment IV. An audit is not the appropriate mechanism to use at the code review in order to detect defects prior to dynamic testing Which of the following statements is true? K2 1 credit",
+      "explanation": "refer 6.1 Review types and responsibility: xem định nghĩa về audit và management review"
+    },
+    {
+      "id": "exam-8-q020",
+      "number": 20,
+      "options": [
+        {
+          "id": "A",
+          "text": "Management support"
+        },
+        {
+          "id": "B",
+          "text": "Participant support"
+        },
+        {
+          "id": "C",
+          "text": "Definition and use of metrics to measure the ROI (Return On Investment)"
+        },
+        {
+          "id": "D",
+          "text": "Training in the review process"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [],
+      "question": "You are a Test Manager working for a software organization where reviews have never been applied. After a meeting with your managers examining a business case for reviews, (including their costs, benefits, and potential issues), the management finally decides to adopt formal reviews for future projects. You have been given a budget that you have spent to provide training in the review process and to introduce the review process on a pilot project. On that pilot project the introduction of reviews has been very positive in terms of positive involvement from all the participants. All the reviews applied to different documents have been very effective for their purposes (especially at revealing defects). Which of an important factor for the introduct of formal reviews which is missing? 3 P",
+      "explanation": "Câu này dựa vào keyword của đề bài ta thấy \"the management finally decides to adopt formal reviews for future projects.\" là có A rồi, \"provide training in the review process\" là có D rồi, \"positive involvement from all the participant\" là có B rồi, thiếu mỗi C"
+    },
+    {
+      "id": "exam-8-q021",
+      "number": 21,
+      "options": [
+        {
+          "id": "A",
+          "text": "Include people with the adequate level of knowledge, both technical and procedural"
+        },
+        {
+          "id": "B",
+          "text": "Include people who are detail-oriented and scrupulous at finding issues"
+        },
+        {
+          "id": "C",
+          "text": "Include as many people as possible in order to have more viewpoints about possible problems on the item under review"
+        },
+        {
+          "id": "D",
+          "text": "Include people able to contribute to a clear, thoughtful, constructive and objective discussion"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [],
+      "question": "Which of the following factors could negatively influence a review? K2 1 credit",
+      "explanation": "Nhân tố ảnh hưởng tiêu cực đến Review là \"as many people \" mà ko phải là những người cần thiết, ở đây chỉ nói nhiều người"
+    },
+    {
+      "id": "exam-8-q022",
+      "number": 22,
+      "options": [
+        {
+          "id": "A",
+          "text": "Number of defects found during the requirements review"
+        },
+        {
+          "id": "B",
+          "text": "Total number of defects attributable to requirements found during unit, integration, system and acceptance testing"
+        },
+        {
+          "id": "C",
+          "text": "Total number of defects found during functional specification review, high-level design review, low- level design review, code review, unit testing, integration testing, system testing and acceptance testing"
+        },
+        {
+          "id": "D",
+          "text": "Time to conduct the requirements review"
+        },
+        {
+          "id": "E",
+          "text": "Total number of defects attributable to requirements, found during functional specification review, high-level design review, low-level design review, code review, unit testing, integration testing, system testing and acceptance testing"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "E"
+      ],
+      "images": [],
+      "question": "You are the Test Manager of a project that adopts a V-model with four formal levels of testinG. unit, integration, system and acceptance testing. On this project reviews have been conducted for each development phase prior to testing, which is to say that reviews of requirements, functional specification, high-level design, low-level design and code have been performed prior to testing. Assume that no requirements defects have been reported after the release of the product. Which TWO of the following metrics do you need in order to evaluate the requirements reviews in terms of phase containment effectiveness? K3 2 credits",
+      "explanation": "refer chapter 7, phase containment là \"the defect was introduced and found in the same phase \" nên ta phải có 2 thông tin: A lỗi tìm đc bởi review, E lỗi tìm được ở các phase sau requirement và được sếp vào thuộc tính là sai requirement"
+    },
+    {
+      "id": "exam-8-q023",
+      "number": 23,
+      "options": [
+        {
+          "id": "A",
+          "text": "The trend in the lag time from defect reporting to resolution"
+        },
+        {
+          "id": "B",
+          "text": "The defect component information"
+        },
+        {
+          "id": "C",
+          "text": "The lifecycle phase in which the defect has been introduced"
+        },
+        {
+          "id": "D",
+          "text": "The defect removal efficiency information"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [],
+      "question": "Which of the following information would you expect to be the most useful to perform a defect clustering analysis? K2 1 credit",
+      "explanation": "\" a defect clustering\" cụm lỗi thì bạn cần báo cáo Pareto chart thống kê lỗi theo module hoặc function để xem lỗi đang tập trung vào đâu nhiều nhất"
+    },
+    {
+      "id": "exam-8-q024",
+      "number": 24,
+      "options": [
+        {
+          "id": "A",
+          "text": "The type of defect that caused the failure"
+        },
+        {
+          "id": "B",
+          "text": "The actual and the expected result highlighting the failure"
+        },
+        {
+          "id": "C",
+          "text": "The lifecycle phase in which the defect has been introduced"
+        },
+        {
+          "id": "D",
+          "text": "What really caused the failure (actual cause)"
+        },
+        {
+          "id": "E",
+          "text": "Steps to reproduce the failure, including screenshots, database dumps and logs where applicable"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "C",
+        "D"
+      ],
+      "images": [],
+      "question": "During the system testing phase a tester from your test team observes a failure in the system under test and he/she decides to create an incident report. The incident report is currently in a \"new\" state, indicating it needs to be investigated. Which THREE of the following information items can't yet be present in the incident report? K3 2 credits (2 credits out of 3 credits correct, 1 credit point)",
+      "explanation": "refer 7.3 Defect Classification theo keyword mà chọn các thông tin ACD là cần phân loại ở giai đoạn investigation chứ không phải Recognization ( lỗi đang ở trạng thái New)"
+    },
+    {
+      "id": "exam-8-q025",
+      "number": 25,
+      "options": [
+        {
+          "id": "A",
+          "text": "V=Rejected , W=Corrected , X=Validated, Y=Re-Opened, Z=Assigned"
+        },
+        {
+          "id": "B",
+          "text": "V=Assigned, W=Validated , X=Corrected, Y=Re-Opened, Z=Rejected"
+        },
+        {
+          "id": "C",
+          "text": "V=Assigned, W=Corrected , X=Validated, Y=Re-Opened, Z=Rejected"
+        },
+        {
+          "id": "D",
+          "text": "V= Corrected, W=Assigned, X=Validated, Y=Corrected, Z=Rejected"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [
+        "assets/questions/exam-8-q025-1.png"
+      ],
+      "question": "Assume you are working on a defect management process to be used by a software organization to track the current status of the defects reports for several projects. When a defect is found for investigation a defect report is created in \"Opened\" state that is the unique initial state. The defect report status has also a unique finale state that is the \"Closed\" state. The following state transition diagram describes the states of this defect management process: Where only the initial (\"Opened\") and final (\"Closed\") states are indicated while the remaining states (V, W, X, Y, Z) have yet to be named. Which of the following assignments would you expect to best complete the defect management process? K3 2 credits",
+      "explanation": "Chapter 7"
+    },
+    {
+      "id": "exam-8-q026",
+      "number": 26,
+      "options": [
+        {
+          "id": "A",
+          "text": "New, Working, Verification, Working, Clarification, Working, Verification, Closed"
+        },
+        {
+          "id": "B",
+          "text": "New, Working, Clarification, Working, Verification, Closed"
+        },
+        {
+          "id": "C",
+          "text": "New, Working, Verification, Closed"
+        },
+        {
+          "id": "D",
+          "text": "New, Working, Verification, Working, Clarification, Working, Closed"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "images": [],
+      "question": "Consider a defect report and assume that a part of its lifecycle includes the following states: New: Is the initial state Working. Means that the developers are addressing the defect in order to produce a fix for the defect Clarification: Means that the developers need more information from the tester to address the defect and produce a fix for the defect and the tester is working to provide this information to the developers Verification: Means that a fix for the defect has been produced and the tester is running the adequate tests to verify whether the fix solves the defect CloseD. is the final state Which of the following answers represents an invalid sequence of states that can't lead the bug report to the \"Closed\" state?",
+      "explanation": "refer chapter 7. Thứ tự các trạng thái của lỗi mà không đi đến Đóng, chọn D vì Working xong chưa được Verification thì ko thể Closed được."
+    },
+    {
+      "id": "exam-8-q027",
+      "number": 27,
+      "options": [
+        {
+          "id": "A",
+          "text": "I. and IV. are true; II. and III. are false"
+        },
+        {
+          "id": "B",
+          "text": "I., II., III. and IV are false"
+        },
+        {
+          "id": "C",
+          "text": "I., II. and III are true; IV. is false"
+        },
+        {
+          "id": "D",
+          "text": "I., II. and III. are false; IV. is true"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [],
+      "question": "Consider the following statements describing the importance of improving the test process: I. Test process improvement is important because being focused only on the test process it can provide recommendations to improve the test process itself, but it can't indicate or suggest improvement to areas of the development process II. Because it is much more effective than software process improvement to improve the quality of a software system III. Because several process improvement models (STEP, TPI Next, TMMi) have been developed over the years IV. Because every organization should always achieve the maximum level of maturity of testing described in in the test improvement models such as TMMi Which of the following answers is correct? K2 1 credit",
+      "explanation": "chapter 8. I sai vì only, II sai vì \"more effective than software process improvement \" ko đúng, ko có so sánh này, III cũng đều sai, IV sách không nói là lúc nào cũng phải đạt dược level cao nhất"
+    },
+    {
+      "id": "exam-8-q028",
+      "number": 28,
+      "options": [
+        {
+          "id": "A",
+          "text": "In TMMi all the process areas at lower levels must be 75% complete by achieving specific and generic goals in order to claim the higher level"
+        },
+        {
+          "id": "B",
+          "text": "TMMi provides an approach for test process improvement such as the IDEAL (Initiating, Diagnosing, Establishing, Acting and Learning) model"
+        },
+        {
+          "id": "C",
+          "text": "TMMi has a staged architecture for process improvement with seven maturity levels"
+        },
+        {
+          "id": "D",
+          "text": "At TMMi level 1 testing is chaotic without a defined process, and it is often seen as the same as debugging"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "images": [],
+      "question": "Which of the following statements about the TMMi test process improvement model is true? K2 1 credit",
+      "explanation": "refer 8.4 Improving the Testing Process with TMMi: Level 1 được coi là dự án cứ test và fix bug mà không theo quy trình nào cả. đáp án A thông tin 75% là ko có trong sách, C sai vì 7 level, B sai vì nó bảo giống IDEAL"
+    },
+    {
+      "id": "exam-8-q029",
+      "number": 29,
+      "options": [
+        {
+          "id": "A",
+          "text": "In the STEP model, tests validate the requirements and use cases when they are developed"
+        },
+        {
+          "id": "B",
+          "text": "The STEP model stresses defect detection and demonstration of capability, whereas the defect prevention is a secondary potential goal of testing"
+        },
+        {
+          "id": "C",
+          "text": "The STEP model assures that the system requirements specification and the test design specification processes don't overlap"
+        },
+        {
+          "id": "D",
+          "text": "In the STEP model, testware design occurs after coding"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [],
+      "question": "Which of the following statements about the STEP test process improvement model is true? K2 1 credit",
+      "explanation": "Refer 8.7 Improving the Testing Process with STEP để loại đc BCD"
+    },
+    {
+      "id": "exam-8-q030",
+      "number": 30,
+      "options": [
+        {
+          "id": "A",
+          "text": "The requirements review"
+        },
+        {
+          "id": "B",
+          "text": "The defect management process"
+        },
+        {
+          "id": "C",
+          "text": "The quality risk analysis process"
+        },
+        {
+          "id": "D",
+          "text": "The system design and architecture design reviews"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [],
+      "question": "A chart showing the trend in the lag time from defect reporting to resolution during system testing is also available. The chart shows that the daily closure period is consistently and significantly above the rolling closure period for a long period of the system testing phase. Almost all defects found during system testing have been related to the system as a whole, not related to single units or integrations issues. Almost all quality risks have been addressed during the unit and integration testing phase and no residual quality risks were present in the integrated system. Exploratory testing sessions performed during system testing, targeted at finding defects in these quality risk areas. Which one of areas would you considered more in the retrospective meeting in order to be improved?",
+      "explanation": "retrospective cần đưa ra quy trình quản lý defect management vì đề bài cập nhật đến các vấn đề về báo cáo lỗi ( nhưng không nói là nó đã tốt hay chưa nhé, chỉ là báo cáo chỉ ra \"the lag time\" \"daily closure period \""
+    },
+    {
+      "id": "exam-8-q031",
+      "number": 31,
+      "options": [
+        {
+          "id": "A",
+          "text": "All the risk items have been covered with tests. No more risk items remain to test"
+        },
+        {
+          "id": "B",
+          "text": "According to the full risk-based testing strategy applied, it is very likely that the highest-risk items, tests and bugs remain in the blue and red areas. Therefore, it is very risky to release the application"
+        },
+        {
+          "id": "C",
+          "text": "Only the lowest-risk items, tests and bugs should remain in the blue and red areas. Therefore the application can be released at any time subject to management of the items identified in those areas"
+        },
+        {
+          "id": "D",
+          "text": "97 percent of the risk items has been tested. No open bugs or test failures remain. Only 3 percent of risk items remains to be covered by the remaining test"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [
+        "assets/questions/exam-8-q031-1.png"
+      ],
+      "question": "After the presentation, you are asked to explain the chart. Assume you have applied a full risk-based testing strategy. Which of the following answers would you expect to best describe the pie chart? K4 3 credits",
+      "explanation": "Vì dự án này theo chiến lược risk based nên chắc chắn là rủi ro cao đã đc chạy trước rồi, nhìn vào cái hình ta thấy còn 1 tỷ lệ nhỏ những cái rủi ro chưa test hoặc chưa sửa hết là của low-risk"
+    },
+    {
+      "id": "exam-8-q032",
+      "number": 32,
+      "options": [
+        {
+          "id": "A",
+          "text": "Proper testing for the custom automation framework must be performed"
+        },
+        {
+          "id": "B",
+          "text": "The custom automation framework will require an adequate documentation"
+        },
+        {
+          "id": "C",
+          "text": "The changes to the custom automation framework should be communicated to all external users of this tool under the GNU license"
+        },
+        {
+          "id": "D",
+          "text": "The custom automation framework will need proper maintenance"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [],
+      "question": "Assume you are managing a test automation project for a mission-critical system. Because vendor provided tools and open source solutions don't meet the needs of this project, you ask your test team to develop a custom automation framework. Which of the following management issues associated to the development of this custom automation framework is least likely to manage? K2 1 credit",
+      "explanation": "Câu hỏi là ít phù hợp nhất. Chọn C vì \"communicated to all external users\" làm sao mà trao đổi với tất cả các user bên ngoài đc"
+    },
+    {
+      "id": "exam-8-q033",
+      "number": 33,
+      "options": [
+        {
+          "id": "A",
+          "text": "The open-source tool can be modified but only if the community of developers of that tool gives you the formal permission to modify it"
+        },
+        {
+          "id": "B",
+          "text": "There are no initial costs for the open-source tool but you should carefully consider the costs associated to the integration with the existing tools and also evaluate the recurring costs"
+        },
+        {
+          "id": "C",
+          "text": "There are no initial costs for the open-source tool because open-source tools are usually low-quality, while vendor tools have always a better quality than the corresponding open-source tools"
+        },
+        {
+          "id": "D",
+          "text": "The open-source tool can be modified but it can't be distributed further in any way\\"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [],
+      "question": "In your organization the following tools of the same vendor are currently in use. a requirements management tool, a test management tool and a bug tracking tool. You are the Test Manager. You are currently evaluating a test automation tool of the same vendor (to complete the vendor's tool suite) against an interesting open-source test automation tool under the GNU GPL (General Public License). There are no initial costs associated to that open-source tool. Which of the following statements associated to the selection of the open-source tool is correct in this scenario? K2 1 credit",
+      "explanation": "Open source là rẻ và không mất chi phí mua tool"
+    },
+    {
+      "id": "exam-8-q034",
+      "number": 34,
+      "options": [
+        {
+          "id": "A",
+          "text": "Does the tool support all the types of code coverage required from the three levels A, B, C of the DO-178B standard?"
+        },
+        {
+          "id": "B",
+          "text": "Is the installation procedure of the tool easy?"
+        },
+        {
+          "id": "C",
+          "text": "Does the tool require a system with more than 4GB of RAM memory?"
+        },
+        {
+          "id": "D",
+          "text": "Is the licensing scheme of the tool compatible with the confidentiality needs of the avionics company?"
+        },
+        {
+          "id": "E",
+          "text": "What are the costs to qualify the tool as a verification tool under the DO-178B?"
+        },
+        {
+          "id": "F",
+          "text": "Does the tool have a good general usability?"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "D",
+        "E"
+      ],
+      "images": [
+        "assets/questions/exam-8-q034-1.jpeg"
+      ],
+      "question": "Which of the following are the three main concerns related to that open-source tool selection? K4 3 credits (2 credits out of 3 credits correct, 1 credit point)",
+      "explanation": "refer 9.2.3 Return on Investment (ROI): chi phí cost, bản quyền license, và tool có đo được các loại công thức về coverage không. B loại 4GB ko phải tool nào yêu cầu thế, E loại vì usability là không cần thiết với đội làm kỹ thuật"
+    },
+    {
+      "id": "exam-8-q035",
+      "number": 35,
+      "options": [
+        {
+          "id": "A",
+          "text": "Acquisition"
+        },
+        {
+          "id": "B",
+          "text": "Support and maintenance"
+        },
+        {
+          "id": "C",
+          "text": "Evolution"
+        },
+        {
+          "id": "D",
+          "text": "Retirement"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [
+        "assets/questions/exam-8-q035-1.jpeg"
+      ],
+      "question": "Which of the following phases in the lifecycle of the new tool has NOT been adequately considered in this description? K2 1 credit",
+      "explanation": "xem video, Evolution là tiến hóa, cải tiến tool là không được nhắc đến"
+    },
+    {
+      "id": "exam-8-q036",
+      "number": 36,
+      "options": [
+        {
+          "id": "A",
+          "text": "Coverage tools"
+        },
+        {
+          "id": "B",
+          "text": "Test management tools"
+        },
+        {
+          "id": "C",
+          "text": "Static analysis tools"
+        },
+        {
+          "id": "D",
+          "text": "Performance tools"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "images": [],
+      "question": "Assume you are a Test Manager involved in system testing of a CRM application for a Pay-TV company. Currently the application is able to support a proper number of users assuring the required responsiveness. Since the business is expected to grow, you have been asked to evaluate the ability of the application to grow to support more users while maintaining the same responsiveness. Which of the following tools would you expect to be the most useful at performing this evaluation? K2 1 credit",
+      "explanation": "dựa vào đề bài \" grow to support more users\" chọn D"
+    },
+    {
+      "id": "exam-8-q037",
+      "number": 37,
+      "options": [
+        {
+          "id": "A",
+          "text": "Alex"
+        },
+        {
+          "id": "B",
+          "text": "Roberta"
+        },
+        {
+          "id": "C",
+          "text": "John"
+        },
+        {
+          "id": "D",
+          "text": "Mark"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [
+        "assets/questions/exam-8-q037-1.jpeg"
+      ],
+      "question": "Which of these people, based on this analysis, would you expect to be most suitable to work specifically as test designer? K4 3 credits",
+      "explanation": ""
+    },
+    {
+      "id": "exam-8-q038",
+      "number": 38,
+      "options": [
+        {
+          "id": "A",
+          "text": "Mary"
+        },
+        {
+          "id": "B",
+          "text": "Bob"
+        },
+        {
+          "id": "C",
+          "text": "Mark"
+        },
+        {
+          "id": "D",
+          "text": "Dave"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [
+        "assets/questions/exam-8-q038-1.jpeg"
+      ],
+      "question": "Who in your test team would you expect to be most suitable at doing these tasks? K4 3 credits",
+      "explanation": "Nhìn vào bảng chọn người phù hợp là người có kỹ năng tốt nhất"
+    },
+    {
+      "id": "exam-8-q039",
+      "number": 39,
+      "options": [
+        {
+          "id": "A",
+          "text": "Neglect your management activities and work side-by-side with your test team executing tests"
+        },
+        {
+          "id": "B",
+          "text": "Considering the executed tests, you should reduce the test coverage back on the risk analysis and adjust downward the priority of the associated risk items"
+        },
+        {
+          "id": "C",
+          "text": "Convince all the people of your test team that each of them is an important and needed member, and that their contribution is fundamental to the success of the team"
+        },
+        {
+          "id": "D",
+          "text": "Favor and encourage a proactive attitude where people ask for new tasks as soon as they finish their current tasks"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [],
+      "question": "Assume you are managing the system testing execution phase of a project. The system test execution period for that project is scheduled for eighteen weeks and the release date is scheduled at the end of system testing. During the sixth week of system test execution, at the staff meeting, the project manager informs you that the project deadlines are changed and the release date that is only three weeks ahead. This new release will not allow the completion of the system tests. Suppose also that you have followed a risk-driven test approach for this project. Which of the following statements represents the worst way to lead your test team in the next three weeks? K2 1 credit",
+      "explanation": "Câu hỏi là cách nào tệ nhất, chọn A vì bạn bỏ qua công việc quản lý, chạy vào test cùng với test team chưa chắc đã hiệu quả, ko quản lý, hướng dẫn, động viên, ra quyết định cho test thì còn nhiều issue nữa"
+    },
+    {
+      "id": "exam-8-q040",
+      "number": 40,
+      "options": [
+        {
+          "id": "A",
+          "text": "Agile teams like the presence of a tester in their teams and the tester will be able to adapt to the new context without any issue"
+        },
+        {
+          "id": "B",
+          "text": "The developers will immediately follow the guidelines described by the tester"
+        },
+        {
+          "id": "C",
+          "text": "The tester can continue to report the problems found in a defect tracking system and be more focused on the quality than on time and budget constraints"
+        },
+        {
+          "id": "D",
+          "text": "The tester's mission could be to verify adherence to requirements, instead of reporting formally the problems in a defect tracking system"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [],
+      "question": "An agile development team decides to hire a tester who has always worked. - in independent test teams, reporting the problems found in a defect tracking system - in safety-critical projects, with a stronger focus on the quality of the product than on time and budget. This agile team is focused on short-term goals to get the product released on time and within budget. Which of the following answers would you expect to be most likely true in this scenario? K2 1 credit",
+      "explanation": "Vì là dự án Agile, tập trung vào việc hoàn thành theo thời gian ngắn nên cần phải đưa nhiệm vụ rõ ràng cho tester tập trung kiểm tra requirement, sử dụng giao tiếp và các kỹ thuật informal để làm việc nhanh hơn là report bug formal"
+    },
+    {
+      "id": "exam-8-q041",
+      "number": 41,
+      "options": [
+        {
+          "id": "A",
+          "text": "The resources allocated for the testing activities are not sufficient and don't allow the testers to contribute to the quality of the product"
+        },
+        {
+          "id": "B",
+          "text": "The testers contribution to the quality of the software products developed from an organization is recognized with increased responsibilities"
+        },
+        {
+          "id": "C",
+          "text": "The same regressions tests are executed manually by the same testers, for every product release, without any progression in content"
+        },
+        {
+          "id": "D",
+          "text": "The testers are asked to perform, in parallel with their testing tasks, other tasks unrelated to their testing responsibilities"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "images": [],
+      "question": "Which of the following would you expect to be most likely an example of a motivating factor for testers? K2 1 credit",
+      "explanation": "refer 10.3 Motivation"
+    },
+    {
+      "id": "exam-8-q042",
+      "number": 42,
+      "options": [
+        {
+          "id": "A",
+          "text": "The management asks the testers to be kept informed about the intensity, quality and results of testing"
+        },
+        {
+          "id": "B",
+          "text": "The testers' recommendations to improve the system or its testability are adopted by the development team"
+        },
+        {
+          "id": "C",
+          "text": "The same regressions tests are manually executed by the same testers, for every product release, without regression test tools"
+        },
+        {
+          "id": "D",
+          "text": "The testers are assessed on whether and how often they detect important and critical failures"
+        },
+        {
+          "id": "E",
+          "text": "Test quality is measured by counting the number of customer/user reported problems."
+        }
+      ],
+      "correctAnswers": [
+        "C",
+        "E"
+      ],
+      "images": [],
+      "question": "Which of the following would you expect to be most likely an example of a demotivating factor for testers? K2 1 credit",
+      "explanation": "refer 10.3 Motivation, triệt tiêu động lực của tester là khi họ phải làm đi làm lại 1 việc bằng tay hàng ngày đáp án C và chất lượng của test được đo bằng cách đếm số lỗi của KH đáp án E. Mình hiểu là số lỗi của KH dùng để đánh giá chất lượng của cả dự án thì đúng hơn."
+    },
+    {
+      "id": "exam-8-q043",
+      "number": 43,
+      "options": [
+        {
+          "id": "A",
+          "text": "Send Robert to a performance testing training course"
+        },
+        {
+          "id": "B",
+          "text": "Send Alex to a performance testing training course"
+        },
+        {
+          "id": "C",
+          "text": "Send John to a performance testing training course"
+        },
+        {
+          "id": "D",
+          "text": "Send Mark to a test automation training course"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [
+        "assets/questions/exam-8-q043-1.jpeg"
+      ],
+      "question": "Based only on the given information, which of the following answers would you expect to be the best option to achieve your objective? K4 3 credits",
+      "explanation": "Map vào cái bảng kỹ năng bạn chọn người có thiên hướng về kỹ thuật test tốt và kỹ năng đào tạo tốt để sau này họ về đào tạo cho team của bạn"
+    },
+    {
+      "id": "exam-8-q044",
+      "number": 44,
+      "options": [
+        {
+          "id": "A",
+          "text": "In an environment where the test basis is continuously changing, it is recommended to specify test conditions at a detailed level in order to achieve a better maintainability"
+        },
+        {
+          "id": "B",
+          "text": "The specification of test conditions at a detailed level can be effective when no formal requirements or other development work products are available"
+        },
+        {
+          "id": "C",
+          "text": "The specification of test conditions at a detailed level can require the implementation of an adequate level of formality across the team"
+        },
+        {
+          "id": "D",
+          "text": "For system testing, the specification of test conditions at a detailed level, carried out early in the project as soon as the test basis is established, can contribute to defect prevention"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [],
+      "question": "Which of the following statements describing the consequences of specifying test conditions at a detailed level is NOT true? K2 1 credit",
+      "explanation": "Refer 2.3 Test analysis: test basis is continuously changing thường xuyên thì rất mất thời gian để cập nhật Test condition chi tiết"
+    },
+    {
+      "id": "exam-8-q045",
+      "number": 45,
+      "options": [
+        {
+          "id": "A",
+          "text": "Perform unit performance testing for each single web service"
+        },
+        {
+          "id": "B",
+          "text": "Monitor the SLAs after the system has been released into the production environment"
+        },
+        {
+          "id": "C",
+          "text": "Perform system performance testing, consisting of several performance testing sessions, to verify if all the SLAs have been met"
+        },
+        {
+          "id": "D",
+          "text": "Perform static performance testing by reviewing the architectural model of the system under various load levels"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [
+        "assets/questions/exam-8-q045-1.jpeg"
+      ],
+      "question": "Which of the following test activities would you expect to be the less important ones to achieve the test objectives in this scenario? K4 3 credits",
+      "explanation": "chọn B vì \"after the system has been released\" sau khi bàn giao thì không còn làm gì đc nữa, ko thể đưa ra các test control để đạt được test objective nữa"
+    },
+    {
+      "id": "exam-8-q046",
+      "number": 46,
+      "options": [
+        {
+          "id": "A",
+          "text": "You should plan for an informal and minimal acceptance test of the two off-the-shelf systems and then a single end-to-end test of the overall integrated system"
+        },
+        {
+          "id": "B",
+          "text": "You should directly plan for a single end-to-end test focused on end-to-end tests of the overall integrated system without an acceptance test of the two off-the-shelf systems"
+        },
+        {
+          "id": "C",
+          "text": "You should plan for two levels: a system integration test and an end-to-end test of the overall integrated system"
+        },
+        {
+          "id": "D",
+          "text": "You should plan for adequate re-testing of both the systems followed by a system integration test and an end-to-end test of the overall integrated system"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "images": [
+        "assets/questions/exam-8-q046-1.jpeg"
+      ],
+      "question": "Which of the following answers best describes the test activities (assuming it is possible to perform all of them) you should plan for? K4 3 credits",
+      "explanation": "refer 1.3 systems of systems. Đầu tiên bạn mua hệ thống về phải làm Cái test nghiệm thu từng hệ thống, sau đó test tích hợp với hệ thống của mình, rồi lại test lại toàn bộ các hệ thống ( để bài nó bảo nếu có thể nên ta ko cần nghĩ đến time và effort)"
+    },
+    {
+      "id": "exam-8-q047",
+      "number": 47,
+      "options": [
+        {
+          "id": "A",
+          "text": "A traceability matrix showing the relationships between the product risk items and the test cases"
+        },
+        {
+          "id": "B",
+          "text": "A list of all the open defects with the associated classification information extracted from the defect tracking system"
+        },
+        {
+          "id": "C",
+          "text": "A chart, showing the trend in the lag time from defect reporting to resolution, extracted from the defect tracking system"
+        },
+        {
+          "id": "D",
+          "text": "The execution status of all the test cases extracted from the test management tool"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [],
+      "question": "The following are the exit criteria described in the test plan of a software product: EX1. The test suite for the product must ensure that at least each quality risk item is covered by at least one test case (a quality risk item can be covered by more test cases). EX2. All test cases in the test suite must be run during the execution phase. EX3. Defects are classified into two categories: \"C\" (critical defect) and \"NC\" (non-critical defect). No known C defects shall exist in the product at the end of the test execution phase. Which of the following information is useless when the specified exit criteria is evaluated? K2 1 credit",
+      "explanation": "refer 2.2.1. Tiêu chí kết thúc để đánh giá cho việc có release được hay không, chọn C ít hữu ích vì \"trend in the lag time from defect reporting to resolution\""
+    },
+    {
+      "id": "exam-8-q048",
+      "number": 48,
+      "options": [
+        {
+          "id": "A",
+          "text": "Archive all the test results of the acceptance testing phase"
+        },
+        {
+          "id": "B",
+          "text": "Deliver a list of the open defects of a software product released into production to the service desk team"
+        },
+        {
+          "id": "C",
+          "text": "Participate in a meeting at the end of a project aimed at better managing the events and problems of future projects"
+        },
+        {
+          "id": "D",
+          "text": "Deliver an automated regression test suite, used during the system test phase of a software product released into production, to the team responsible for maintenance testing"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [],
+      "question": "Which of the following is an example of the test closure activity indicated as \"lessons learned\"? K2 1 credit",
+      "explanation": "refer 2.8 Test Closure Activities: Lesson learned = Retrospective meeting trong Agile, tham gia thảo luận về những issue, risks, các điểm cần cải tiến cho tương lai ta chọn C, A là của Archiving, BD là của Handover"
+    },
+    {
+      "id": "exam-8-q049",
+      "number": 49,
+      "options": [
+        {
+          "id": "A",
+          "text": "Since R3 is the only risk for which all test cases have passed, the risk has been reduced by 20%"
+        },
+        {
+          "id": "B",
+          "text": "The test execution status table indicates that the risk has been reduced by 56%"
+        },
+        {
+          "id": "C",
+          "text": "The residual risk level can't be determined, because it requires that all the test cases have been executed"
+        },
+        {
+          "id": "D",
+          "text": "The test execution table doesn't give an indication of the risk level of the open defects and the test cases that failed or are not run yet"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "images": [
+        "assets/questions/exam-8-q049-1.png"
+      ],
+      "question": "Which of the following answers would you expect to best describe the residual risks associated with the identified product risks, at the end of the first week of test execution? K3 2 credits",
+      "explanation": "Nhìn vào đề bài đang không chỉ ra mối quan hệ giữa risk level được tính toán như thế nào với số lượng lỗi tìm được và TC chạy được"
+    },
+    {
+      "id": "exam-8-q050",
+      "number": 50,
+      "options": [
+        {
+          "id": "A",
+          "text": "Select a 6-bottles package, then try to insert 5 bottles; verify that no error messages are displayed"
+        },
+        {
+          "id": "B",
+          "text": "Select a 6-bottles package, then try to insert 7 bottles; verify that no error messages are displayed"
+        },
+        {
+          "id": "C",
+          "text": "Select a 6-bottles package, then try to insert 7 bottles; verify that the"
+        },
+        {
+          "id": "D",
+          "text": "Select a 6-bottles package, then try to insert 7 bottles; verify that the"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [
+        "assets/questions/exam-8-q050-1.jpeg"
+      ],
+      "question": "Which of the following is a positive logical test that is complete and correct, and covers the REQ-SEL- 4 requirement? K3 2 credits",
+      "explanation": ""
+    },
+    {
+      "id": "exam-8-q051",
+      "number": 51,
+      "options": [
+        {
+          "id": "A",
+          "text": "1"
+        },
+        {
+          "id": "B",
+          "text": "2"
+        },
+        {
+          "id": "C",
+          "text": "3"
+        },
+        {
+          "id": "D",
+          "text": "4"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [
+        "assets/questions/exam-8-q051-1.jpeg"
+      ],
+      "question": "What is the MINIMUM number of test conditions that must be added to fulfill both the EXCR1 and EXCR2 exit criteria? K3 2 credits",
+      "explanation": "Chú ý ID của test case được đặt cho phép bạn map với REQ hoặc RISK, bạn chỉ cần map số REQ, RISK với TC là tìm ra số còn thiếu, vì EXCR1, EXCR2 yêu cầu có ít nhất một TC thiết kế cho mỗi REQ, RISK"
+    },
+    {
+      "id": "exam-8-q052",
+      "number": 52,
+      "options": [
+        {
+          "id": "A",
+          "text": "1- Test the acceptance of transactions coming from the IVR channel2- Test the correct charge of the Smart Card with the required contents3- Test the correct pre-activation of the Smart Card4- Test the correct activation of the Smart Card"
+        },
+        {
+          "id": "B",
+          "text": "1- Test the correct pre-activation of the Smart Card; 2- Test the correct charge of the Smart Card with the required contents; 3- Test the correct activation of the Smart Card; 4- Test the acceptance of transactions coming from the IVR channel"
+        },
+        {
+          "id": "C",
+          "text": "1- Test the correct activation of the Smart Card2- Test the correct pre-activation of the Smart Card3- Test the correct charge of the Smart Card with the required contents4- Test the acceptance of transactions coming from the IVR channel"
+        },
+        {
+          "id": "D",
+          "text": "1- Test the correct pre-activation of the Smart Card 2- Test the correct activation of the Smart Card3- Test the correct charge of the Smart Card with the required contents4- Test the acceptance of transactions coming from the IVR channel"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "images": [
+        "assets/questions/exam-8-q052-1.jpeg"
+      ],
+      "question": "Which of the following answers describes the best execution schedule in this scenario? K3 3 credits",
+      "explanation": "Bảng này mô tả risk, bạn nhân 2 cột likelihood và impact để tính ra risk level. Risk nào cao nhất thì phải chạy trước"
+    },
+    {
+      "id": "exam-8-q053",
+      "number": 53,
+      "options": [
+        {
+          "id": "A",
+          "text": "4"
+        },
+        {
+          "id": "B",
+          "text": "3"
+        },
+        {
+          "id": "C",
+          "text": "2"
+        },
+        {
+          "id": "D",
+          "text": "1"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [
+        "assets/questions/exam-8-q053-1.jpeg"
+      ],
+      "question": "What is the MINIMUM number of test conditions that must be added to fulfill both the EXCR1 and EXCR2 exit criteria? K3 2 credits",
+      "explanation": "Chú ý ID của test case được đặt cho phép bạn map với REQ hoặc RISK, bạn chỉ cần map số REQ, RISK với TC là tìm ra số còn thiếu, vì EXCR1, EXCR2 yêu cầu có ít nhất một TC thiết kế cho mỗi REQ, RISK"
+    },
+    {
+      "id": "exam-8-q054",
+      "number": 54,
+      "options": [
+        {
+          "id": "A",
+          "text": "T1, T2, T3, T4, T5, T6, T7, T8, T9, T10"
+        },
+        {
+          "id": "B",
+          "text": "T1, T3, T5, T7, T9, T2, T4, T6, T8, T10"
+        },
+        {
+          "id": "C",
+          "text": "T10, T9, T8, T7, T6, T5, T4, T3, T2, T1"
+        },
+        {
+          "id": "D",
+          "text": "T10, T8, T6, T4, T2, T9, T7, T5, T3, T1"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [
+        "assets/questions/exam-8-q054-1.jpeg"
+      ],
+      "question": "Which of the following answers describes the best test execution schedule in this scenario? K3 2 credits",
+      "explanation": "Vì là chiến lược theo chiều rộng nên mỗi rủi ro cần được đánh giá ít nhất bởi một TC để xem rủi ro nào xảy ra lỗi, còn thời gian sẽ tiếp tục chạy lượt 2"
+    },
+    {
+      "id": "exam-8-q055",
+      "number": 55,
+      "options": [
+        {
+          "id": "A",
+          "text": "The aircraft pilot and the customer representative should contribute to assess the detection. The chief software engineer, the system architect and the expert tester should contribute to assess the priority."
+        },
+        {
+          "id": "B",
+          "text": "The aircraft pilot and the customer representative should contribute to assess the priority. The chief software engineer, the system architect and the expert tester should contribute to assess the detection."
+        },
+        {
+          "id": "C",
+          "text": "The system architect and the chief software engineer should contribute to assess the priority. The expert tester is the only one who should contribute to assess the detection."
+        },
+        {
+          "id": "D",
+          "text": "The aircraft pilot is the only one qualified to contribute to assess the priority and thus should be assigned this task. The customer representative should contribute to assess the detection."
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [
+        "assets/questions/exam-8-q055-1.jpeg"
+      ],
+      "question": "Which of the following statements represents the most effective contribution of the stakeholders to the completion of the failure mode analysis table? K4 3 credits",
+      "explanation": "refer 3.4 How to Do Risk-Based Testing, related-test project risk. Chú ý các đối tượng stakeholder có vài trò khác nhau: BA, Product Owner, TA, Customer care, customer hữu ích trả lời về Impact, Developer, designer, TTA, technical leader hữu ích trả lời về likelihood"
+    },
+    {
+      "id": "exam-8-q056",
+      "number": 56,
+      "options": [
+        {
+          "id": "A",
+          "text": "4"
+        },
+        {
+          "id": "B",
+          "text": "5"
+        },
+        {
+          "id": "C",
+          "text": "6"
+        },
+        {
+          "id": "D",
+          "text": "7"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [
+        "assets/questions/exam-8-q056-1.jpeg"
+      ],
+      "question": "What is the MINIMUM number of the remaining test cases that must be successfully executed to fulfill the EX1 exit criteria? K3 2 credits",
+      "explanation": "Chú ý TC ID có đánh mã theo REQ ID nên dễ dàng map được TC và REQ, RISK, tìm ra số case thiếu"
+    },
+    {
+      "id": "exam-8-q057",
+      "number": 57,
+      "options": [
+        {
+          "id": "A",
+          "text": "Extract from the defect tracking system of the previous project all the security defects and failures, and classify them to support design and execution of specific tests"
+        },
+        {
+          "id": "B",
+          "text": "Automate all functional and non-functional system tests"
+        },
+        {
+          "id": "C",
+          "text": "Apply systematic and exploratory testing for integration and system test"
+        },
+        {
+          "id": "D",
+          "text": "Perform exploratory testing sessions with adequate charters covering security aspects"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [],
+      "question": "You can count on well-written requirements, but you can't count on an adequate contribution of the stakeholders to the quality risk analysis. You have to mitigate the insufficient contribution of the stakeholders because the risk-based testing approach shall minimize the product risks. Your test team has one expert tester in security testing. Which of the following test activities would you expect to be the less important in this context? K4 3 credits",
+      "explanation": "Chọn B vì \"Automate all\" là không thể, không quan trọng"
+    },
+    {
+      "id": "exam-8-q058",
+      "number": 58,
+      "options": [
+        {
+          "id": "A",
+          "text": "Defined entry and exit criteria"
+        },
+        {
+          "id": "B",
+          "text": "Checklists to be used by the reviewers"
+        },
+        {
+          "id": "C",
+          "text": "Deliverables such as reports, evaluation sheets or other review summary sheets"
+        },
+        {
+          "id": "D",
+          "text": "Metrics for reporting on the review effectiveness, efficiency, and progress"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "images": [],
+      "question": "During the follow-up phase the following conditions are checked: X1. The code has been completely reviewed X2. All the identified defects have been correctly fixed and the modified code has been compiled successfully and run through all the static analyzers used by the project without warnings and errors X3. The modified code is available under the configuration management system with a new version number for the specified CI If these conditions are fulfilled then the review process terminates. Which of the following characteristics of a formal review is missing in this description? K2 1 credit",
+      "explanation": "refer 6.1.4 Managing Formal Reviews"
+    },
+    {
+      "id": "exam-8-q059",
+      "number": 59,
+      "options": [
+        {
+          "id": "A",
+          "text": "Prioritize executing the tests for the highest product risks and track these risks"
+        },
+        {
+          "id": "B",
+          "text": "Remove testers from your test team, so that they can be assigned to other projects"
+        },
+        {
+          "id": "C",
+          "text": "Automate all remaining tests"
+        },
+        {
+          "id": "D",
+          "text": "No action is needed, test as much as possible in the remaining time period"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [],
+      "question": "Assume you are managing the system testing phase of a project. The system test execution period is scheduled to twenty weeks. All tests are manual tests. You are following a risk-driven test approach. During the last staff meeting the project manager tells you new deadlines that will not allow completion of all the system tests. Which of the following would you expect to be the best way to respond to this situation? K2 1 credit",
+      "explanation": "dự án này theo hướng \"a risk-driven test approach\" nên phải sắp xếp ưu tiên dựa vào rủi ro"
+    },
+    {
+      "id": "exam-8-q060",
+      "number": 60,
+      "options": [
+        {
+          "id": "A",
+          "text": "A lightweight product risk analysis technique"
+        },
+        {
+          "id": "B",
+          "text": "Failure Mode and Effect Analysis"
+        },
+        {
+          "id": "C",
+          "text": "Wide Band Delphi"
+        },
+        {
+          "id": "D",
+          "text": "Cost of Exposure"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [],
+      "question": "You are performing a quality risk analysis for a CSCI (Computer Software Configuration Item) used to implement a CBIT (Continuous Built-In Test) module of a safety-critical system. During the quality risk analysis you are trying to identify the ways in which failures of the CBIT module can occur, for each of them trying to determine the potential causes and likely effects, and the risk level (calculated as the product of three factors: severity, occurrence and detection). Which of the following risk analysis techniques are you working with? K2 1 credit",
+      "explanation": "refer 3.2 Risk categories \"a safety-critical system\""
+    },
+    {
+      "id": "exam-8-q061",
+      "number": 61,
+      "options": [
+        {
+          "id": "A",
+          "text": "The late delivery of the authentication feature to the test team causes delays in the start of test execution and this could result in a shorter test period"
+        },
+        {
+          "id": "B",
+          "text": "The authentication system denies access for a special user with a wrong password, but doesn't display a special warning on the system console"
+        },
+        {
+          "id": "C",
+          "text": "The authentication system grants access to a normal user with a wrong password"
+        },
+        {
+          "id": "D",
+          "text": "The authentication system grants access to a special user with a wrong password"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [
+        "assets/questions/exam-8-q061-1.jpeg"
+      ],
+      "question": "Based only on the given information, which of the following is NOT a product risk that could be identified during the quality risk analysis? K4 3 credits",
+      "explanation": "ba câu BCD loại trừ đì vì nó ko phải là risk mà là lỗi"
+    },
+    {
+      "id": "exam-8-q062",
+      "number": 62,
+      "options": [
+        {
+          "id": "A",
+          "text": "The extent of re-testing and regression testing activities should be based on the risk level"
+        },
+        {
+          "id": "B",
+          "text": "The identification of new risks, the re-assessment of the level of existing risks and the evaluation of the effectiveness of risk mitigation activities should only occur at the very beginning of a project"
+        },
+        {
+          "id": "C",
+          "text": "Risk mitigation of product quality risks can be effective only after starting test execution"
+        },
+        {
+          "id": "D",
+          "text": "The priority of the development and execution of tests should not be based on the risk level but only on the likelihood"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [],
+      "question": "Which of the following statements describing how identified product quality risks should be mitigated and managed, is true? K2 1 credit",
+      "explanation": "3 câu còn lại BCD loại trừ đi vì vô lý"
+    },
+    {
+      "id": "exam-8-q063",
+      "number": 63,
+      "options": [
+        {
+          "id": "A",
+          "text": "Mature organizations address product quality risks associated to non-functional characteristics only during the system test phase"
+        },
+        {
+          "id": "B",
+          "text": "Mature organizations are aware that the contribution of testing to analysis of product quality risks is very important. The analysis should occur throughout the entire lifecycle"
+        },
+        {
+          "id": "C",
+          "text": "Mature organizations don't waste time identifying the sources of risks. They only focus on identifying product quality risks"
+        },
+        {
+          "id": "D",
+          "text": "Mature organizations are aware that risk management of product quality risks only occurs during testing"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [],
+      "question": "Which of the following statements about management of product quality risks in mature organizations with respect to the lifecycle, is true? K2 1 credit",
+      "explanation": "Câu B đúng, hiểu nôm na là phải quản lý risk xuyên xuốt life cycle"
+    },
+    {
+      "id": "exam-8-q064",
+      "number": 64,
+      "options": [
+        {
+          "id": "A",
+          "text": "A model-based technique based on the creation of operational profiles"
+        },
+        {
+          "id": "B",
+          "text": "Ambiguity reviews"
+        },
+        {
+          "id": "C",
+          "text": "Test condition analysis"
+        },
+        {
+          "id": "D",
+          "text": "Cause-effect graphing"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [],
+      "question": "Assume you are currently working on a project developing a system where functional requirements are very well specified. Unfortunately non-functional requirements do almost not exist. You are the Test Manager. You have to choose a technique for test selection that allows testing of non- functional characteristics, especially reliability. Which of the following techniques for test selection do you expect being most useful in this scenario? K2 1 credit",
+      "explanation": "Search thêm trên Vol 1 về test Reliability có đề cập đến kỹ thuật dựa vào operational profiles là phù hợp để test, hiểu nôm na là dựa vào lịch sử vẫn hành của hệ thống để đưa ra yêu cầu test cho non-functional khi nó ko có requirement"
+    }
+  ]
+}

@@ -1,0 +1,1768 @@
+{
+  "id": "exam-11",
+  "title": "EXAM 11 Advanced TA1 có video chữa đề",
+  "questions": [
+    {
+      "id": "exam-11-q001",
+      "number": 1,
+      "options": [
+        {
+          "id": "A",
+          "text": "Useful to gain a graphical overview of a program's logical structure and are typically used as the basis for creating decision tables."
+        },
+        {
+          "id": "B",
+          "text": "Used with the purpose that with a limited set of test cases a reasonable level of coverage can be achieved."
+        },
+        {
+          "id": "C",
+          "text": "Used to test the ability of the software to enter into and exit from defined states via valid and invalid transitions."
+        },
+        {
+          "id": "D",
+          "text": "Used as a clear method to verify testing of all pertinent combinations of conditions and to verify that all possible combinations are handled by the software under test"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [],
+      "question": "Which of the following BEST explains the use of cause-effect graphing? [K2] 1 credit",
+      "explanation": "Refer 4.1.4 Cause effect graph: • Generated from any source which describes the functional logic (i.e., the \"rules\") of a program, such as user stories or flow charts. • Useful to gain a graphical overview of a program's logical structure. Used as the basis for creating decision tables"
+    },
+    {
+      "id": "exam-11-q002",
+      "number": 2,
+      "options": [
+        {
+          "id": "A",
+          "text": "User stories provide the flow of events which are to be used by the tester to define test cases."
+        },
+        {
+          "id": "B",
+          "text": "User stories provide the user requirement and acceptance criteria being two important inputs for the tester."
+        },
+        {
+          "id": "C",
+          "text": "The tester will typically gather and document the user stories, and use them for testing."
+        },
+        {
+          "id": "D",
+          "text": "User stories drive the regression test."
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [],
+      "question": "How do user stories and testing relate in an agile project? [K2] 1 credit",
+      "explanation": "refer 4.1.9 User Story Testing User stories include functionality and non-functional criteria, and also include acceptance criteria that must be met for the user story to be considered complete"
+    },
+    {
+      "id": "exam-11-q003",
+      "number": 3,
+      "options": [
+        {
+          "id": "A",
+          "text": "2"
+        },
+        {
+          "id": "B",
+          "text": "4"
+        },
+        {
+          "id": "C",
+          "text": "5"
+        },
+        {
+          "id": "D",
+          "text": "8"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [],
+      "question": "A new banking system has 2 customers' types, 2 account types and will operate in two different countries? How many test cases will be needed using the pair wise testing technique and the appropriate 2-wise orthogonal array? [K3] 3 credits",
+      "explanation": "refer 4.1.8 Pairwise Testing/ Orthogonal Arrays/ 2-wise, cặp 2x2 là lớn nhất nên bảng có 4 rows= 4 test case, 3 cột"
+    },
+    {
+      "id": "exam-11-q004",
+      "number": 4,
+      "options": [
+        {
+          "id": "A",
+          "text": "2"
+        },
+        {
+          "id": "B",
+          "text": "4"
+        },
+        {
+          "id": "C",
+          "text": "6"
+        },
+        {
+          "id": "D",
+          "text": "8"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "images": [],
+      "question": "Tax system A tax system needs to be updated due to new legislation. For a person with a salary of less than 20.000 and who is married, the tax needs to be re-calculated. If the person also has more than two and less than five children, an additional 10% reduction is applicable. How many cases are required to test the \"Tax system\" specification using a decision table which is not collapsed? [K3] 2 credits",
+      "explanation": "Refer 4.1.3 Decision tables. Bảng full decision thì số cột là 2 mũ n ( n là số input conditions) đây ta có 3 inputs: a salary of less than 20.000, who is married, has more than two and less than five children"
+    },
+    {
+      "id": "exam-11-q005",
+      "number": 5,
+      "options": [
+        {
+          "id": "A",
+          "text": "5"
+        },
+        {
+          "id": "B",
+          "text": "6"
+        },
+        {
+          "id": "C",
+          "text": "7"
+        },
+        {
+          "id": "D",
+          "text": "8"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [],
+      "question": "Tax system A tax system needs to be updated due to new legislation. For a person with a salary of less than 20.000 and who is married, the tax needs to be re-calculated. If the person also has more than two and less than five children, an additional 10% reduction is applicable. How many input classes can be distinguished when applying equivalence partitioning to the \"Tax System\" specification? [K3] 2 credits",
+      "explanation": "Vẽ ra theo phương pháp Equivalence partitioning: salary có 2 class: <20.000 và >= 20.000, Married và not married, children: <=2 con, từ 3-4 và 5 con trở lên. Tổng là 7 class"
+    },
+    {
+      "id": "exam-11-q006",
+      "number": 6,
+      "options": [
+        {
+          "id": "A",
+          "text": "2, 4 and 6 children"
+        },
+        {
+          "id": "B",
+          "text": "2, 4 and 5 children"
+        },
+        {
+          "id": "C",
+          "text": "1, 3 and 6 children"
+        },
+        {
+          "id": "D",
+          "text": "3, 4 and 6 children"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [],
+      "question": "Tax system A tax system needs to be updated due to new legislation. For a person with a salary of less than 20.000 and who is married, the tax needs to be re- calculated. If the person also has more than two and less than five children, an additional 10% reduction is applicable. Applying equivalence partitioning to the \"Tax System\" specification, which of the following set of equivalence classes is most effective in testing the processing the number of children? [K3] 2 credits",
+      "explanation": "theo EP: children có 3 phân vùng: <=2 con, từ 3-4 và 5 con trở lên, thì cả A,BC đều đúng, ta chọn B vì nó tốt nhất test cả được giá trị biên"
+    },
+    {
+      "id": "exam-11-q007",
+      "number": 7,
+      "options": [
+        {
+          "id": "A",
+          "text": "1500"
+        },
+        {
+          "id": "B",
+          "text": "33501"
+        },
+        {
+          "id": "C",
+          "text": "4499"
+        },
+        {
+          "id": "D",
+          "text": "28001"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [],
+      "question": "For a tax system the earnings 4.000 are tax free, the following 1.500 are charged at 10%, the following 28.000 at 20% and the remainder above 40%. All values are rounded to 1. What test case could result from a boundary value analysis? [K3] 2 credits",
+      "explanation": "Chia mức lương để tính thuế ta có các vùng: <= 4.000, <=5.500, <=33.500 và lớn hơn 33.500. nên giá trị BVA là đáp án B"
+    },
+    {
+      "id": "exam-11-q008",
+      "number": 8,
+      "options": [
+        {
+          "id": "A",
+          "text": "2"
+        },
+        {
+          "id": "B",
+          "text": "3"
+        },
+        {
+          "id": "C",
+          "text": "4"
+        },
+        {
+          "id": "D",
+          "text": "5"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [
+        "assets/questions/exam-11-q008-1.png"
+      ],
+      "question": "How many cases are left when this decision table is collapsed? [K3] 3 credits",
+      "explanation": "Thu gọn bảng từ full decision thành collapse decision, ta gọn từ cột 5-8 về thành 1 cột vì action cho ra giống nhau, cột 3-4 về một cột. Cuối cùng ta còn 4 cột"
+    },
+    {
+      "id": "exam-11-q009",
+      "number": 9,
+      "options": [
+        {
+          "id": "A",
+          "text": "11, 10, -11, -10"
+        },
+        {
+          "id": "B",
+          "text": "11, 10, 9, -11, -10, -9"
+        },
+        {
+          "id": "C",
+          "text": "11, 9, -9, -11"
+        },
+        {
+          "id": "D",
+          "text": "10, 9, -9, -10"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [],
+      "question": "A temperature unit holds the temperature between - 10 degrees Celcius and 10 degrees Celcius. If the temperature drops below 10 or rises above 10 then an alarm rings. Boundary Value Analysis tests are drawn up using the approach of two test cases per boundary. The temperatures to be tested are: [K3] 2 credits",
+      "explanation": ""
+    },
+    {
+      "id": "exam-11-q010",
+      "number": 10,
+      "options": [
+        {
+          "id": "A",
+          "text": "2"
+        },
+        {
+          "id": "B",
+          "text": "3"
+        },
+        {
+          "id": "C",
+          "text": "4"
+        },
+        {
+          "id": "D",
+          "text": "5"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [],
+      "question": "A specification states: \"If the fossil is Jurassic in origin then it must be catalogued under Mesozoic post Triassic and cross referred to politic limestone. If it is a tooth, then it must be catalogued under Dental remains. If the fossil is both Jurassic in origin and a tooth it will be catalogued under Mesozoic post Triassic and cross referred to politic limestone only. \" The tester analyses this for decision table testing and finds the following conditions and actions: C1: Jurassic C2: tooth A1: Catalogue as Mesozoic post Triassic A2: Cross refer to politic limestone A3: Catalogue as Dental remains How many test cases will a collapsed decision table have? [K3] 2 credits",
+      "explanation": ""
+    },
+    {
+      "id": "exam-11-q011",
+      "number": 11,
+      "options": [
+        {
+          "id": "A",
+          "text": "Boundary value analysis"
+        },
+        {
+          "id": "B",
+          "text": "Equivalence Partitioning"
+        },
+        {
+          "id": "C",
+          "text": "Classification Tree Method"
+        },
+        {
+          "id": "D",
+          "text": "State Transition Testing"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "images": [],
+      "question": "Analyzing the requirement, \"The system shall allow cash advances of at least 200 Euros for all supported credit cards. The correct list of credit cards is American Express, Diners, VISA, Mastercard and Eurocard.\" There are arguments to be made for several test design techniques. Which of the following test design techniques is LEAST likely to be used for identifying test cases for the requirement? [K4] 3 credits",
+      "explanation": "Ít phù hợp nhất"
+    },
+    {
+      "id": "exam-11-q012",
+      "number": 12,
+      "options": [
+        {
+          "id": "A",
+          "text": "3"
+        },
+        {
+          "id": "B",
+          "text": "6"
+        },
+        {
+          "id": "C",
+          "text": "7"
+        },
+        {
+          "id": "D",
+          "text": "12"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [
+        "assets/questions/exam-11-q012-1.jpeg"
+      ],
+      "question": "A route calculation for a car navigation system has been developed using the following state table: How many test cases are needed to achieve 0-switch coverage?",
+      "explanation": ""
+    },
+    {
+      "id": "exam-11-q013",
+      "number": 13,
+      "options": [
+        {
+          "id": "A",
+          "text": "6"
+        },
+        {
+          "id": "B",
+          "text": "8"
+        },
+        {
+          "id": "C",
+          "text": "102"
+        },
+        {
+          "id": "D",
+          "text": "12"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [
+        "assets/questions/exam-11-q013-1.jpeg"
+      ],
+      "question": "How many invalid test cases can be identified from the \"Route Calculation\" state table provided? You may assume all actions are different and independent. [K3] 3 credits",
+      "explanation": ""
+    },
+    {
+      "id": "exam-11-q014",
+      "number": 14,
+      "options": [
+        {
+          "id": "A",
+          "text": "Equivalence Partitioning"
+        },
+        {
+          "id": "B",
+          "text": "Use Case Testing"
+        },
+        {
+          "id": "C",
+          "text": "Orthogonal Arrays"
+        },
+        {
+          "id": "D",
+          "text": "Decision Testing"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [
+        "assets/questions/exam-11-q014-1.jpeg"
+      ],
+      "question": "Apart from state transition testing, which other specification-based technique would you additionally choose to test the interfaces between components of \"Route Calculation\" and thus typically find different types of defects? Identify the MOST likely technique from the following list. [K4] 3 credits",
+      "explanation": ""
+    },
+    {
+      "id": "exam-11-q015",
+      "number": 15,
+      "options": [
+        {
+          "id": "A",
+          "text": "D, F, G, H, K, M, N, P, T, Z"
+        },
+        {
+          "id": "B",
+          "text": "D, G, K, N, S"
+        },
+        {
+          "id": "C",
+          "text": "A, E, H, L, P, T,"
+        },
+        {
+          "id": "D",
+          "text": "E, H, L, M, U,"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [
+        "assets/questions/exam-11-q015-1.jpeg"
+      ],
+      "question": "A diamond retailer is introducing a new stock taking system. Each diamond is assigned a character that represents the colour. The valid domain for the character ranges from D to Z. The colour is then graded using the following scale: Which of the following test sets will provide the best equivalence partitioning coverage?",
+      "explanation": ""
+    },
+    {
+      "id": "exam-11-q016",
+      "number": 16,
+      "options": [
+        {
+          "id": "A",
+          "text": "Equivalence Partitioning extended by boundary value analysis"
+        },
+        {
+          "id": "B",
+          "text": "Pairwise Testing with orthogonal arrays"
+        },
+        {
+          "id": "C",
+          "text": "State Transition Testing using 1-switch coverage"
+        },
+        {
+          "id": "D",
+          "text": "Classification Tree Method"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [],
+      "question": "For an ATM banking project introduced earlier, \"When the user first inserts a valid credit card type, the system considers the user to be in an unauthenticated state. When requesting a cash advance, the user must be in an authenticated state. The user authenticates by entering the proper PIN code. When authenticating the user, the system shall allow the user to enter their PIN code up to three times before falling the authentication and rejecting the card. On the first and second try, the system shall prompt the user to re-enter the PIN code.\" Suppose you are concerned that, depending on the exact number of invalid PIN codes entered, the system might behave improperly. Which of the following test design techniques is specifically targeted at such failures? [K4] 3 credits",
+      "explanation": "theo sơ đồ state transition tìm ra lỗi chính xác số lần nhập invalide PIN. chưa làm lại đc video"
+    },
+    {
+      "id": "exam-11-q017",
+      "number": 17,
+      "options": [
+        {
+          "id": "A",
+          "text": "The classification tree is correct and complete"
+        },
+        {
+          "id": "B",
+          "text": "The options for for"
+        },
+        {
+          "id": "C",
+          "text": "Order information is missing"
+        },
+        {
+          "id": "D",
+          "text": "The error message is missing"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [],
+      "question": "Study the \"Supercar\" classification tree, which of the following statements is correct? [K3] 2 credits",
+      "explanation": "Đọc cái đề bài ở câu 31 sẽ ra đáp án vì sao chưa define cho in-stock"
+    },
+    {
+      "id": "exam-11-q018",
+      "number": 18,
+      "options": [
+        {
+          "id": "A",
+          "text": "9"
+        },
+        {
+          "id": "B",
+          "text": "10"
+        },
+        {
+          "id": "C",
+          "text": "11"
+        },
+        {
+          "id": "D",
+          "text": "12"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [
+        "assets/questions/exam-11-q018-1.png"
+      ],
+      "question": "Using the state diagram (based on the \"Route Calculation\"), how many test cases are needed to achieve 1-switch coverage?",
+      "explanation": "Tôi quay về chọn 11 vì chỉ đếm đc 11. Mạng nó để 12 kệ nó"
+    },
+    {
+      "id": "exam-11-q019",
+      "number": 19,
+      "options": [
+        {
+          "id": "A",
+          "text": "(i)"
+        },
+        {
+          "id": "B",
+          "text": "(ii)"
+        },
+        {
+          "id": "C",
+          "text": "(iii)"
+        },
+        {
+          "id": "D",
+          "text": "(iv)"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "images": [
+        "assets/questions/exam-11-q019-1.jpeg"
+      ],
+      "question": "Using the \"Tax System\" specification scenario as described above, using boundary value analysis, which would be the most interesting test set to explicitly test one single boundary value as defined in the \"Tax System\" specification?",
+      "explanation": "Cái này vẽ ra."
+    },
+    {
+      "id": "exam-11-q020",
+      "number": 20,
+      "options": [
+        {
+          "id": "A",
+          "text": "defect taxonomies"
+        },
+        {
+          "id": "B",
+          "text": "exploratory testing"
+        },
+        {
+          "id": "C",
+          "text": "equivalence partitioning enhanced with boundary value analysis"
+        },
+        {
+          "id": "D",
+          "text": "state transition testing"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [],
+      "question": "You are testing the processing of a critical traffic control system to which various regulations apply. The processing of the input variables is dependent of defined ranges within which the actual retrieved data values can lie. Which of the following test techniques will you use to the processing functionality of the traffic control system? [K4] 3 credits",
+      "explanation": "Đề bài có đoạn \"the input variables is dependent of defined ranges within which the actual retrieved data values can lie.\" input dựa vào các vùng Ranges được lấy từ dữ liệu thực tế để test, Range đó là ra đáp án C à."
+    },
+    {
+      "id": "exam-11-q021",
+      "number": 21,
+      "options": [
+        {
+          "id": "A",
+          "text": "Grouping defects found in execution by functional areas"
+        },
+        {
+          "id": "B",
+          "text": "Following a defect management process through testing"
+        },
+        {
+          "id": "C",
+          "text": "Running tests with the aim of finding as many defects as possible"
+        },
+        {
+          "id": "D",
+          "text": "Using a list of known defect types to penetrate the security of computer systems"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "images": [],
+      "question": "Which of the following descriptions is an example of the use of defect taxonomies? Number of correct answers: 1 [K2] 1 credit",
+      "explanation": "Refer 4.3.1 Defect Taxonomies/ Category: Câu hỏi là \"the use of defect taxonomies\" giống như mục đích sử dụng chứ ko hỏi định nghĩa như câu A,"
+    },
+    {
+      "id": "exam-11-q022",
+      "number": 22,
+      "options": [
+        {
+          "id": "A",
+          "text": "Coverage calculations can be used to determine the amount of testing required"
+        },
+        {
+          "id": "B",
+          "text": "Different people will have a different experience level regarding usability testing"
+        },
+        {
+          "id": "C",
+          "text": "Models can be used to derive the required test cases"
+        },
+        {
+          "id": "D",
+          "text": "Experience in test execution is more important than experience in test design"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "images": [],
+      "question": "Which of the following statements fits the principles of experience-based testing? [K2] 1 credit",
+      "explanation": "refer chương 4: Categories of Test Techniques . Loại C vì là của black box, A là white box, B người ở đây có kinh nghiệm sử dụng chứ ko phải là kinh nghiệm test. Chọn D"
+    },
+    {
+      "id": "exam-11-q023",
+      "number": 23,
+      "options": [
+        {
+          "id": "A",
+          "text": "pairwise testing"
+        },
+        {
+          "id": "B",
+          "text": "exploratory testing"
+        },
+        {
+          "id": "C",
+          "text": "use case testing"
+        },
+        {
+          "id": "D",
+          "text": "decision table testing"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [],
+      "question": "A new web site must operate correctly with different browsers (Internet Explorer, Google Chrome, Firefox, Netscape, Mozilla), using different plug-ins (Realplayer, Mediaplayer), will be receiving pages from different servers (IIS, Apache and WebLogic) and will be running on various server operation systems (windows 2007, XP, Linux) Which of the following test techniques will you use to test this new web site in its various environments? [K4] 3 credits",
+      "explanation": "refer 4.1.8 Pairwise Testing/ Orthogonal Arrays/ 2-wise - combinations of the values of configuration"
+    },
+    {
+      "id": "exam-11-q024",
+      "number": 24,
+      "options": [
+        {
+          "id": "A",
+          "text": "Equivalence Partitioning"
+        },
+        {
+          "id": "B",
+          "text": "Statement testing"
+        },
+        {
+          "id": "C",
+          "text": "Vulnerability Scan"
+        },
+        {
+          "id": "D",
+          "text": "Defect Taxonomies"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [],
+      "question": "A car navigation system needs to be integrated in the overall car software. Interoperability testing is thus considered to be important. Which of the following techniques is most likely be used to support interoperability tests? [K2] 1 credit",
+      "explanation": "5.1.2 Interoperability (= Interaction test) (Compatibility) - Cover all the intended target environments (including variations in the hardware, software, middleware, operating system, etc.) to ensure the data exchange will work properly - Test types: use cases, pairwise testing, classification trees = Equivalence partition nếu ko yêu cầu combination gì với nhau"
+    },
+    {
+      "id": "exam-11-q025",
+      "number": 25,
+      "options": [
+        {
+          "id": "A",
+          "text": "SUMI"
+        },
+        {
+          "id": "B",
+          "text": "Usability laboratory"
+        },
+        {
+          "id": "C",
+          "text": "Use case testing"
+        },
+        {
+          "id": "D",
+          "text": "Heuristic evaluation"
+        },
+        {
+          "id": "E",
+          "text": "Equivalence partitioning"
+        },
+        {
+          "id": "F",
+          "text": "Pairwise testing"
+        },
+        {
+          "id": "G",
+          "text": "Exploratory testing"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "C",
+        "D"
+      ],
+      "images": [],
+      "question": "A company wants to develop a web site to implement an on-line sales channel. The company has decided to do some usability testing, but resources are limited. The usability testing has therefore to be done as efficient as possible. Which THREE techniques would you recommend? [K4] 3 credits, 2 out of 3 correct 1 credit",
+      "explanation": "refer 5.1.3 Usability Test techniques: Heuristic evaluation (Reactive), review, surveys and questionnaires (such as SUMI (Software Usability Measurement Inventory) and WAMMI (Website Analysis and MeasureMent Inventory). Đã chọn Heuristic evaluation thì ko chọn Exploratory testing vì 2 cái là bằng nhau"
+    },
+    {
+      "id": "exam-11-q026",
+      "number": 26,
+      "options": [
+        {
+          "id": "A",
+          "text": "Percentage of participants who completed each task correctly"
+        },
+        {
+          "id": "B",
+          "text": "Mean extent to which each task was completely and correctly achieved, scored as a percentage"
+        },
+        {
+          "id": "C",
+          "text": "Mean time taken to complete each task (for correctly completed tasks)"
+        },
+        {
+          "id": "D",
+          "text": "SUMI user satisfaction score"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [],
+      "question": "As part of defining an approach the usability, acceptance criteria need to be defined. Which of the following acceptance criteria would be appropriate for operability? [K4] 3 credits",
+      "explanation": "Refer chương 5. \"acceptance criteria\" phải được định nghĩa rõ ràng về usability và tốt nhất phải đo đạc được, ngoài ra ko chọn D nhé vì đang đo cho phần Operational testing là phần vận hành của System administrator của hệ thống. Tốt nhất là đo thời gian trung bình các task họ làm"
+    },
+    {
+      "id": "exam-11-q027",
+      "number": 27,
+      "options": [
+        {
+          "id": "A",
+          "text": "Since the SUMI scores are largely above market average no further action on usability is needed"
+        },
+        {
+          "id": "B",
+          "text": "Since the standard deviation of most SUMI scales is much too large, a new SUMI test must be performed"
+        },
+        {
+          "id": "C",
+          "text": "Since the scores are not really showing a high level of user-satisfaction additional usability testing based on use case is needed"
+        },
+        {
+          "id": "D",
+          "text": "Since the SUMI results do not provide details, an additional focused heuristic evaluation on the lower scales is recommended"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "images": [
+        "assets/questions/exam-11-q027-1.png"
+      ],
+      "question": "A SUMI test was performed at an early stage within the system test. Hereafter you find the results of the SUMI test. Based on these results, what would you recommend as the most appropriate approach for usability testing? [K4] 3 credits",
+      "explanation": "refer 5.1.3 Usability. Các bảng này chưa đủ chi tiết, cần thêm thông tin tập trung vào các khoảng giá trị thấp"
+    },
+    {
+      "id": "exam-11-q028",
+      "number": 28,
+      "options": [
+        {
+          "id": "A",
+          "text": "Usability testing"
+        },
+        {
+          "id": "B",
+          "text": "Interoperability testing"
+        },
+        {
+          "id": "C",
+          "text": "Accuracy testing"
+        },
+        {
+          "id": "D",
+          "text": "Suitability testing"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [],
+      "question": "During the test execution defects are found on non-compliancy to requirements, calculations that produce incorrect results, and improper handling of data or situations. Which of the following test types is most likely being performed? [K2] 1 credit",
+      "explanation": "Refer chương 5. Để ý \"incorrect results\" là ra được C. Correctness = accuracy"
+    },
+    {
+      "id": "exam-11-q029",
+      "number": 29,
+      "options": [
+        {
+          "id": "A",
+          "text": "Description of flow is not detailed enough"
+        },
+        {
+          "id": "B",
+          "text": "Specific characteristics of actor(s) are missing"
+        },
+        {
+          "id": "C",
+          "text": "No usability acceptance criteria"
+        },
+        {
+          "id": "D",
+          "text": "User tasks not defined"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [],
+      "question": "Which of the following comments would be the MOST important one you would make? [K3] 2 credits",
+      "explanation": "Câu này thiếu hình ảnh, tìm mãi mạng mà ko có, bỏ qua đi"
+    },
+    {
+      "id": "exam-11-q030",
+      "number": 30,
+      "options": [
+        {
+          "id": "A",
+          "text": "The requirement is ambiguous in terms of supported cards"
+        },
+        {
+          "id": "B",
+          "text": "The paragraph indicates potential performance problems"
+        },
+        {
+          "id": "C",
+          "text": "The paragraph is unclear in terms of advance limits"
+        },
+        {
+          "id": "D",
+          "text": "The paragraph indicates potential usability problems"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [],
+      "question": "You are a test analyst in the banking domain. You have received the following requirement: \"The system shall allow cash advances of at least 200 Euros for all supported credit cards. The correct list of credit cards is American Express, Diners, VISA, Mastercard and Eurocard. Which one of the findings described below is true regarding this requirement? [K3] 2 credits",
+      "explanation": "Chú ý \"at least 200 Euros\" là không rõ ràng"
+    },
+    {
+      "id": "exam-11-q031",
+      "number": 31,
+      "options": [
+        {
+          "id": "A",
+          "text": "I have no comments, specification looks ok"
+        },
+        {
+          "id": "B",
+          "text": "Boundaries for stock levels are ambiguous"
+        },
+        {
+          "id": "C",
+          "text": "Dependencies power unit and body styles are ambiguous"
+        },
+        {
+          "id": "D",
+          "text": "It is not clear which message will be displayed when"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "images": [],
+      "question": "Supercar is an online vehicle sales website specializing in a single manufacturer's Sports Utility Vehicles (SUVs) and saloons. A vehicle has two key elements, power unit and body style. The manufacturer offers three choices of power unit: petrol, diesel and hybrid. There are 3 main body styles: Saloon, Hatchback and SUV. SUVs only come as petrol and diesel options. Hybrid is available for Hatchback only. The site will allow an order to be processed if at least one of the chosen vehicle configuration is in stock, otherwise a message will be displayed asking the user to try again later. As a tester you are asked to review the \"Supercar\" specification before starting to design the corresponding test cases. Which of the comments below would you make? [K3] 2 credits",
+      "explanation": "Đọc đề bài thấy message chưa được nói rõ"
+    },
+    {
+      "id": "exam-11-q032",
+      "number": 32,
+      "options": [
+        {
+          "id": "A",
+          "text": "Acceptance criteria not defined"
+        },
+        {
+          "id": "B",
+          "text": "Business priority is missing"
+        },
+        {
+          "id": "C",
+          "text": "Post condition not defined"
+        },
+        {
+          "id": "D",
+          "text": "Alternative flows are missing"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "images": [
+        "assets/questions/exam-11-q032-1.jpeg"
+      ],
+      "question": "As a tester you are asked to review the ATM use case provided below. The use case will be used as a basis for functionality testing to be performed later. Which one of the comments, described hereafter, would be the MOST important one you would make? [K3] 2 credits",
+      "explanation": "Refer: 4.1.6 Use case testing: 1 Use case includes: + 1 basic flow (mainstream) + n alternative flow (exception) + some errors"
+    },
+    {
+      "id": "exam-11-q033",
+      "number": 33,
+      "options": [
+        {
+          "id": "A",
+          "text": "Should have been two defect reports"
+        },
+        {
+          "id": "B",
+          "text": "Ambiguous description"
+        },
+        {
+          "id": "C",
+          "text": "Actual cause is missing"
+        },
+        {
+          "id": "D",
+          "text": "Reproducibility is not indicated"
+        },
+        {
+          "id": "E",
+          "text": "Defect type is missing"
+        },
+        {
+          "id": "F",
+          "text": "Date to be fixed not defined"
+        },
+        {
+          "id": "G",
+          "text": "Both severity and priority do not make sense"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "B",
+        "D"
+      ],
+      "images": [
+        "assets/questions/exam-11-q033-1.jpeg"
+      ],
+      "question": "You are starting to review some of the incident reports that have been submitted as a result of test execution. Which THREE of the comments would be your main findings when you have reviewed the following incident report? [K4] 3 credits, 2 out of 3 correct 1 credit",
+      "explanation": "refer chapter 7. Đầu tiên mô tả này là 2 lỗi riêng biệt \"strange tab\" và \"wrong error message\" Description không rõ ràng, khả năng Reprocedure không chỉ ra. Do lỗi mới log ở giai đoạn Reconization nên các thông tin khác của lỗi là chưa bắt buộc và cần thiết nên ta loại Actual cause, Defect type,"
+    },
+    {
+      "id": "exam-11-q034",
+      "number": 34,
+      "options": [
+        {
+          "id": "A",
+          "text": "By eliminating defects as early as possible to minimize defect propagation"
+        },
+        {
+          "id": "B",
+          "text": "By ensuring that the deliverables from any life cycle phase are tested only in that phase"
+        },
+        {
+          "id": "C",
+          "text": "By using specific test techniques at each level and only at that level"
+        },
+        {
+          "id": "D",
+          "text": "By concentrating the testing effort on the phases where failures occur"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [
+        "assets/questions/exam-11-q034-1.jpeg"
+      ],
+      "question": "How does phase containment contribute to reducing the cost of development? [K2] 1 credit",
+      "explanation": "Refer 7.2.1. Phase containment means the defect was introduced and found in the same phase and didn’t “escape” to a later phase. Triệt tiêu lỗi càng sớm càng tốt ngay trong phase nó phát sinh lỗi"
+    },
+    {
+      "id": "exam-11-q035",
+      "number": 35,
+      "options": [
+        {
+          "id": "A",
+          "text": "Expected results"
+        },
+        {
+          "id": "B",
+          "text": "Steps to reproduce the defect"
+        },
+        {
+          "id": "C",
+          "text": "Test data used to identify the fault"
+        },
+        {
+          "id": "D",
+          "text": "Level of load on the system at the time of failure"
+        },
+        {
+          "id": "E",
+          "text": "Actual results"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "D"
+      ],
+      "images": [
+        "assets/questions/exam-11-q035-1.jpeg"
+      ],
+      "question": "Which TWO of the following items may more frequently need to be explained in greater detail for non- functional defect reports than for a functional defect report? [K2] 1 credit",
+      "explanation": "Refer 7.2.2 Defect Report Fields. • Non-functional defect reports: require more details regarding the environment, other performance parameters (e.g., size of the load), sequence of steps and expected results nên chọn A,D nếu được chọn hơn sẽ chọn thêm B"
+    },
+    {
+      "id": "exam-11-q036",
+      "number": 36,
+      "options": [
+        {
+          "id": "A",
+          "text": "Lack of structured testing"
+        },
+        {
+          "id": "B",
+          "text": "Inadequate classification information"
+        },
+        {
+          "id": "C",
+          "text": "Insufficient isolation"
+        },
+        {
+          "id": "D",
+          "text": "Poorly documented steps to reproduce"
+        }
+      ],
+      "correctAnswers": [
+        "B",
+        "C"
+      ],
+      "images": [],
+      "question": "Your test team is currently executing interoperability testing. Consider the following excerpt from the failure description of an interoperability defect report: 1. Connect external camera to a Windows Vista PC. 2. Start the camera application on the PC. Application starts normally and recognizes connected camera. 3. Attempt to download the recorded data from the camera. 4. Data does not download. 5. Attempt to download the data three times. Data will not down--load. Based on this information alone, which of the problems described hereafter exists in this defect report? [K4] 3 credits",
+      "explanation": "Refer chapter 7. Ở đây tra trên mạng thì họ chọn là B, nhưng cũng câu này trong chương 7 gần tương tự thì đáp án sách Vol 1 là C. Mình thiên về C hơn vì nó thiếu thông tin để cô lập lỗi cụ thể là chưa nói về connect qua cổng nào giữa camera và PC. Mình vẫn chọn 2 cho an toàn"
+    },
+    {
+      "id": "exam-11-q037",
+      "number": 37,
+      "options": [
+        {
+          "id": "A",
+          "text": "Needs to be neutralized"
+        },
+        {
+          "id": "B",
+          "text": "Steps to reproduce are unclear"
+        },
+        {
+          "id": "C",
+          "text": "No attempt to isolate the defect"
+        },
+        {
+          "id": "D",
+          "text": "More than one defect in one report"
+        },
+        {
+          "id": "E",
+          "text": "Possible duplicate"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "B"
+      ],
+      "images": [],
+      "question": "Consider the following description in a defect report \"Nasty bug trashed contents of new file that I created by formatting some text in symbol font, wasting my time.\" Which TWO of the following comments would you immediately make based on the defect description above? [K4] 3 credits, 1 out of 2 correct 1 credit",
+      "explanation": "Refer chương 7. \"Nasty bug\" \"wasting my time\" là câu cửa miệng khi bực mình Lỗi rác rưởi, nên cần có A, và các bước mô tả không rõ ràng nên cần B"
+    },
+    {
+      "id": "exam-11-q038",
+      "number": 38,
+      "options": [
+        {
+          "id": "A",
+          "text": "Record the results in email and send the email to the test manager."
+        },
+        {
+          "id": "B",
+          "text": "Use external testers on the team to provide a new approach and fresh view to the testing effort."
+        },
+        {
+          "id": "C",
+          "text": "Create test charters for planned test session."
+        },
+        {
+          "id": "D",
+          "text": "Use debriefing sessions with stakeholders and other testers to discuss the findings and new risks identified"
+        },
+        {
+          "id": "E",
+          "text": "Define concrete test cases to be executed by the developers."
+        }
+      ],
+      "correctAnswers": [
+        "C",
+        "D"
+      ],
+      "images": [
+        "assets/questions/exam-11-q038-1.jpeg"
+      ],
+      "question": "We now make the assumption that in the scenario described as above, exploratory testing was selected as being the main test technique. You have now been given the task of specifying, executing and recording the exploratory test sessions. Select TWO of the options below to define what you will typically use for specifying, executing and recording the sessions? [K3] 2 credits",
+      "explanation": "refer 4.3.4 Exploratory Testing: use session-based: write a test charter contain some guidelines for test within a defined time-box, ta dựa vào keyword test session, test charter, time-box để chọn"
+    },
+    {
+      "id": "exam-11-q039",
+      "number": 39,
+      "options": [
+        {
+          "id": "A",
+          "text": "Equivalence partitioning and boundary value analysis using the storyboard ideas as a basis to maximize functional coverage."
+        },
+        {
+          "id": "B",
+          "text": "Decision testing to ensure that there is no redundant code"
+        },
+        {
+          "id": "C",
+          "text": "Exploratory testing to maximize the value of the team' experience"
+        },
+        {
+          "id": "D",
+          "text": "State transition testing to test the web site's availability statuses"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [
+        "assets/questions/exam-11-q039-1.jpeg"
+      ],
+      "question": "Which of the of the following represents the best choice of testing techniques in this scenario? [K4] 3 credits",
+      "explanation": "Test team đã có kinh nghiệm test Web, dự án theo Agile, rất ít tài liệu nên kỹ thuật phù hợp nhất là Exploratory testing"
+    },
+    {
+      "id": "exam-11-q040",
+      "number": 40,
+      "options": [
+        {
+          "id": "A",
+          "text": "Write the code to automate the key processes"
+        },
+        {
+          "id": "B",
+          "text": "Work with the users to define the key usability aspects of the software"
+        },
+        {
+          "id": "C",
+          "text": "Identify the key business processes that must be tested"
+        },
+        {
+          "id": "D",
+          "text": "Write manual tests for the key business processes that can then be automated"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [],
+      "question": "In an organization using keyword-driven automation, which of the following activities typically is the responsibility of the test analyst? [K2] 1 credit",
+      "explanation": "Refer syllabus của TA, 6.3.3 Automated Test Execution Tools. Nói chung TA không thể viết code được nên chỉ có thể đưa ra các yêu cầu về nghiệp vụ cần phải được test tự động, TTA sẽ là người viết code và thư viện."
+    },
+    {
+      "id": "exam-11-q041",
+      "number": 41,
+      "options": [
+        {
+          "id": "A",
+          "text": "It validates models of the software"
+        },
+        {
+          "id": "B",
+          "text": "It enables tests to be executed automatically"
+        },
+        {
+          "id": "C",
+          "text": "It enables individual tests to be traced to requirements"
+        },
+        {
+          "id": "D",
+          "text": "It generates test inputs or executable tests from requirements"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "images": [],
+      "question": "To enhance both the effectiveness and efficiency of the test design phase the purchase of a test design tool is being considered. Which one of the statements here after best characterizes a test design tool? [K2] 1 credit",
+      "explanation": "refer 9.1. Test design là công cụ hỗ trợ sinh ra test inputs, test case. Loại C vì là của requirement management tool, B là của automation tool. A ko rõ"
+    },
+    {
+      "id": "exam-11-q042",
+      "number": 42,
+      "options": [
+        {
+          "id": "A",
+          "text": "(ii), (iii), (iv)"
+        },
+        {
+          "id": "B",
+          "text": "(i), (iii), (v)"
+        },
+        {
+          "id": "C",
+          "text": "(i), (ii), (vi)"
+        },
+        {
+          "id": "D",
+          "text": "(iv), (v), (vi)"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [],
+      "question": "Which of the following criteria on test progress would enable the business to determine a likely `go live' date? (i) Number of tests planned versus number of tests executed (ii) Number of high priority defects outstanding (iii) The test team's timesheets in order to show how much effort has been devoted to testing (iv) Number of tests passed and number failed (v) Number of defects found in each development area (vi) The rate at which defects are being found [K2] 1 credit",
+      "explanation": "Refer 2.1. Tiêu chí xác định ngày Go live là Exit criteria dựa vào 5 tiêu chí: coverage, defect, cost, time, residual risk chọn i, ii, vi. iii là timesheets loại, iv ko ra được coverage, v về mật độ lỗi dùng cho giai đoạn chạy xác định chỗ nào cần test nhiều hơn"
+    },
+    {
+      "id": "exam-11-q043",
+      "number": 43,
+      "options": [
+        {
+          "id": "A",
+          "text": "Detailed concrete test cases since many re-runs of the tests are expected"
+        },
+        {
+          "id": "B",
+          "text": "Logical test cases supported by concrete test cases to allow for traceability and enable future changes"
+        },
+        {
+          "id": "C",
+          "text": "Concrete test cases only since the end-users have extensive domain knowledge"
+        },
+        {
+          "id": "D",
+          "text": "Logical test cases only since the end-user have extensive domain knowledge and many changes are expect reducing testware maintenance efforted thus"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "images": [],
+      "question": "As a test analyst you are involved in the early stages of an acceptance test for a Product Data Management system. You are asked to write test designs and test cases based on use cases. An early version of the system is also already available. It is a known fact that on the implementation level many things will change (including the user-interface). The tests will be carried by end-users with much domain knowledge who have also been involved in the project defining the user requirements and reviewing documentation. What is the BEST option regarding the level of detail and documentation required for test cases in the project? [K4] 3 credits",
+      "explanation": "Vì \"end-users with much domain knowledge \" là người định nghĩa ra requirement rồi nên ko cần test case chi tiết, và vì \"many things will change \" nên ko thể viết tài liệu chi tiết đc, rất tốn effort"
+    },
+    {
+      "id": "exam-11-q044",
+      "number": 44,
+      "options": [
+        {
+          "id": "A",
+          "text": "Defects found versus defects expected"
+        },
+        {
+          "id": "B",
+          "text": "Test resources spent versus budget"
+        },
+        {
+          "id": "C",
+          "text": "Compliance to entry criteria"
+        },
+        {
+          "id": "D",
+          "text": "Product risks outstanding and new risks introduced"
+        },
+        {
+          "id": "E",
+          "text": "Tests run and tests passed"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "D",
+        "E"
+      ],
+      "images": [],
+      "question": "As a test analyst you are gathering data to support accurate metrics. Which of the THREE metrics would be MOST appropriate to use to monitor product quality? [K2] 1 credit",
+      "explanation": ""
+    },
+    {
+      "id": "exam-11-q045",
+      "number": 45,
+      "options": [
+        {
+          "id": "A",
+          "text": "The test analyst should be able to use the reporting tools"
+        },
+        {
+          "id": "B",
+          "text": "The test analyst is responsible for supplying accurate information"
+        },
+        {
+          "id": "C",
+          "text": "The test analyst will contribute to the final report at the end of the testing"
+        },
+        {
+          "id": "D",
+          "text": "The test analyst should write final test reports objectively"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "images": [],
+      "question": "Which of the following tasks and responsibilities do NOT belong to that of a test analyst in the context of evaluating exit criteria and reporting? [K2] 1 credit",
+      "explanation": "Chapter 10 đã có bảng task của test leader và tester. Chọn D vì đây là task của test leader không phải của Test analyst"
+    },
+    {
+      "id": "exam-11-q046",
+      "number": 46,
+      "options": [
+        {
+          "id": "A",
+          "text": "They should be able to review the test conditions and provide feedback to the test analyst"
+        },
+        {
+          "id": "B",
+          "text": "They should be able to use them as a basis for designing test cases"
+        },
+        {
+          "id": "C",
+          "text": "They should be able to use them to establish traceability to requirements"
+        },
+        {
+          "id": "D",
+          "text": "Test documentation should always be understandable by all stakeholders"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [],
+      "question": "What is the MOST important reason why test conditions should be understandable by stakeholders? [K2] 1 credit",
+      "explanation": "refer 2.3. stakeholders hiểu là các bên liên quan đến đội test như PM, BA, Developer, Customer, supporter...., nếu họ hiểu được họ sẽ review và có phản hồi cho test"
+    },
+    {
+      "id": "exam-11-q047",
+      "number": 47,
+      "options": [
+        {
+          "id": "A",
+          "text": "Review the test estimates of the test manager"
+        },
+        {
+          "id": "B",
+          "text": "Review the test plan for non-functional testing"
+        },
+        {
+          "id": "C",
+          "text": "Organize adequate test resources"
+        },
+        {
+          "id": "D",
+          "text": "Being involved in risk management sessions"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [],
+      "question": "Working together with the test manager during test planning, which of the following activities is NOT expected to be performed by the test analyst? [K2] 1 credit",
+      "explanation": "refer chapter 10 có bổ sung bảng task của test manager và test analyst. Mấy công việc của organization này là của Test manager"
+    },
+    {
+      "id": "exam-11-q048",
+      "number": 48,
+      "options": [
+        {
+          "id": "A",
+          "text": "In a sequential V-model project the test analyst should start test analysis and design concurrently with coding"
+        },
+        {
+          "id": "B",
+          "text": "In Agile projects the test analyst should start test analysis and design concurrently with coding"
+        },
+        {
+          "id": "C",
+          "text": "In a sequential model project the test analyst should start test analysis and design concurrently with software design"
+        },
+        {
+          "id": "D",
+          "text": "In an embedded iterative model the test analyst should expect to be involved in the standard planning and design aspects"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [],
+      "question": "Which of the following statements is TRUE with respect to when the test analyst should become involved during different lifecycle models? [K2] 1 credit",
+      "explanation": "refer 1.1 Development models. nói chung TA vào dự án càng sớm càng tốt. AB sai vì vào lúc \"concurrently with coding\", C sai vì concurrently with software design, chỉ có D là sớm nhất"
+    },
+    {
+      "id": "exam-11-q049",
+      "number": 49,
+      "options": [
+        {
+          "id": "A",
+          "text": "Security testing"
+        },
+        {
+          "id": "B",
+          "text": "Reliability testing"
+        },
+        {
+          "id": "C",
+          "text": "Accessibility testing"
+        },
+        {
+          "id": "D",
+          "text": "Performance testing"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [],
+      "question": "Which of the following is a type of testing that someone in the role of a test analyst, should typicall consider and plan for?",
+      "explanation": "refer chapter 5 bảng ISO 25010, accessibility là thuộc tính con của Usability"
+    },
+    {
+      "id": "exam-11-q050",
+      "number": 50,
+      "options": [
+        {
+          "id": "A",
+          "text": "A list of all deferred defects"
+        },
+        {
+          "id": "B",
+          "text": "A list of all rejected defect reports"
+        },
+        {
+          "id": "C",
+          "text": "A list of all defects found in production and fixed in this release"
+        },
+        {
+          "id": "D",
+          "text": "A list of all resolved defects"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [],
+      "question": "Which of the following is a typical work product that the Test Analyst would deliver as part of the test closure activities? [K2] 1 credit",
+      "explanation": "Refer 2.8 Test Closure Activities, Mục Test completion - All planned tests should be either run or skipped ? All known defects should be either fixed, deferred e, or accepted?"
+    },
+    {
+      "id": "exam-11-q051",
+      "number": 51,
+      "options": [
+        {
+          "id": "A",
+          "text": "The arrival of a more reliable competing product on the market"
+        },
+        {
+          "id": "B",
+          "text": "Delivery of an incomplete test release to the first cycle of system test"
+        },
+        {
+          "id": "C",
+          "text": "An excessively high number of defect fixes fail during re-testing"
+        },
+        {
+          "id": "D",
+          "text": "Failure to accept allowed credit cards"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "images": [],
+      "question": "You are working as a tester on a project to develop a point-of-sales system for grocery stores. Which of the following is a product risk that could be identified for such a system? [K3] 2 credits",
+      "explanation": "refer 3.2 Risk categories. ABC đều là project risk, D là product risk"
+    },
+    {
+      "id": "exam-11-q052",
+      "number": 52,
+      "options": [
+        {
+          "id": "A",
+          "text": "Initiate reviews of test design"
+        },
+        {
+          "id": "B",
+          "text": "Use professional and skilled testers with appropriate technical knowledge"
+        },
+        {
+          "id": "C",
+          "text": "Run tests in multiple operational environments"
+        },
+        {
+          "id": "D",
+          "text": "Allocate more time to high risk areas"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [],
+      "question": "Which of the following is the LEAST appropriate action to mitigate product risks for a web application? [K3] 2 credits",
+      "explanation": "refer chương 10 bảng task của TM và TA, \"LEAST appropriate action\" hành động ít phù hợp để giảm risk là \"Initial\" là task của TM làm ban đầu, làm 1 ít để hướng dẫn người khác làm theo nên ít giá trị giảm product risk"
+    },
+    {
+      "id": "exam-11-q053",
+      "number": 53,
+      "options": [
+        {
+          "id": "A",
+          "text": "Accurate recording of defect information in the defect tracking system"
+        },
+        {
+          "id": "B",
+          "text": "Accepting frequent builds from the developers to keep all testers working on the same version at the same time"
+        },
+        {
+          "id": "C",
+          "text": "Skype meetings for personal interaction"
+        },
+        {
+          "id": "D",
+          "text": "Weekly, mandatory meeting with all personnel present"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [],
+      "question": "According to the ISTQB Advanced syllabus, which of the following would be the MOST effective method of communication between test team members who are distributed across several time zones? [K2] 1 credit",
+      "explanation": "refer 3.5 Distributed, Outsourced, and Insourced Testing. Test Analyst solutions: • Pay special attention to effective communication and information transfer • Defects that are accurately recorded can be routed to co-workers for follow-up as needed"
+    },
+    {
+      "id": "exam-11-q054",
+      "number": 54,
+      "options": [
+        {
+          "id": "A",
+          "text": "orthogonal arrays 5 columns and 18 rows"
+        },
+        {
+          "id": "B",
+          "text": "orthogonal arrays 8 columns and 18 rows"
+        },
+        {
+          "id": "C",
+          "text": "orthogonal arrays 3 columns and 16 rows"
+        },
+        {
+          "id": "D",
+          "text": "orthogonal arrays 3 columns and 12 rows"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [
+        "assets/questions/exam-11-q054-1.jpeg"
+      ],
+      "question": "A company offering house insurance policies has several policy options. They depend on the following factors: - Building type: house, semi-detached, apartment building, cottage Material: wood, concrete, brick, mixed Location: city, suburb, countryside, wilderness It has been decided to use the pair wise test technique and apply 2-wise coverage. To design the test case an appropriate orthogonal array needs to be located. Like this image Which of the following orthogonal arrays is to be selected for testing the house insurance policies? [K3] 3 credits",
+      "explanation": "refer 4.1.8 Pairwise Testing/ Orthogonal Arrays/ 2-wise, cặp 4x4 là lớn nhất quyết định số row của bảng là 16, Đề bài cho 3 factors hay còn gọi là 3 cái inputs nên có 3 cột."
+    },
+    {
+      "id": "exam-11-q055",
+      "number": 55,
+      "options": [
+        {
+          "id": "A",
+          "text": "2"
+        },
+        {
+          "id": "B",
+          "text": "3"
+        },
+        {
+          "id": "C",
+          "text": "4"
+        },
+        {
+          "id": "D",
+          "text": "6"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [
+        "assets/questions/exam-11-q055-1.jpeg"
+      ],
+      "question": "Based on the classification tree show below, how many test cases are required using the classification tree method? [K3] 2 credits",
+      "explanation": "refer: 4.1.7 Classification Tree Method • Similar to equivalence partitioning: a leaf in a classification tree is similar to a class in an equivalence partitioning. Nếu không nói gì thì nó giống với EP, input nào nhiều giá trị nhất sẽ quyết định số test case tối thiểu"
+    },
+    {
+      "id": "exam-11-q056",
+      "number": 56,
+      "options": [
+        {
+          "id": "A",
+          "text": "i, ii, iv, v, iii"
+        },
+        {
+          "id": "B",
+          "text": "iv, ii, v, iii, i"
+        },
+        {
+          "id": "C",
+          "text": "iv, i, iii, v, ii"
+        },
+        {
+          "id": "D",
+          "text": "iv, i, v, ii, iii"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "images": [],
+      "question": "You are applying pairwise testing and using orthogonal arrays. The following steps are all part of the process to be followed. i) Determine the number of choices for each variable ii) Map the test problem onto the orthogonal array iii) Construct the test cases iv) Identify the variables v) Locate an appropriate orthogonal array What is the correct order of the above mentioned process steps? [K3] 2 credits",
+      "explanation": "Refer 4.1.8 Pairwise Testing/ Orthogonal Arrays/ 2-wise các bước để lập bảng ma trận"
+    },
+    {
+      "id": "exam-11-q057",
+      "number": 57,
+      "options": [
+        {
+          "id": "A",
+          "text": "1"
+        },
+        {
+          "id": "B",
+          "text": "4"
+        },
+        {
+          "id": "C",
+          "text": "5"
+        },
+        {
+          "id": "D",
+          "text": "7"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "images": [],
+      "question": "While identifying scenario's for the use case \"copy A4 A4\" for a new copier, the following scenario's were identified: Basic scenario: single side to single side Deviations: single side to double side, copy of a set, copy using the automatic document feeder Failures: no paper in paper tray, paper jam, out of staples How many test cases will be needed to achieve minimum coverage? [K3] 2 credits",
+      "explanation": "minimum coverage thì cứ mỗi 1 trường hợp được test bởi 1 test case là đủ"
+    },
+    {
+      "id": "exam-11-q058",
+      "number": 58,
+      "options": [
+        {
+          "id": "A",
+          "text": "10"
+        },
+        {
+          "id": "B",
+          "text": "12"
+        },
+        {
+          "id": "C",
+          "text": "16"
+        },
+        {
+          "id": "D",
+          "text": "20"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [],
+      "question": "While identifying scenario's for the use case \"copy A4 A4\" for a new copier, the following scenario's were identified: Basic scenario: single side to single side Deviations: single side to double side, copy of a set, copy using the automatic document feeder Failures: no paper in paper tray, paper jam, out of staples During interviews with both development and end-users it has been established that the failure scenario's can occur during the basic scenario and during each of the deviations. How many test cases will be needed to achieve full coverage both for valid and invalid situations? [K3] 2 credits",
+      "explanation": "full coverage both for valid and invalid thì ta phải tính thế này: valid là 1 case cho basic + 3 case cho Deviations, Invalid là 3 cái error nhân với (1 case cho basic + 3 case cho Deviations) là trường hợp đang sử dụng máy copier thì gặp lỗi gọi là case invalid."
+    },
+    {
+      "id": "exam-11-q059",
+      "number": 59,
+      "options": [
+        {
+          "id": "A",
+          "text": "Issues regarding time-behavior"
+        },
+        {
+          "id": "B",
+          "text": "Issues regarding interoperability"
+        },
+        {
+          "id": "C",
+          "text": "More test cases needed to achieve full coverage"
+        },
+        {
+          "id": "D",
+          "text": "Expected results not clearly defined"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [],
+      "question": "You are testing an ATM based on the following use case; ATM start screen is showing 1. The user inserts card 2. The user types in PIN 3. The user selects `cash with receipt' 4. The user selects 50 5. The user selects `no further service' Expected results - The ATM provides 50 to the user - The ATM return the card and balance slip - The ATM clears the screen - The ATM returns to start menu In your test log which of the following could be noted as part of additional attention points? [K3] 2 credits",
+      "explanation": "additional attention points cái này chỉ cần kéo lên xem bảng của câu số 32 ra đáp án A"
+    },
+    {
+      "id": "exam-11-q060",
+      "number": 60,
+      "options": [
+        {
+          "id": "A",
+          "text": "Power Unit: Hybrid, Body Style: Saloon"
+        },
+        {
+          "id": "B",
+          "text": "Power Unit: Diesel, Body Style: Hatchback"
+        },
+        {
+          "id": "C",
+          "text": "Power Unit: Petrol, Body Style: Saloon"
+        },
+        {
+          "id": "D",
+          "text": "Power Unit: Hybrid, Body Style: Hatchback"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "images": [],
+      "question": "Supercar Supercar is an online vehicle sales website specializing in single manufacturer's Sports Utility Vehicles (SUVs) and saloons. A vehicle has two key elements, power unit and body style. The manufacturer offers three choices of power unit: petrol, diesel and hybrid. There are 3 main body styles: Saloon, Hatchback and SUV. SUVs only come as petrol and diesel options. Hybrid is available for Hatchback only. The site will allow an order to be processed if the chosen vehicle configurations are in stock, otherwise a message will be displayed asking the user to try again later. Which test case is needed to complete the set? [K3] 2 credits",
+      "explanation": "Câu này hiểu \"complete the set\" như là cần 1 case valid để kiểm tra các TH cơ bản Valid cho đủ với đề bài"
+    }
+  ]
+}

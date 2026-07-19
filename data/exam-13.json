@@ -1,0 +1,940 @@
+{
+  "id": "exam-13",
+  "title": "EXAM 13 AL2020-de-update-2020-48282",
+  "questions": [
+    {
+      "id": "exam-13-q001",
+      "number": 1,
+      "options": [
+        {
+          "id": "A",
+          "text": "Purchase a variety of items using valid and invalid credit and debit cards"
+        },
+        {
+          "id": "B",
+          "text": "Log in and buy some items."
+        },
+        {
+          "id": "C",
+          "text": "Log in, search, buy items, remove some from the shopping cart, buy more"
+        },
+        {
+          "id": "D",
+          "text": "Test the e-commerce application by emulating a user"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [],
+      "question": "You want to test a new e-commerce application using exploratory testing. Which of the following would be a good charter to use to guide the testing of a particular element of the software?",
+      "explanation": "sử dụng exploratory testing thì phải dùng kinh nghiệm và kết hợp của nhiều thứ với nhau mới tìm ra lỗi khác được, ví dụ nhiều action, nhiều điều kiện, nhiều data khác nhau"
+    },
+    {
+      "id": "exam-13-q002",
+      "number": 2,
+      "options": [
+        {
+          "id": "A",
+          "text": "1500"
+        },
+        {
+          "id": "B",
+          "text": "3501"
+        },
+        {
+          "id": "C",
+          "text": "4499"
+        },
+        {
+          "id": "D",
+          "text": "28001"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [],
+      "question": "For a tax system the earnings 1.000 are tax free, the add more 2.500 are charged at 10%, the add more 25.000 at 20% and the remainder above 40%. All values are rounded to 1. What test case could result from a boundary value analysis?",
+      "explanation": ""
+    },
+    {
+      "id": "exam-13-q003",
+      "number": 3,
+      "options": [
+        {
+          "id": "A",
+          "text": "40% of minimum coverage"
+        },
+        {
+          "id": "B",
+          "text": "50% of minimum coverage"
+        },
+        {
+          "id": "C",
+          "text": "80% of minimum coverage"
+        },
+        {
+          "id": "D",
+          "text": "100% of minimum coverage"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [],
+      "question": "You have A use case: 1. Returning user logs into the application. 1A. User is new and decides to create an account 1B. User creates account and is returned to login 2. User selects calendar duration (6, 12 or 18 months) 3. User selects standard day captions 3A. User chooses custom day captions 3B. User is taken to other application to define captions 3C. After captions defined, user is returned 4 User selects standard pictures 4A. User chooses custom pictures 4B. User is taken to other application to upload pictures 4C. After pictures are uploaded, user is returned 5. User enters shipping information 6. User purchases calendar 6A. User cancels purchase 7. User exits You have tested the following:1, 2, 3, 4a, 4b, 4c, 5, 6, 7 1, 2, 3a, 3b, 3c, 4, 5, 6, 7 What level of coverage?",
+      "explanation": "1 case cho luồng basic flow, 4 case mỗi case cho 1 TH exception. Tổng cần 5 case để đi hết 100%, Đề bài mới cho 2 case nên ta có 2/5=40%"
+    },
+    {
+      "id": "exam-13-q004",
+      "number": 4,
+      "options": [
+        {
+          "id": "A",
+          "text": "Define Operational Profiles"
+        },
+        {
+          "id": "B",
+          "text": "State Transition Testing"
+        },
+        {
+          "id": "C",
+          "text": "Usability testing"
+        },
+        {
+          "id": "D",
+          "text": "Perform design FMEAs"
+        },
+        {
+          "id": "E",
+          "text": "Exploratory test"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "D"
+      ],
+      "images": [],
+      "question": "To address reliability, a number of measurement will be taken throughout the development and testing process. Select TWO appropriate measures that are typically taken as part of reliability engineering and/or testing of an application",
+      "explanation": "Cái này tra thêm sách Vol 1 Chapter 5 có nói về việc dựa vào Define Operational Profiles lịch sử vận hành của các hệ thống để đưa ra yêu cầu cho test reliability"
+    },
+    {
+      "id": "exam-13-q005",
+      "number": 5,
+      "options": [
+        {
+          "id": "A",
+          "text": "2"
+        },
+        {
+          "id": "B",
+          "text": "4"
+        },
+        {
+          "id": "C",
+          "text": "5"
+        },
+        {
+          "id": "D",
+          "text": "7"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [],
+      "question": "You have received the following use case steps: 1. Returning user logs into the application. 1A. User is new and decides to create an account 1B. User creates accountand is returned to login 2. User selects calendar duration (6, 12 or 18 months) 3. User selects standard day captions 3A. User chooses custom day captions 3B. User is taken to other application to define captions 3C. After captions defined, user is returned 4. User selects standard pictures 4A. User chooses custom pictures 4B. User is taken to other application to upload pictures 4C. After pictures are uploaded, user is returned 5. User enters shipping information 6. User purchases calendar 6A.User cancels purchase 7. User exits What is the minimum number of test cases needed to test this use case?",
+      "explanation": "1 case cho luồng basic flow, 4 case mỗi case cho 1 TH exception. Tổng cần 5 case để đi hết 100%"
+    },
+    {
+      "id": "exam-13-q006",
+      "number": 6,
+      "options": [
+        {
+          "id": "A",
+          "text": "Boundary value analysis and domain analysis."
+        },
+        {
+          "id": "B",
+          "text": "State transition diagrams and decision tables."
+        },
+        {
+          "id": "C",
+          "text": "Cause-effect diagrams and boundary value analysis"
+        },
+        {
+          "id": "D",
+          "text": "Error guessing and checklist-based testing"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [],
+      "question": "You are testing an e-commerce application and are concentrating on testing the handling of debit and credit cards. Of particular interest is the handling of purchases that exceed or meet the credit card or debit card limit. There have been a number of defects documented regarding purchases that exceeded the limit on the card. Which of the following is the best set of techniques to use for this situation?",
+      "explanation": "dựa vào \"exceeded the limit on the card.\" thì đã ra kỹ thuật BVA ( hoặc domain test cũng là gợi ý test giới hạn IN, ON, OUT, OFF)"
+    },
+    {
+      "id": "exam-13-q007",
+      "number": 7,
+      "options": [
+        {
+          "id": "A",
+          "text": "Boundary value analysis"
+        },
+        {
+          "id": "B",
+          "text": "Equivalence Partitioning"
+        },
+        {
+          "id": "C",
+          "text": "Classification Tree Method"
+        },
+        {
+          "id": "D",
+          "text": "State Transition Testing"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [],
+      "question": "Analyzing the requirement, \"The system shall allow cash advances of at least 200 Euros for all supported credit cards. The correct list of credit cards is American Express, Diners, VISA, Mastercard and Eurocard.\" There are arguments to be made for several test design techniques. Which of the following test design techniques is MOST likely to be used for identifying test cases for the requirement?",
+      "explanation": "Requirement này là test 5 card và ít nhất 200 Euros thì chỉ có EP là phù hợp"
+    },
+    {
+      "id": "exam-13-q008",
+      "number": 8,
+      "options": [
+        {
+          "id": "A",
+          "text": "Defect base testing"
+        },
+        {
+          "id": "B",
+          "text": "Exploratory testing and defect-based testing"
+        },
+        {
+          "id": "C",
+          "text": "Exploratory testing"
+        },
+        {
+          "id": "D",
+          "text": "State Transition Testing"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [
+        "assets/questions/exam-13-q008-1.jpeg"
+      ],
+      "question": "Which of the following proposals best supports the given scenario?",
+      "explanation": "chapter 5. Test security chỉ có dựa vào past defect là hợp lý, ngoài ra team này làm theo Agile nên cần có thêm exploratory testing"
+    },
+    {
+      "id": "exam-13-q009",
+      "number": 9,
+      "options": [
+        {
+          "id": "A",
+          "text": "I-2; II-3; III-4; IV-1"
+        },
+        {
+          "id": "B",
+          "text": "I-3; II-2; III-1; IV-4"
+        },
+        {
+          "id": "C",
+          "text": "I-1; II-2; III-3; IV-4"
+        },
+        {
+          "id": "D",
+          "text": "I-2; II-3; III-1; IV-4"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "images": [],
+      "question": "I. Consultative test strategy II. Reactive test strategy III. Analytical test strategy IV. Process-compliant test strategy Consider also the following examples of test activities: 1. Prioritize the test cases, based on the results of a FMEA analysis, to ensure early coverage of the most important areas and discovery of the most important defects during test execution 2. Execute usability testing driven by the guidance of a sample of users (external to the test team) 3. Perform exploratory testing sessions throughout the system test phase 4. On an Agile project, execute tests that cover the test conditions identified for each user story of a feature planned for an iteration Which of the following correctly matches each test strategy with an appropriate example?",
+      "explanation": "refer 2.2.1 Test plan, 7 cái chiến lược test. 1. có FMEA là risk based nên đi với III, 2. có guidance of users nên đi với I, 3 có exploratory testing nên đi với II, 4 có Agile đi với IV"
+    },
+    {
+      "id": "exam-13-q010",
+      "number": 10,
+      "options": [
+        {
+          "id": "A",
+          "text": "2"
+        },
+        {
+          "id": "B",
+          "text": "4"
+        },
+        {
+          "id": "C",
+          "text": "5"
+        },
+        {
+          "id": "D",
+          "text": "8"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [],
+      "question": "A new banking system has 2 customers' types, 2 account types and will operate in two different countries? How many test cases will be needed using the pair wise testing technique and the appropriate 2-wise orthogonal array?",
+      "explanation": "2x2 là cặp lớn nhất"
+    },
+    {
+      "id": "exam-13-q011",
+      "number": 11,
+      "options": [
+        {
+          "id": "A",
+          "text": "Conformance to coding standards"
+        },
+        {
+          "id": "B",
+          "text": "Conformance to design"
+        },
+        {
+          "id": "C",
+          "text": "Endless loop"
+        },
+        {
+          "id": "D",
+          "text": "Cyclomatic complexity too high"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [],
+      "question": "An organisation has already implemented a static analysis tool and is considering whether code reviews would have any added value. Which of the following defect types can only be found by means of code reviews?",
+      "explanation": "Câu này dễ nhầm nè: code reviews là hoạt động này tôi sẽ chọn Conformance to design vì review chủ yếu dựa vào tài liệu. Có một câu khác đổi câu hỏi là static analysis tool thì mới chọn Conformance to coding standards ( phải tool mới làm đc điều này, manual không thể)"
+    },
+    {
+      "id": "exam-13-q012",
+      "number": 12,
+      "options": [
+        {
+          "id": "A",
+          "text": "Are any magic numbers ( numberic literals) used, other than 0 and 1?"
+        },
+        {
+          "id": "B",
+          "text": "Can each item be implemented with the techinques, tools and resources available?"
+        },
+        {
+          "id": "C",
+          "text": "Is it possible during the acceptance test to verify whether the item has been satisfied?"
+        },
+        {
+          "id": "D",
+          "text": "Is the item specific in an exact, unambiguous way?"
+        },
+        {
+          "id": "E",
+          "text": "Is there any logic containing no statements and no explanation as to why it is empty?"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "E"
+      ],
+      "images": [],
+      "question": "To support code review, a checklist will be developed. Which TWO question from list would you implement as part of code review checklist?",
+      "explanation": "refer checklist review code trong syllabus của TTA nhé"
+    },
+    {
+      "id": "exam-13-q013",
+      "number": 13,
+      "options": [
+        {
+          "id": "A",
+          "text": "Priority, version of software under test, incident identification"
+        },
+        {
+          "id": "B",
+          "text": "Date to be fixed, priority, incident identification"
+        },
+        {
+          "id": "C",
+          "text": "Developer assigned to the fix, version of software under test, incident identification"
+        },
+        {
+          "id": "D",
+          "text": "Priority, version of software under test, date to be fixed"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [],
+      "question": "A test team is keeping logs of the incidents that thay observe. They use a commonly- available word processor to write the incident reports in individual file. Which are held in shared storage. They track the incidents along with some incident details, in a spreadsheet. You have now also been given the task to identify the key fields for logging the incident reports. So far the following fields have been in use in the Excel sheet: -Incident description -Date -Author -State Which of the following would you recommend as the best combination of fields to add?",
+      "explanation": "refer 7.2.2 Defect Report Fields. vì họ làm excel nền phải thêm cột ID ( nếu log vào tool cột này đã tự động), A được nhiều thông quan trọng nhất"
+    },
+    {
+      "id": "exam-13-q014",
+      "number": 14,
+      "options": [
+        {
+          "id": "A",
+          "text": "Acceptance testing to verify the business process"
+        },
+        {
+          "id": "B",
+          "text": "Acceptance testing to verify operational requirements"
+        },
+        {
+          "id": "C",
+          "text": "Requirements testing as part of testing regulatory compliance"
+        },
+        {
+          "id": "D",
+          "text": "Another system test cycle to verify defect resolution"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "images": [
+        "assets/questions/exam-13-q014-1.jpeg"
+      ],
+      "question": "Give is the following defect removal chart reported at the end of system tessing- showing total defects detected and closed defects (fixed and successully retested..) A number of open defects are classified as critical. All tests have been executed. Based on the chart above, what is the most appropriate next test phase?",
+      "explanation": "Cái báo cáo đó chỉ ra lỗi vẫn còn open, all test case đã chạy hết rồi nhưng chưa có tỉ lệ pass, fail. Cần thêm vòng test nữa chứ ko kết thúc đc bây giờ"
+    },
+    {
+      "id": "exam-13-q015",
+      "number": 15,
+      "options": [
+        {
+          "id": "A",
+          "text": "Show details on effort spent"
+        },
+        {
+          "id": "B",
+          "text": "List of all outstanding defects with their priority and severity"
+        },
+        {
+          "id": "C",
+          "text": "Give product risk status"
+        },
+        {
+          "id": "D",
+          "text": "Show trend analysis"
+        },
+        {
+          "id": "E",
+          "text": "State recommendations for release"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "B"
+      ],
+      "images": [],
+      "question": "Explain how the above mentioned report may differ from a report that you produce for the project manager, who is a test specialist. Select TWO items from the following options that can be used to report to the project manager and would not be included in a report to senior management.",
+      "explanation": "Báo cáo gửi cho project manager thì phải gửi thông tin cụ thể chi tiết của dự án vì ông này theo sát dự án, gửi cho senior management là ông ở mức cao nên bỏ những thông tin quá chi tiết cụ thể đi"
+    },
+    {
+      "id": "exam-13-q016",
+      "number": 16,
+      "options": [
+        {
+          "id": "A",
+          "text": "Priority"
+        },
+        {
+          "id": "B",
+          "text": "Incident identification"
+        },
+        {
+          "id": "C",
+          "text": "Developer assigned to the fix"
+        },
+        {
+          "id": "D",
+          "text": "Date to be fixed"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [
+        "assets/questions/exam-13-q016-1.jpeg"
+      ],
+      "question": "Which of the following would you recommend as the most important field to add?",
+      "explanation": ""
+    },
+    {
+      "id": "exam-13-q017",
+      "number": 17,
+      "options": [
+        {
+          "id": "A",
+          "text": "700"
+        },
+        {
+          "id": "B",
+          "text": "720"
+        },
+        {
+          "id": "C",
+          "text": "784"
+        },
+        {
+          "id": "D",
+          "text": "570"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [
+        "assets/questions/exam-13-q017-1.jpeg"
+      ],
+      "question": "Given the following figures for the testing on a project, and assuming the failure rate for initial tests remains constant and that all retests pass, what number of tests remain to be run?",
+      "explanation": ""
+    },
+    {
+      "id": "exam-13-q018",
+      "number": 18,
+      "options": [
+        {
+          "id": "A",
+          "text": "Should have been two defect reports"
+        },
+        {
+          "id": "B",
+          "text": "Ambiguous description"
+        },
+        {
+          "id": "C",
+          "text": "Both severity and priority do not make sense"
+        },
+        {
+          "id": "D",
+          "text": "Actual cause is missing"
+        },
+        {
+          "id": "E",
+          "text": "Reproducibility is not indicated"
+        },
+        {
+          "id": "F",
+          "text": "Defect type is missing"
+        },
+        {
+          "id": "G",
+          "text": "Date to be fixed not defined"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "B",
+        "E"
+      ],
+      "images": [
+        "assets/questions/exam-13-q018-1.jpeg"
+      ],
+      "question": "Which three major conments would you make having reviewed following incident report?",
+      "explanation": ""
+    },
+    {
+      "id": "exam-13-q019",
+      "number": 19,
+      "options": [
+        {
+          "id": "A",
+          "text": "Functionality"
+        },
+        {
+          "id": "B",
+          "text": "Usability"
+        },
+        {
+          "id": "C",
+          "text": "Efficiency"
+        },
+        {
+          "id": "D",
+          "text": "Portability"
+        },
+        {
+          "id": "E",
+          "text": "Maintainability"
+        }
+      ],
+      "correctAnswers": [
+        "D",
+        "E"
+      ],
+      "images": [
+        "assets/questions/exam-13-q019-1.jpeg"
+      ],
+      "question": "Which TWO types of risks are related to complaint (i) and (ii)?",
+      "explanation": ""
+    },
+    {
+      "id": "exam-13-q021",
+      "number": 21,
+      "options": [
+        {
+          "id": "A",
+          "text": "(ii), (iii), (iv)"
+        },
+        {
+          "id": "B",
+          "text": "(ii), (iv), (v)"
+        },
+        {
+          "id": "C",
+          "text": "(i), (iv), (v)"
+        },
+        {
+          "id": "D",
+          "text": "(i), (ii), (iii)"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [
+        "assets/questions/exam-13-q021-1.jpeg"
+      ],
+      "question": "The development manager asks you to identify suitable test coverage entry criteria for the “Supercar” system test. Which of the following would you recommend as appropriate for entry criteria to a system testing phase? (i) 100% business requirements coverage (ii) 100% statement coverage (iii) 75% decision coverage (iv) Availability of test release notes (v) Design review completed",
+      "explanation": ""
+    },
+    {
+      "id": "exam-13-q023",
+      "number": 23,
+      "options": [
+        {
+          "id": "A",
+          "text": "A test strategy should address identified generic product risks and present a process for mitigating those risks in line with the testing policy."
+        },
+        {
+          "id": "B",
+          "text": "A test strategy identifies the specific product for a project risk and defines the approach for the test project."
+        },
+        {
+          "id": "C",
+          "text": "A test strategy is derived from the test policy and describes the way risk assessments are performed in projects."
+        },
+        {
+          "id": "D",
+          "text": "A test strategy is the result of a project risk analysis and defines the approach and resources for testing."
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [
+        "assets/questions/exam-13-q023-1.png"
+      ],
+      "question": "You have been asked to write a testing strategy for the company. Which statement best explains how risk can be addressed within the testing strategy?",
+      "explanation": "Refer 2.1 test strategy là tài liệu ở mức công ty, quy định những methods chung chung cho tất cả các dự án thực hiện theo, nên các cái quá cụ thể sẽ không đc ghi trong test strategy"
+    },
+    {
+      "id": "exam-13-q024",
+      "number": 24,
+      "options": [
+        {
+          "id": "A",
+          "text": "Easier to quickly adapt testing to changing requirements compared to experienced-based testing"
+        },
+        {
+          "id": "B",
+          "text": "Targets certain types of faults"
+        },
+        {
+          "id": "C",
+          "text": "Will guide experienced testers to find defects"
+        },
+        {
+          "id": "D",
+          "text": "Provides a way to differentiate depth of testing based on product risks by using different techniques"
+        },
+        {
+          "id": "E",
+          "text": "More enhanced documentation and therefore higher repeatability and reproducibility"
+        },
+        {
+          "id": "F",
+          "text": "Will make non-systematic testing redundant"
+        },
+        {
+          "id": "G",
+          "text": "Will reduce the need for early reviews"
+        }
+      ],
+      "correctAnswers": [
+        "B",
+        "D",
+        "E"
+      ],
+      "images": [],
+      "question": "Part of the testing strategy indicates that you are going to be using systematic test design techniques. Your manager has asked that you present the main advantages of using these techniques at the next board meeting. Identify THREE main benefits of using systematic test design techniques within this company.",
+      "explanation": ""
+    },
+    {
+      "id": "exam-13-q025",
+      "number": 25,
+      "options": [
+        {
+          "id": "A",
+          "text": "The entry and exit criteria for each test phase"
+        },
+        {
+          "id": "B",
+          "text": "Test training needs for the project resources"
+        },
+        {
+          "id": "C",
+          "text": "The test design techniques to be used"
+        },
+        {
+          "id": "D",
+          "text": "Test performance indicators"
+        },
+        {
+          "id": "E",
+          "text": "The test schedule"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "C"
+      ],
+      "images": [
+        "assets/questions/exam-13-q025-1.png"
+      ],
+      "question": "In addition to risk, identify TWO other components of a testing strategy.",
+      "explanation": ""
+    },
+    {
+      "id": "exam-13-q026",
+      "number": 26,
+      "options": [
+        {
+          "id": "A",
+          "text": "16"
+        },
+        {
+          "id": "B",
+          "text": "2"
+        },
+        {
+          "id": "C",
+          "text": "1"
+        },
+        {
+          "id": "D",
+          "text": "63"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "images": [
+        "assets/questions/exam-13-q026-1.png"
+      ],
+      "question": "What is the Risk Priority Number for risk item number 2?",
+      "explanation": "Risk level = likelihood x impact"
+    },
+    {
+      "id": "exam-13-q027",
+      "number": 27,
+      "options": [
+        {
+          "id": "A",
+          "text": "Component testing: decision testing; System testing: exploratory testing"
+        },
+        {
+          "id": "B",
+          "text": "Component testing: decision testing; System testing: decision table testing"
+        },
+        {
+          "id": "C",
+          "text": "Component testing: statement testing; System testing: equivalence partitioning"
+        },
+        {
+          "id": "D",
+          "text": "Component testing: statement testing; System testing: decision table partitioning"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [],
+      "question": "What would be a test approach regarding the test design techniques to be applied that would fit an item with the highest risk?",
+      "explanation": "rủi ro cao, dùng kỹ thuật cao, component test thì decision testing là cao hơn statement testing, system test thì dùng decision table chặt chẽ logic hơn kỹ thuật khác"
+    },
+    {
+      "id": "exam-13-q028",
+      "number": 28,
+      "options": [
+        {
+          "id": "A",
+          "text": "i, ii, iv, vi"
+        },
+        {
+          "id": "B",
+          "text": "ii, i, v, vi"
+        },
+        {
+          "id": "C",
+          "text": "ii, v, i, iii"
+        },
+        {
+          "id": "D",
+          "text": "i, iv, v, vi"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [],
+      "question": "A number of options have been suggested for the level of independence to be employed for the testing on the next project, and are shown below. i. External test specialists perform non-functional testinG. ii. Testing is outsourced. iii. Testing is carried out by the developer. iv. A separate test team carries out the testing. v. Testing is performed by the business. vi. Testing is performed by a different developer. Which of the following orders the above in a correct order of independence?",
+      "explanation": "Refer chương 10 đã bổ sung các mức độ của test independence"
+    },
+    {
+      "id": "exam-13-q029",
+      "number": 29,
+      "options": [
+        {
+          "id": "A",
+          "text": "(i) and (ii)"
+        },
+        {
+          "id": "B",
+          "text": "(i) and (iv)"
+        },
+        {
+          "id": "C",
+          "text": "(ii) and (iii)"
+        },
+        {
+          "id": "D",
+          "text": "(ii) and (iv)"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [
+        "assets/questions/exam-13-q029-1.jpeg"
+      ],
+      "question": "Which of the following are valid reasons for adopting a different life cycle (from the V model), for increments after the first year? i. We do not have a clear understanding of the requirements from a customer perspective. ii. We see the risk of delivering requested functionality late as being higher than the risk of delivering a lower quality product. iii. We do not have a budget for additional regression testing which is needed to ensure that existing functionality is not compromised by future iterations. iv. The company test strategy does not fit well within the V life cycle model.",
+      "explanation": ""
+    },
+    {
+      "id": "exam-13-q030",
+      "number": 30,
+      "options": [
+        {
+          "id": "A",
+          "text": "Has there been sufficient comparison of tools?"
+        },
+        {
+          "id": "B",
+          "text": "What are the problems we are trying to address?"
+        },
+        {
+          "id": "C",
+          "text": "Do we have a set of tool requirements to validate the tool against?"
+        },
+        {
+          "id": "D",
+          "text": "How will the implementation be organized?"
+        },
+        {
+          "id": "E",
+          "text": "Which project will be selected to perform the tool pilot?"
+        },
+        {
+          "id": "F",
+          "text": "Is customized training available?"
+        },
+        {
+          "id": "G",
+          "text": "How will the change process be managed?"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "B",
+        "C"
+      ],
+      "images": [],
+      "question": "Topic 3, Scenario 3 “Tool Selection and Implementation” Your company is considering whether or not to purchase a test tool suite from a respectable vendor. Your manager has searched the internet for comparable products but none of them meets his specific requirements. A tool demonstration has been arranged for next week and your team has been invited to attend. The tool suite consists of a test management tool, test execution tool and a requirements management tool. There is the possibility of adding a performance testing tool at a later stage. You have decided to attend the demo but raise some issues before hand regarding expectations. **************************** Select THREE issues from the options provided that should at least be raised.",
+      "explanation": ""
+    },
+    {
+      "id": "exam-13-q031",
+      "number": 31,
+      "options": [
+        {
+          "id": "A",
+          "text": "Charter outlining tasks (tests) to be performed and objectives to be met, plus a set of heuristics to follow"
+        },
+        {
+          "id": "B",
+          "text": "Charter outlining tasks (tests) to be performed and objectives to be met, plus a set of heuristics to follow and the completed session sheets"
+        },
+        {
+          "id": "C",
+          "text": "Charter outlining tasks (tests) to be performed and objectives to be met, plus a set of defect types to be targeted and a list of new issues encountered"
+        },
+        {
+          "id": "D",
+          "text": "Charter outlining objectives to be met, plus a set of heuristics to follow"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [],
+      "question": "When preparing for an exploratory test, which of the following sets of artefacts would be the most appropriate to produce?",
+      "explanation": "Câu này học thuộc, ko giải thích đc"
+    },
+    {
+      "id": "exam-13-q032",
+      "number": 32,
+      "options": [
+        {
+          "id": "A",
+          "text": "Coverage measurement"
+        },
+        {
+          "id": "B",
+          "text": "Dynamic analysis tool"
+        },
+        {
+          "id": "C",
+          "text": "Test comparators"
+        },
+        {
+          "id": "D",
+          "text": "Data preparation"
+        },
+        {
+          "id": "E",
+          "text": "Incident management"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "B"
+      ],
+      "images": [],
+      "question": "Which are tool only used to Developer?",
+      "explanation": "Refer chapter 9, bảng Category of tools, Các công cụ chỉ dùng cho Developer được đánh dấu (D)"
+    }
+  ]
+}

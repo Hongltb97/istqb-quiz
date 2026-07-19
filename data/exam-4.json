@@ -1,0 +1,1777 @@
+{
+  "id": "exam-4",
+  "title": "EXAM 4 AL2025- Update 2025",
+  "questions": [
+    {
+      "id": "exam-4-q001",
+      "number": 1,
+      "options": [
+        {
+          "id": "A",
+          "text": "I: Condition determination coverage, II: Decision Coverage, III: Statement coverage"
+        },
+        {
+          "id": "B",
+          "text": "I: Condition determination coverage, II: Statement coverage, III: Decision coverage"
+        },
+        {
+          "id": "C",
+          "text": "I: Decision coverage, II: Condition determination coverage, III: Statement Coverage"
+        },
+        {
+          "id": "D",
+          "text": "I: Multiple condition coverage, II: Decision coverage, III: Condition determination coverage"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [
+        "assets/questions/exam-4-q001-1.png"
+      ],
+      "question": "The result of a product risk analysis performed on components I, II and III of the airplane control system shows the following risk matrix: (image) The project wants to mitigate the risks by defining different types of coverage depending on the risk level of the components. Which of the following would be a meaningful solution for setting the coverage targets?",
+      "explanation": "Cái bảng về risk level = Impact * likelihood ( chương 3) thì theo đó I là risk có level cao nhất, III là risk có level thấp nhất. Dựa vào lý thuyết của chương 4 white box test sách đầy đủ để chọn các kỹ thuật mà cao nhất trong thực tế cho I là Condition determination coverage ( bởi vì Multiple condition coverage là cao nhất theo lý thuyết nhưng thực tế ko xảy ra nên ko chọn D) tiếp theo Decision coverage cho II và cuối cùng III thấp nhất nên chọn statement coverage"
+    },
+    {
+      "id": "exam-4-q002",
+      "number": 2,
+      "options": [
+        {
+          "id": "A",
+          "text": "Test minimum American Express and Eurocard advances; test minimum Visa and MasterCard advances; test minimum Japan Credit Bank advances."
+        },
+        {
+          "id": "B",
+          "text": "Test minimum and maximum Visa and MasterCard advances; test minimum and maximum American Express and Eurocard advances; test minimum and maximum Japan Credit Bank advances."
+        },
+        {
+          "id": "C",
+          "text": "Test minimum Visa and MasterCard advances; test minimum American Express and Eurocard advances; test minimum Japan Credit Bank advances; test maximum Visa and MasterCard advances; test maximum American Express and Eurocard advances; test maximum Japan Credit Bank advances."
+        },
+        {
+          "id": "D",
+          "text": "Test maximum American Express and Eurocard advances; test maximum Visa and MasterCard advances; test maximum Japan Credit Bank advances."
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [
+        "assets/questions/exam-4-q002-1.png"
+      ],
+      "question": "Which of the following is a comma-separated, sequenced list of test cases that covers these risks in a way that is appropriate to the level of risk and that minimizes test effort?",
+      "explanation": "Câu hỏi nó vừa hỏi TC nào vừa chạy các Risk có level theo thứ tự từ cao xuống thấp và lại tối ưu effort chạy nhất. Thế thì 1 thẻ khi test mình test luôn cả Minimum và cả maximimum là tối ưu nhất, nên theo ảnh thứ tự chạy dựa vào risk level và tối ưu nhất là đáp án B"
+    },
+    {
+      "id": "exam-4-q003",
+      "number": 3,
+      "options": [
+        {
+          "id": "A",
+          "text": "Management review"
+        },
+        {
+          "id": "B",
+          "text": "Walkthrough"
+        },
+        {
+          "id": "C",
+          "text": "Technical review"
+        },
+        {
+          "id": "D",
+          "text": "Inspection"
+        },
+        {
+          "id": "E",
+          "text": "Audit"
+        }
+      ],
+      "correctAnswers": [
+        "B",
+        "C",
+        "D"
+      ],
+      "images": [],
+      "question": "Which review type are Formal peer review?",
+      "explanation": "Formal peer review là hình thức review theo quy trình với 1 nhóm từ 3 người trở lên để review các tài liệu của dự án nên ta chọn Walkthrough, technical review và inspection"
+    },
+    {
+      "id": "exam-4-q004",
+      "number": 4,
+      "options": [
+        {
+          "id": "A",
+          "text": "The impact is high because the user will lose their data. The likelihood depends on how often connectivity will be lost."
+        },
+        {
+          "id": "B",
+          "text": "The impact is low because the user can retype their information. The likelihood is high because the original data is lost."
+        },
+        {
+          "id": "C",
+          "text": "The impact is medium because the user should expect this type of behavior. The likelihood is medium because the problem will be intermittent."
+        },
+        {
+          "id": "D",
+          "text": "The impact is high because the user will not understand what is happening and will likely call the helpdesk. The likelihood is low because the network connectivity is reliable and unlikely to have any issues."
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [],
+      "question": "You have identified a usability risk with the mobile application you are currently testing. When the application loses connectivity with the web server, the user is not informed of the problem and all information entered after that point is lost. What is a reasonable assessment of this risk?",
+      "explanation": "Risk của cái này thì impact là cao vì người dùng mất hết dữ liệu còn likehood thì chưa có đủ dữ liệu để đánh giá."
+    },
+    {
+      "id": "exam-4-q005",
+      "number": 5,
+      "options": [
+        {
+          "id": "A",
+          "text": "Test 1, Test 2, Test 4"
+        },
+        {
+          "id": "B",
+          "text": "Test 1, Test 2"
+        },
+        {
+          "id": "C",
+          "text": "Test 2, Test 3"
+        },
+        {
+          "id": "D",
+          "text": "Test 1, Test 2, Test 3"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "images": [
+        "assets/questions/exam-4-q005-1.png"
+      ],
+      "question": "As an acceptance tester you want to test the $100 withdrawal process described by the following BPMN model. (image) You would like to achieve decision coverage. Consider the following test cases: Test 1: balance = $100, receipt = YES Test 2: balance = $99 Test 3: balance = $120, receipt = NO Test 4: balance = $2500, receipt = YES Which of the following is the minimal set of test cases allowing to achieve full decision coverage?",
+      "explanation": "Nhìn vào sơ đồ ta chọn Test case mà nó đi được nhiều decision outcome chưa run nhất có thể để chọn,Test 1: balance = $100, receipt = YES ---> đi qua Select 100$, select Reciept Yes nên đi qua 2 lệnh (take receipt và withdraw 100$, ký hiệu + là thực hiện 2 lệnh), Test 2: balance = $99 là TH ko đủ 100$ để rút, Test 3: balance = $120, receipt = NO là TH đủ 100$ để rút và ko lấy Receipt nên 3 TC này là đủ đi hết các Decision outcome rồi"
+    },
+    {
+      "id": "exam-4-q006",
+      "number": 6,
+      "options": [
+        {
+          "id": "A",
+          "text": "Chart 1"
+        },
+        {
+          "id": "B",
+          "text": "Chart 2"
+        },
+        {
+          "id": "C",
+          "text": "Chart 3"
+        },
+        {
+          "id": "D",
+          "text": "Chart 4"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [
+        "assets/questions/exam-4-q006-1.png"
+      ],
+      "question": "You have identified that you expect to have a load of 100,000 users for a high interest race and 20,000 users for a low-interest race. There are 5,000 users who seem to always be connected, even when nothing is happening. High-interest races are the semi-finals and finals for any particular contest. A race normally lasts for 5 minutes and there are usually 8 racers in the semi-finals and 4 racers in the finals. A low-interest race is any of the first 30 races that lead to determining who will be in the semi-finals. Which of the following is a correct diagram of the proper load profile for one contest (the x axis shows hh:mm and the y axis shows number of users)?",
+      "explanation": "A đúng nhất về hồ sơ của 1 cuộc đua, nó cho thấy lúc ko có gì thường vẫn có 5.000 user theo dõi, ở giai đoạn tranh suất bán kết là low-interest race khi đó có 20.000 user theo dõi và ở đoạn chung kết thì high interest race có 100.000 user theo dõi. Chart 4 luôn có 40.000 user theo dõi là sai rồi. chart 2 thì sai ở đoạn finals là lúc high interest nên ko thể xuống thấp thế đc, chart C thì nó ko thể hiện đc lúc ko có cuộc đua chỉ có 5.000 user theo dõi thôi chứ ko phải lúc nào cũng là 20.000 user"
+    },
+    {
+      "id": "exam-4-q007",
+      "number": 7,
+      "options": [
+        {
+          "id": "A",
+          "text": "Temperature at 85 and 86, moisture at “dry” and “normal”"
+        },
+        {
+          "id": "B",
+          "text": "Temperature at 85 and 86, moisture at “dry” and “normal”, water disbursement for 5 minutes and 5 minutes 1 second, rate at 0.5 and 0.4"
+        },
+        {
+          "id": "C",
+          "text": "Temperature at 85 and 86, moisture at “dry” and “normal”, water disbursement for 5 minutes and 4 minutes 59 seconds, rate at 0.5 and 0.6"
+        },
+        {
+          "id": "D",
+          "text": "emperature at 85 and 84, moisture at “dry” and “normal”"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [],
+      "question": "You have been given the following story: “As a plant lover who travels frequently, I want to have an automated watering system, so that my plants won’t die.” You have also been given the following acceptance criteria: 1. The water should turn on when the temperature is > 85 degrees and the moisture content of the soil changes from “normal” to “dry”. 2. The water should be dispersed for 5 minutes at the rate of 0.5 ounces per minute. Which one of the following provides the proper values to use to achieve 100% two-value boundary value analysis coverage with the minimum number of test cases?",
+      "explanation": "Ở đây các bạn hay nhầm đoạn này \"2. The water should be dispersed for 5 minutes at the rate of 0.5 ounces per minute.\" cái này là output ý là nước phải chảy ra trong vòng 5 phút và tốc độ là 5 ounce per minute ( cái này đưa vào expected result) nên ở đây BVA chọn A thôi"
+    },
+    {
+      "id": "exam-4-q008",
+      "number": 8,
+      "options": [
+        {
+          "id": "A",
+          "text": "Set the soil moisture level to “wet”, then increase the heat and verify that the moisture level changes to “normal” and then to “dry” and then to “parched”"
+        },
+        {
+          "id": "B",
+          "text": "Set the temperature > 85 degrees and verify that the temperature is increased accordingly"
+        },
+        {
+          "id": "C",
+          "text": "Set the temperature to < 85 degrees and the moisture to “dry” and verify that no water is dispersed"
+        },
+        {
+          "id": "D",
+          "text": "Set the temperature to > 85 degrees and the moisture to “dry” and verify that water is dispersed"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "images": [],
+      "question": "You have been given the following story: “As a plant lover who travels frequently, I want to have an automated watering system, so that my plants won’t die.” You have also been given the following acceptance criteria: 1. The water should turn on when the temperature is > 85 degrees and the moisture content of the soil changes from “normal” to “dry”. 2. The water should be dispersed for 5 minutes at the rate of 0.5 ounces per minute. Which of the following is the first test case that should be written for the acceptance-test driven implementation?",
+      "explanation": "Test case kiểm tra TH success phải là case viết đầu tiên"
+    },
+    {
+      "id": "exam-4-q009",
+      "number": 9,
+      "options": [
+        {
+          "id": "A",
+          "text": "You should plan for an informal and minimal acceptance test of the two off-the-shelf systems and then a single end-to-end test of the overall integrated system"
+        },
+        {
+          "id": "B",
+          "text": "You should directly plan for a single end-to-end test focused on end-to-end tests of the overall integrated system without an acceptance test of the two off-the-shelf systems"
+        },
+        {
+          "id": "C",
+          "text": "You should plan for two levels: a system integration test and an end-to-end test of the overall integrated system"
+        },
+        {
+          "id": "D",
+          "text": "You should plan for adequate re-testing of both the systems followed by a system integration test and an end-to-end test of the overall integrated system"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "images": [
+        "assets/questions/exam-4-q009-1.png"
+      ],
+      "question": "Which of the following answers best describes the test activities (assuming it is possible to perform all of them) you should plan for?",
+      "explanation": "Ở câu hỏi nó bảo giả sử bạn có thể làm đc tất cả các test đó vì thế. Khi mua các hệ thống này về phải re-testing cho các hệ thống, sau đó tiến hành system integration test khi tích hợp vào hệ thống cũ, rồi làm Acceptance test ( end to end)"
+    },
+    {
+      "id": "exam-4-q010",
+      "number": 10,
+      "options": [
+        {
+          "id": "A",
+          "text": "6"
+        },
+        {
+          "id": "B",
+          "text": "18"
+        },
+        {
+          "id": "C",
+          "text": "20"
+        },
+        {
+          "id": "D",
+          "text": "24"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [
+        "assets/questions/exam-4-q010-1.jpeg"
+      ],
+      "question": "You are going to be testing a small camera. To keep it simple, there are only two buttons: the power button and the shutter button. The camera will act as an automatic focus and exposure camera when the shutter button is pressed halfway and then stopped for 0.4 seconds before the button press is completed. If the shutter button is simply pressed all the way without stop-ping, the camera will act as a single exposure, infinity focus camera. Given the following state transition diagram, how many rows would its matching state transition table contain?",
+      "explanation": "Điếm lần lượt từ 0-switch, 1-switch, và 2-switch ra số TC là số rows. Đáp án trên mạng là 18 mà chưa biết cách giải"
+    },
+    {
+      "id": "exam-4-q011",
+      "number": 11,
+      "options": [
+        {
+          "id": "A",
+          "text": "1. D13D11 2. C11D12"
+        },
+        {
+          "id": "B",
+          "text": "1. D13D13 2. C11E5"
+        },
+        {
+          "id": "C",
+          "text": "1. D13D5 2. C11D5"
+        },
+        {
+          "id": "D",
+          "text": "1. D13D5 2. C11D12"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [
+        "assets/questions/exam-4-q011-1.jpeg"
+      ],
+      "question": "Which of values are suitable to put on the blank 1 and 2?",
+      "explanation": "Điền vào ô trống thôi, các bạn tự điền nốt cái 1-switch ở ô 1 và ô 2. Hình ảnh từ sách bị sai mũi tên, mình vừa sửa lại mũi tên để làm bài này đúng hơn"
+    },
+    {
+      "id": "exam-4-q012",
+      "number": 12,
+      "options": [
+        {
+          "id": "A",
+          "text": "Use Cases"
+        },
+        {
+          "id": "B",
+          "text": "Equivalence Partitioning and Boundary Value Analysis"
+        },
+        {
+          "id": "C",
+          "text": "State Transition Testing"
+        },
+        {
+          "id": "D",
+          "text": "Pairwise Testing"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [],
+      "question": "Which technique is most appropriate to use for the suitability test? For the on-line portal a test will be planned that will focus on suitability. Which technique is most appropriate to use for the suitability test?",
+      "explanation": "Use case là kỹ thuật phù hợp nhất để test cho suitability ( tính phù hợp)"
+    },
+    {
+      "id": "exam-4-q013",
+      "number": 13,
+      "options": [
+        {
+          "id": "A",
+          "text": "700"
+        },
+        {
+          "id": "B",
+          "text": "720"
+        },
+        {
+          "id": "C",
+          "text": "784"
+        },
+        {
+          "id": "D",
+          "text": "570"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [
+        "assets/questions/exam-4-q013-1.png"
+      ],
+      "question": "Given the following figures for the testing on a project, and assuming the failure rate for initial tests remains constant and that all retests pass, what number of tests remain to be run?",
+      "explanation": "Tổng có 1000 TC, 500 TC đã chạy, 350 cái đã pass vậy là fail 150 TC. Chú ý đầu bài nói \"remains constant and that all retests pass\" tỷ lệ là ko thay đổi và TC nào retest rồi thì đều pass. Như vậy 500 TC chưa chạy, với tỉ lệ dựa vào 500TC đầu đã chạy thì sẽ có 150 TC sẽ fail. vậy tổng TC còn lại cần test là 500 + 70 +150 = 720 TC"
+    },
+    {
+      "id": "exam-4-q014",
+      "number": 14,
+      "options": [
+        {
+          "id": "A",
+          "text": "3 and 6"
+        },
+        {
+          "id": "B",
+          "text": "1 and 4"
+        },
+        {
+          "id": "C",
+          "text": "2, 4, and 6"
+        },
+        {
+          "id": "D",
+          "text": "2 and 5"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "images": [],
+      "question": "A remote subsystem developer has delivered a module that decides whether to sound an alarm based on three inputs (a HEAT sensor, a SMOKE sensor, and a user-triggered BUTTON). An alarm should sound if both the HEAT sensor and the SMOKE sensor are triggered, or if the alarm BUTTON is triggered. What is the minimum set of test combinations from the following sets of input values that achieve 100% Decision Condition coverage? 1. HEAT=true, SMOKE=true, BUTTON=false 2. HEAT=true, SMOKE=true, BUTTON=true 3. HEAT=true, SMOKE=false, BUTTON=false 4. HEAT=false, SMOKE=false, BUTTON=true 5. HEAT=false, SMOKE=false, BUTTON=false 6. HEAT=false, SMOKE=true, BUTTON=false",
+      "explanation": "White box test phần data flow: 100% Decision Condition coverage là đảm bảo cả Conditions và cả Decision đều đc chạy T,F ít nhất 1 lần"
+    },
+    {
+      "id": "exam-4-q015",
+      "number": 15,
+      "options": [
+        {
+          "id": "A",
+          "text": "6-10, 6-15, 7-12"
+        },
+        {
+          "id": "B",
+          "text": "6-15, 9-11"
+        },
+        {
+          "id": "C",
+          "text": "6-10, 6-15, 9-11"
+        },
+        {
+          "id": "D",
+          "text": "6-15, 7-12"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [
+        "assets/questions/exam-4-q015-1.png"
+      ],
+      "question": "You have been assigned the checklist entry that requires you to review the specification for inconsistencies between individual requirements (i.e. conflicts between requirements). Which of the following CORRECTLY identifies inconsistencies between pairs of requirements?",
+      "explanation": "Câu hỏi đang hỏi cặp requirement nào đang ko thống nhất với nhau: Nhìn vào con số dễ thấy nhất là đang lệch nhau giữa 6- Response time 5s và 15- 6- Response time 3s, 9- trả muộn sau 3 week thì bị phạt và 11- ko tính phí với sách đc mượn maximun là 4 week."
+    },
+    {
+      "id": "exam-4-q016",
+      "number": 16,
+      "options": [
+        {
+          "id": "A",
+          "text": "ii, iv, v are testable"
+        },
+        {
+          "id": "B",
+          "text": "i, iii, v are testable"
+        },
+        {
+          "id": "C",
+          "text": "i, ii, iv are testable"
+        },
+        {
+          "id": "D",
+          "text": "iii, iv, v are testable"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [],
+      "question": "You have to review the following user story that will be developed and tested during the next Sprint: As a potential conference attendee, I want to be able to register for the conference online, so that registration is simple and paperless. The following acceptance criteria are also mentioned: i. Payment can be made via PayPal, Debit or Credit Cards ii. An acknowledgement email is sent to the attendee after submitting the form iii. Protection against spam is working as expected iv. Information from the form is stored in the registrations database v. All incorrect user inputs are flagged by the system Which of the following correctly shows which acceptance criteria are testable?",
+      "explanation": "Cái AC nào có đẩu đủ thông tin để test. i là test đc vì card rõ ràng, ii test đc cần gửi email sau khi summit form, iii ko test đc vì ko rõ ràng về việc \"as expected\" là chưa đủ rõ ràng, iv các thông tin đc lưu vào Database thì test đc, v ko test đc vì \"inputs are flagged\" thông tin ko chính xác chưa đc mô tả rõ . Nên chọn C."
+    },
+    {
+      "id": "exam-4-q017",
+      "number": 17,
+      "options": [
+        {
+          "id": "A",
+          "text": "CC= E-N +2P"
+        },
+        {
+          "id": "B",
+          "text": "CC= N-E +2P"
+        },
+        {
+          "id": "C",
+          "text": "CC= N-E +P"
+        },
+        {
+          "id": "D",
+          "text": "CC= N-E +P"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [],
+      "question": "The principle of Cyclomatic complexity (CC), considering E as edges or links, N as nodes, P as independent paths",
+      "explanation": "Xem sách Vol 3 để có hướng dẫn cách tính này hoặc search trên mạng về công thức của cyclomatic complexity"
+    },
+    {
+      "id": "exam-4-q018",
+      "number": 18,
+      "options": [
+        {
+          "id": "A",
+          "text": "Mary"
+        },
+        {
+          "id": "B",
+          "text": "Bob"
+        },
+        {
+          "id": "C",
+          "text": "Mark"
+        },
+        {
+          "id": "D",
+          "text": "Dave"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [
+        "assets/questions/exam-4-q018-1.jpeg"
+      ],
+      "question": "Your test team consists of four members (Mary, Bob, Mark, Dave) with different interpersonal skills. The following skills assessment spreadsheet shows the characteristics of the team members with respect to a list of interpersonal-skills (for each characteristic only the member with the highest level of that characteristic is indicated and marked with ‘X’): (image) On the next project a member of your test team will have to perform some routine tasks requiring collaboration with other teams. Who in your test team would you expect to be most suitable at doing these tasks?",
+      "explanation": "Dự án mới họ cần 1 người có khả năng kết nối với các team khác tốt vì thế các kỹ năng về collaborative phải tốt."
+    },
+    {
+      "id": "exam-4-q019",
+      "number": 19,
+      "options": [
+        {
+          "id": "A",
+          "text": "All the sets are needed"
+        },
+        {
+          "id": "B",
+          "text": "3, 4, 5, and 7"
+        },
+        {
+          "id": "C",
+          "text": "1, 3, and 8."
+        },
+        {
+          "id": "D",
+          "text": "1, 5, 7, and 8."
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [],
+      "question": "You are testing a photo-enforcement system for traffic control in an intersection. The requirements state a photo shall be taken if the signal light is red (RED) or the car is speeding (SPEED) and if the front wheels of the car are over the line marking the beginning of the intersection (WHEELS). Consider these sets of values: 1. RED + SPEED + WHEELS 2. RED + SPEED + not WHEELS 3. RED + not SPEED + WHEELS 4. RED + not SPEED + not WHEELS 5. not RED + SPEED + WHEELS 6. not RED + SPEED + not WHEELS 7. not RED + not SPEED + WHEELS 8. not RED + not SPEED + not WHEELS Assume the logic in the code is as follows: If ((RED or SPEED) and WHEELS) then Take the photo Else Do not take the photo Which sets of values provide the minimum tests to achieve 100% multiple condition coverage?",
+      "explanation": "Multiple condition thì cần 2 mũ n test case, mà ở đây n là số condition, ta có 3 condition là RED, SPEED và WHEELS nên cần 8 TC"
+    },
+    {
+      "id": "exam-4-q020",
+      "number": 20,
+      "options": [
+        {
+          "id": "A",
+          "text": "1, 3, and 8."
+        },
+        {
+          "id": "B",
+          "text": "2 and 8."
+        },
+        {
+          "id": "C",
+          "text": "3, 4, 5, and 7."
+        },
+        {
+          "id": "D",
+          "text": "1, 5, 7, and 8."
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [],
+      "question": "You are testing a photo-enforcement system for traffic control in an intersection. It has been determined that a photo should be taken if the signal light is red (RED) or the car is speeding (SPEED) and if the front wheels of the car are over the line marking the beginning of the intersection (WHEELS). Consider these sets of test values: 1. RED + SPEED + WHEELS 2. RED + SPEED + not WHEELS 3. RED + not SPEED + WHEELS 4. RED + not SPEED + not WHEELS 5. not RED + SPEED + WHEELS 6. not RED + SPEED + not WHEELS 7. not RED + not SPEED + WHEELS 8. not RED + not SPEED + not WHEELS Assume the logic in the code is: IF ((RED OR SPEED) AND WHEELS) THEN TAKE THE PHOTO ELSE DO NOT TAKE THE PHOTO Which sets of values provides the minimum tests to achieve 100% modified condition/decision coverage?",
+      "explanation": "MC/DC cần n+1 TC, ở đây ta có 3 cái condition là RED, SPEED, WHEELS nên cần có 4 TC và phải đảm bảo mỗi Conditon khi là T thì cho kết quả khác với khi là F nên ta cần 4 TC theo thứ tự sau:1. (T or F) + T --> T 2. (T or F) + F--> F ( 2 case này là WHEELS thỏa mãn) 3. (F or T) + T--> T ( case 2 và 3 thì SPEED thỏa mãn) 4. (F or F) + T --> F ( case 1 và 4 thì RED thỏa mãn)"
+    },
+    {
+      "id": "exam-4-q021",
+      "number": 21,
+      "options": [
+        {
+          "id": "A",
+          "text": "2"
+        },
+        {
+          "id": "B",
+          "text": "3"
+        },
+        {
+          "id": "C",
+          "text": "4"
+        },
+        {
+          "id": "D",
+          "text": "5"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [],
+      "question": "The following piece of code: How many test cases are needed at least to cover decision coverage testing? [K3] Procedure XXXX READ (Age) \"This statement gets the actual age from the input device READ (Gender) \"This statement gets the gender age from the input device READ (CustomerCountry) \"This statement gets the country, alias IF (Age >18) THEN CustomerType = \"Main Target Customer\" CustomerPotential = 1.000 IF Gender = \"Male\" THEN CustomerProductSet — \"Technique\" ELSE CustomerProductSet = \"Clothes\" END IF END IF CustomerIsTarget = \"Yes\" IF CustomerCountry<> \"Vietnam\" THEN CustomerIsTarget= \"No\" CustomerIslnternational = \"Yes\" CustomerPotential = CustomerPtential *1.1 ELSE Customerlslnternational = \"No\" END IF END Procedure",
+      "explanation": ""
+    },
+    {
+      "id": "exam-4-q022",
+      "number": 22,
+      "options": [
+        {
+          "id": "A",
+          "text": "Verifying employment is not done when the loan status is rejected"
+        },
+        {
+          "id": "B",
+          "text": "Creating the loan contract is defined as a sub-process"
+        },
+        {
+          "id": "C",
+          "text": "Performing title search and requesting credit report are sequential tasks"
+        },
+        {
+          "id": "D",
+          "text": "A review credit report is optional when reviewing the loan application"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [
+        "assets/questions/exam-4-q022-1.png"
+      ],
+      "question": "Assume you would like to create a model describing a loan request process in a bank. The loan request process starts when the customer submits a loan application. The bank then reviews the application. Regardless of whether the loan request is approved or not, a letter is sent to inform the customer of the decision. If the request is approved, the loan contract is created. You have drawn the following business process model using BPMN 2.0. (image) Which one of the following sentences is true with respect to this process model?",
+      "explanation": "a) Is not correct: “Verify Employment” is systematically done after the “Record Loan Application” task and prior to “Review Loan Application” in which the decision regarding the loan application is taken. b) Is correct: “Create the Loan Contract” is defined as a subprocess c) Is not correct: a parallel gateway splits the flow between “Perform Title Search” and “Request Credit Report” tasks. d) Is not correct: the task “Review Credit Report” has to be done before “Review Loan Application” in the process flow."
+    },
+    {
+      "id": "exam-4-q023",
+      "number": 23,
+      "options": [
+        {
+          "id": "A",
+          "text": "5, 1, 3, 2, 4"
+        },
+        {
+          "id": "B",
+          "text": "1, 2, 4, 5, 3"
+        },
+        {
+          "id": "C",
+          "text": "1, 3, 2, 4, 5"
+        },
+        {
+          "id": "D",
+          "text": "3, 4, 5, 1, 2"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [
+        "assets/questions/exam-4-q023-1.png"
+      ],
+      "question": "Consider the following test cases that are used to test an accounting system: (image) Given this information, what is the proper order in which to execute these test cases?",
+      "explanation": "Đầu tiên bạn phải dựa vào cột Dependency trước, những case mà ko bị phụ thuộc mới chạy đc, ở đây chỉ có TC 1 là None nên TC 1 chạy trước tiên, sau đó TC 2,3 phụ thuộc vào TC 1 nên đc cân nhắc chạy tiếp theo, TC 2 cao hơn 3 nên chạy sau TC 1, tiếp theo TC3, TC4 có thể chạy đc vì TC 4 phụ thuộc vào TC2, TC 4 ưu tiên cao hơn TC3 nên sẽ chạy tiếp theo, cuối cùng còn TC3, TC5 chạy nốt. Đáp án B thì TC5 chạy trước TC 3 thì vi phạm về độ ưu tiên nhưng vì nó vi phạm ở đoạn cuối, còn đáp án C thì TC3 chạy trước TC2 vi phạm về ưu tiên và vi phạm rất sớm ở ngay vị trí chạy thứ 2 đã vi phạm nên người ta chọn B"
+    },
+    {
+      "id": "exam-4-q024",
+      "number": 24,
+      "options": [
+        {
+          "id": "A",
+          "text": "2, 4, 5, 6, 1, 3"
+        },
+        {
+          "id": "B",
+          "text": "4, 3, 2, 5, 6, 1"
+        },
+        {
+          "id": "C",
+          "text": "2, 5, 6, 4, 1, 3"
+        },
+        {
+          "id": "D",
+          "text": "6, 1, 3, 2, 4, 5"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [
+        "assets/questions/exam-4-q024-1.png"
+      ],
+      "question": "You have been given the following set of test cases to run. You have been instructed to run them in order by risk and to accomplish the testing as quickly as possible to provide feedback to the developers as soon as possible. Given this information, what is the best order in which to run these tests?",
+      "explanation": "Xem cột dependency trước: None chỉ có TC 2 nên 2 chạy đầu tiên, sau đó TC 4, 6 phụ thuộc vào 2 nên tiếp tục đc cân nhắc chạy, TC 4 có risk cao hơn nên chạy tiếp theo, Sau đó TC 6 và TC 5 cân nhắc đc chạy ( vì TC 5 phụ thuộc vào TC4), cứ vậy ta chọn đc A"
+    },
+    {
+      "id": "exam-4-q025",
+      "number": 25,
+      "options": [
+        {
+          "id": "A",
+          "text": "Decision coverage + Modified Condition/Decision coverage."
+        },
+        {
+          "id": "B",
+          "text": "Decision coverage + Statement coverage"
+        },
+        {
+          "id": "C",
+          "text": "Modified Condition/Decision coverage"
+        },
+        {
+          "id": "D",
+          "text": "Multiple Condition coverage"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "images": [],
+      "question": "You are the Technical Test Analyst working on the testing of software that will control the movement of a roof on a new national sports stadium that seats 100,000 spectators. A failure analysis has shown that if the software system fails then it may cause the roof to break up and fall on the spectators. The government has requested that the level of testing for this software exceeds that that required by standard ISO 61508. Which is the level of test coverage you would expect to be achieved in the testing of the control software for the stadium roof?",
+      "explanation": "Câu này chú ý \"the level of testing for this software exceeds that that required by standard ISO 61508.\" họ muốn mức độ test vượt quá exceeds các yêu cầu của ISO 61508, trong khi mái nhà sân vận động là 1 ứng dụng critical safety cần đạt MC/DC theo chuẩn ISO, nên cái mà cao hơn MC/DC là đáp án D."
+    },
+    {
+      "id": "exam-4-q026",
+      "number": 26,
+      "options": [
+        {
+          "id": "A",
+          "text": "Boundary usability"
+        },
+        {
+          "id": "B",
+          "text": "Accuracy"
+        },
+        {
+          "id": "C",
+          "text": "Portability"
+        },
+        {
+          "id": "D",
+          "text": "Fault-tolerance"
+        },
+        {
+          "id": "E",
+          "text": "Installability"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "C"
+      ],
+      "images": [],
+      "question": "A company wants to develop a web site to implement an on-line sales channel. Which TWO ISO 9126 quality attributes are most likely to be of importance?",
+      "explanation": "Chương 5 các đặc tính của ISO9126 , vừa sửa lại các đáp án theo đúng đề thi các bạn vừa thi về nhé, sửa lại nội dung và câu trả lời"
+    },
+    {
+      "id": "exam-4-q027",
+      "number": 27,
+      "options": [
+        {
+          "id": "A",
+          "text": "2 and 4 are true, 1, 3, and 5 are false"
+        },
+        {
+          "id": "B",
+          "text": "1, 3, and 5 are true, 2 and 4 are false"
+        },
+        {
+          "id": "C",
+          "text": "1, 2, and 4 are true,3 and 5 are false"
+        },
+        {
+          "id": "D",
+          "text": "All statements are true"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [],
+      "question": "Of the following statements: 1. Ownership of the improvement process may be with a dedicated team 2. The scope of improvement typically covers no more than one or two projects 3. Presentation and negotiation skills are particularly relevant in achieving consensus on objectives and recommendations 4. The selected approach is often less formal 5. Detailed analysis of assessment results is required to find commonalities between the different projects Which are features of a Top-down improvement approach?",
+      "explanation": "Syllabus của Exper Test improvement, mục 6.4.2 chú ý vào các keyword này để nhớ nó là Top-down: a dedicated team, different projects, consensus on objectives and recommendations"
+    },
+    {
+      "id": "exam-4-q028",
+      "number": 28,
+      "options": [
+        {
+          "id": "A",
+          "text": "Functionality"
+        },
+        {
+          "id": "B",
+          "text": "Usability"
+        },
+        {
+          "id": "C",
+          "text": "Efficiency"
+        },
+        {
+          "id": "D",
+          "text": "Portability"
+        },
+        {
+          "id": "E",
+          "text": "Maintainability"
+        }
+      ],
+      "correctAnswers": [
+        "B",
+        "D"
+      ],
+      "images": [],
+      "question": "The tax system needs to be updated due to new legislation. For a person with a salary of less than $20.000 and who is married, the tax needs to be re-calculated. If the person also has more than two and less than five children, an additional 10% reduction is applicable. The functionality of the newly released tax system is now at the right level. However, there are frequent complaints about non-functional issues: i. the new system does not run on PC's with VISTA installed ii. it is difficult to update the system quickly when new legislation must be implemented iii. especially when many users are using the web, the system seems to be slow iv. some users enthusiastically use the system but are not able to complete some of the transactions. Which TWO types of risks complaint i and iv?",
+      "explanation": "Cái i là liên quan đến cài đặt trên OS VISTA nên chọn Portability, ii là một vài user sử dụng hệ thống nhưng ko thể hoàn thiện đc 1 vài giao dịch là liên quan đến usability, ii liên quan đến cập nhật luật thuế mới khó khăn là liên quan đến maintainability, iii là liên quan đến performance"
+    },
+    {
+      "id": "exam-4-q029",
+      "number": 29,
+      "options": [
+        {
+          "id": "A",
+          "text": "All of them because these results are for only one run"
+        },
+        {
+          "id": "B",
+          "text": "The automatic displays because their 95% numbers are too slow"
+        },
+        {
+          "id": "C",
+          "text": "The summary of disqualifications because all times are too slow"
+        },
+        {
+          "id": "D",
+          "text": "The ranking board because this is a time critical part of the system and the 95% numbers are too slow"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [
+        "assets/questions/exam-4-q029-1.jpeg"
+      ],
+      "question": "Given this information, which scenarios will require system tuning and further testing?",
+      "explanation": "C is correct. The disqualifications time is too slow, particularly for the 90%, but it’s also too slow even for the average. Tuning and retesting will be required. A may be correct and will probably need to happen, but not until C is resolved. B and D are worrying about the 95% numbers, but those are not in the requirements."
+    },
+    {
+      "id": "exam-4-q030",
+      "number": 30,
+      "options": [
+        {
+          "id": "A",
+          "text": "Checklist base"
+        },
+        {
+          "id": "B",
+          "text": "Structrue base"
+        },
+        {
+          "id": "C",
+          "text": "Error guesting"
+        },
+        {
+          "id": "D",
+          "text": "Exploratory base"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [],
+      "question": "THIS approach that an experienced Technical Test Analyst uses a high-level, generalized list of items to be noted, checked, or remembered, or a set of rules or criteria against which a test object has to be verified. What is THIS approach called?",
+      "explanation": ""
+    },
+    {
+      "id": "exam-4-q031",
+      "number": 31,
+      "options": [
+        {
+          "id": "A",
+          "text": "I belongs in the Test Design Specification, while II belongs in the Test plan"
+        },
+        {
+          "id": "B",
+          "text": "I belongs in the Test Plan, while II belongs in the Test Design Specification"
+        },
+        {
+          "id": "C",
+          "text": "I belongs in the Test Cease Specification, while II belongs in the Test Plan"
+        },
+        {
+          "id": "D",
+          "text": "I belongs in the Test Design Specification, while II belongs in the Test Item Transmittal Report"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [
+        "assets/questions/exam-4-q031-1.jpeg"
+      ],
+      "question": "If the project follows the IEEE 829 documentation standard, which of the following statements about the IEEE 829 templates could be correct?",
+      "explanation": ""
+    },
+    {
+      "id": "exam-4-q032",
+      "number": 32,
+      "options": [
+        {
+          "id": "A",
+          "text": "The emergency vehicle control override system fails to accept valid commands."
+        },
+        {
+          "id": "B",
+          "text": "The emergency vehicle control override system is too difficult to install."
+        },
+        {
+          "id": "C",
+          "text": "The emergency vehicle control override system accepts invalid commands."
+        },
+        {
+          "id": "D",
+          "text": "The emergency vehicle control override system alerts unauthorized driver."
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [
+        "assets/questions/exam-4-q032-1.jpeg"
+      ],
+      "question": "If the project is following a risk-based testing strategy, which of the following is a quality risk item that would result in the kind of testing specified in statements I) and II) above?",
+      "explanation": ""
+    },
+    {
+      "id": "exam-4-q033",
+      "number": 33,
+      "options": [
+        {
+          "id": "A",
+          "text": "3"
+        },
+        {
+          "id": "B",
+          "text": "5"
+        },
+        {
+          "id": "C",
+          "text": "7"
+        },
+        {
+          "id": "D",
+          "text": "9"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [],
+      "question": "The following code snippet reads through a file and determines whether the numbers contained are prime or not. 1 Read (Val); 2 While NOT End of File Do 3 Prime := TRUE; 4 For Holder := 2 TO Val DIV 2 Do 5 if Val – (Val DIV Holder) * Holder= 0 Then 6 Write (Holder, � is a factor of �, Val); 7 Prime := FALSE; 8 Endif; 9 Endfor; 10 if Prime = TRUE Then 11 Write (Val, � is prime�); 12 Endif; 13 Read (Val); 14 Endwhile; 15 Write (‘End of run) Calculate the cyclomatic complexity of the code.",
+      "explanation": ""
+    },
+    {
+      "id": "exam-4-q034",
+      "number": 34,
+      "options": [
+        {
+          "id": "A",
+          "text": "Allow the testers to use open-source tools to pick low-hanging fruit"
+        },
+        {
+          "id": "B",
+          "text": "Put a full automation project into place and try to automate all testing"
+        },
+        {
+          "id": "C",
+          "text": "Find an inexpensive requirements/test management tool to roll out"
+        },
+        {
+          "id": "D",
+          "text": "Build your own automation tool so it does not cost anything"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [],
+      "question": "You are senior technical test analyst for a test organization that is rapidly falling behind the curve, each release, you are less able to perform all of the testing tasks needed by your project. You have very little budget for tools or people, and the timeframe for the project is about to be shortened. The testers in the group tend to have very little in the way of technical skills. Currently, 100 percent of your testing is manual, with about 15 percent of that being regression testing. Which of the following decisions might help you catch up to the curve?",
+      "explanation": ""
+    },
+    {
+      "id": "exam-4-q035",
+      "number": 35,
+      "options": [
+        {
+          "id": "A",
+          "text": "Number of defects found in dynamic testing"
+        },
+        {
+          "id": "B",
+          "text": "Dynamic test coverage"
+        },
+        {
+          "id": "C",
+          "text": "Review and dynamic testing hours"
+        },
+        {
+          "id": "D",
+          "text": "Number of severe defects in review"
+        },
+        {
+          "id": "E",
+          "text": "Test execution status"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "D"
+      ],
+      "images": [
+        "assets/questions/exam-4-q035-1.jpeg"
+      ],
+      "question": "Which of the following metrics would be used best to prove this point during review trial? select TWO",
+      "explanation": "câu 34 đề TM 2012 trên istqb.org"
+    },
+    {
+      "id": "exam-4-q036",
+      "number": 36,
+      "options": [
+        {
+          "id": "A",
+          "text": "Neglect your management activities and work side-by-side with your test team executing tests"
+        },
+        {
+          "id": "B",
+          "text": "Considering the executed tests, you should reduce the test coverage back on the risk analysis and adjust downward the priority of the associated risk items"
+        },
+        {
+          "id": "C",
+          "text": "Convince all the people of your test team that each of them is an important and needed member, and that their contribution is fundamental to the success of the team"
+        },
+        {
+          "id": "D",
+          "text": "Favor and encourage a proactive attitude where people ask for new tasks as soon as they finish their current tasks"
+        },
+        {
+          "id": "E",
+          "text": "Neglect execute tests, only focus on product risks"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "E"
+      ],
+      "images": [],
+      "question": "Assume you are managing the system testing execution phase of a project. The system test execution period for that project is scheduled for eighteen weeks and the release date is scheduled at the end of system testing. During the sixth week of system test execution, at the staff meeting, the project manager informs you that the project deadlines are changed and the release date that is only three weeks ahead. This new release will not allow the completion of the system tests. Suppose also that you have followed a riskdriven test approach for this project. Which of the following statements represents the worst way to lead your test team in the next three weeks? select TWO",
+      "explanation": "Câu 39 đề TM12 thêm đáp án E"
+    },
+    {
+      "id": "exam-4-q037",
+      "number": 37,
+      "options": [
+        {
+          "id": "A",
+          "text": "Alex"
+        },
+        {
+          "id": "B",
+          "text": "Roberta"
+        },
+        {
+          "id": "C",
+          "text": "John"
+        },
+        {
+          "id": "D",
+          "text": "Mark"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [
+        "assets/questions/exam-4-q037-1.jpeg"
+      ],
+      "question": "Which of these people, based on this analysis, would you expect to be most suitable to work specifically as tester?",
+      "explanation": "câu 37 đề TM12 họ sưả câu hỏi đi hỏi ai là phù hợp làm tester,"
+    },
+    {
+      "id": "exam-4-q038",
+      "number": 38,
+      "options": [
+        {
+          "id": "A",
+          "text": "Once configured, the performance test system will require data loading. Once loaded, we will next proceed to running a small set of sample scripts to verify the output. When those succeed, we will proceed with the performance test script which ramps up users at a rate of 10 per minute until we reach the target number of concurrent users. This load will then be maintained for 2 hours"
+        },
+        {
+          "id": "B",
+          "text": "The performance test system will cost $240,000 which will include the hardware and setup. This system will allow us to create a test system that is representative of the production system and will allow us to simulate production-like conditions"
+        },
+        {
+          "id": "C",
+          "text": "Because the cost of a performance test system is prohibitive, we will conduct the performance testing in the production environment using live data"
+        },
+        {
+          "id": "D",
+          "text": "The product risks include data contention issues, data access issues, locking issues that will reject concurrent requests, network bandwidth constraints, data seek errors, data seek slowdowns or bottlenecks, and difficulty for the user in processing the returned data"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [],
+      "question": "You are working on a project that tracks health history information for patients across a region. The number of records handled by the system is in the millions due to the large number of patients in the region. Patient information must be accessible to doctors in offices, hospitals, and urgent care facilities. The information should be presented to the requestor within three seconds of request, particularly for patients with critical allergies and preconditions. You have been asked to prepare a presentation for the business stakeholders regarding your plan for performance testing. Which of the following is an example set of information that should be shared with these stakeholders?",
+      "explanation": "Câu 20 đề thi của test performance trên istqb.org"
+    },
+    {
+      "id": "exam-4-q039",
+      "number": 39,
+      "options": [
+        {
+          "id": "A",
+          "text": "You do not know the supported credit cards."
+        },
+        {
+          "id": "B",
+          "text": "You do not include the proper stakeholders in the review."
+        },
+        {
+          "id": "C",
+          "text": "You do not know which test levels to address"
+        },
+        {
+          "id": "D",
+          "text": "You do not receive the requirements specification"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [],
+      "question": "Assume you are a test manager in charge of integration testing, system testing, and acceptance testing for a bank. You are working on a project to upgrade an existing automated teller machine system to allow customers to obtain cash advances from supported credit cards. You have received a requirements specification that states that the system should allow cash advances from 10.000 to 10.000.000 inclusively, for all supported credit cards. Assume that the bank is required contractually to support the following credit cards: American Express, Visa, Japan Credit Bank, Eurocard, and MasterCard. The bank has given you the responsibility of organizing a review of the requirements specification. Which of the following is a risk for this review?",
+      "explanation": "câu này trong chapter 6 của sách Vol 1, Vol 2"
+    },
+    {
+      "id": "exam-4-q040",
+      "number": 40,
+      "options": [
+        {
+          "id": "A",
+          "text": "1"
+        },
+        {
+          "id": "B",
+          "text": "2"
+        },
+        {
+          "id": "C",
+          "text": "3"
+        },
+        {
+          "id": "D",
+          "text": "4"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "images": [
+        "assets/questions/exam-4-q040-1.jpeg"
+      ],
+      "question": "The transactions boundaries are specified by BEGIN-TRANSACTION and END-TRANSACTION statements. For recovery purpose (in case of data lost), the system needs to keep track of all these states. Calculate the cyclomatic complexity:",
+      "explanation": "trạng thái mà có 2 mũi tên đi ra là các đang cho thấy nó là hàm điều kiện. Công thức tính cyclomatic complexity = số conditions +1 ( Hình trên thấy có 3 cái conditions)"
+    },
+    {
+      "id": "exam-4-q041",
+      "number": 41,
+      "options": [
+        {
+          "id": "A",
+          "text": "All the mentioned acceptance criteria follow the meaning of INVEST characteristics"
+        },
+        {
+          "id": "B",
+          "text": "The acceptance criteria do not fulfill INVEST criteria and is therefore of bad quality"
+        },
+        {
+          "id": "C",
+          "text": "This user story is more like an Epic and therefore the mentioned acceptance criteria do not fit"
+        },
+        {
+          "id": "D",
+          "text": "As there are no non-functional acceptance criteria mentioned, the team has forgotten to use quantitative questionnaires"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [
+        "assets/questions/exam-4-q041-1.jpeg"
+      ],
+      "question": "Which one of the following statements is correct according to this situation and the mentioned acceptance criteria?",
+      "explanation": "INVEST là viết tắt của: Independent - Negotiable-Valuable- Estimable-Small-Testable, refer: ISTQB-CTAL-ATT_Sample-Exam-Questions_v1.0.2 đề này 1.0 ko tìm dc trên istqb.org. Answer link này: https://d288qud2qgn4l3.cloudfront.net/media/resources/ISTQB-CTAL-ATT_Sample-Exam_Answers_V1.0.pdf"
+    },
+    {
+      "id": "exam-4-q042",
+      "number": 42,
+      "options": [
+        {
+          "id": "A",
+          "text": "I"
+        },
+        {
+          "id": "B",
+          "text": "II and III"
+        },
+        {
+          "id": "C",
+          "text": "III and IV"
+        },
+        {
+          "id": "D",
+          "text": "II, III and IV"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "images": [],
+      "question": "A functionality from Swiss Banking system is available in all environments 24 X 7 and it needs service for different transactions from a 3rd party software component. Does this SUT qualify for Service virtualization? I. No, as there is an interface with an external service. II. Yes, to perform time controlled non-functional testing of SUT. III. Yes, to lower the cost of test infrastructure set-up as compared to the cost of testing with real 3rd party service due to the fact that virtual service does not need to include all of the functionality and test data of the actual external service. IV. No, as external services have some sort of inherent wait time associated with network travel time and virtual service can respond instantaneously as it is in the same network/environment as our SUT.",
+      "explanation": "Refer phân tra loi https://d288qud2qgn4l3.cloudfront.net/media/resources/ISTQB-CTAL-ATT_Sample-Exam_Answers_V1.0.pdf"
+    },
+    {
+      "id": "exam-4-q043",
+      "number": 43,
+      "options": [
+        {
+          "id": "A",
+          "text": "In multiple environments where the test basis is continuously changing, it is recommended to specify test conditions at a detailed level in order to achieve a better maintainability"
+        },
+        {
+          "id": "B",
+          "text": "The specification of test conditions at a detailed level can be effective when no formal requirements or other development work products are available"
+        },
+        {
+          "id": "C",
+          "text": "The specification of test conditions at a detailed level can require the implementation of an adequate level of formality across the team"
+        },
+        {
+          "id": "D",
+          "text": "For system testing, the specification of test conditions at a detailed level, carried out early in the project as soon as the test basis is established, can contribute to defect prevention"
+        },
+        {
+          "id": "E",
+          "text": "For system testing, the specification of test conditions at a detailed level, carried out early in the project as soon as the test basis is established, can contribute to defect prevention, can achieve a better maintainability"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "E"
+      ],
+      "images": [],
+      "question": "Which of the following statements describing the consequences of specifying test conditions at a detailed level is NOT true? select TWO",
+      "explanation": "cau 44 de TM12 them dap an E"
+    },
+    {
+      "id": "exam-4-q044",
+      "number": 44,
+      "options": [
+        {
+          "id": "A",
+          "text": "i,ii is TRUE, iii is FALSE"
+        },
+        {
+          "id": "B",
+          "text": "i,iii is TRUE, iiis FALSE"
+        },
+        {
+          "id": "C",
+          "text": "i,ii,iii is TRUE"
+        },
+        {
+          "id": "D",
+          "text": "i,ii, iii is FALSE"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [],
+      "question": "Assuming N unique atomic conditions, MC/DC can usually be achieved in N+1 unique test cases. MC/DC rules like that: i. At least one test where the decision outcome would change if the atomic condition X were TRUE ii. At least one test where the decision outcome would change if the atomic condition X were FALSE iii. Find data that force execution through that path and use it in a test case. WHich of following is TRUE about MC/DC",
+      "explanation": "Cái này xem chương 4 sách đầy đủ có phần định nghĩa của MC/DC"
+    },
+    {
+      "id": "exam-4-q045",
+      "number": 45,
+      "options": [
+        {
+          "id": "A",
+          "text": "How the virtual users were created"
+        },
+        {
+          "id": "B",
+          "text": "The ramp-up and ramp-down times needed for all users"
+        },
+        {
+          "id": "C",
+          "text": "What caused 3% of the transactions to fail to complete"
+        },
+        {
+          "id": "D",
+          "text": "Which environment was used for the tests"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [
+        "assets/questions/exam-4-q045-1.jpeg"
+      ],
+      "question": "Considering the previous scenario and disregarding the performance times, what information would be most interesting to the technical stakeholders?",
+      "explanation": "Refer câu 21 đề thi ASTQB Performance testing. Giải thích của họ: C is correct. Technical users will want to know what happened with the 3% that failed. As they are troubleshooting, they may be interested in D, but that won’t be the first area to investigate. A and B are not correct because the creation of the users and the time required to complete the transactions is not in question here"
+    },
+    {
+      "id": "exam-4-q046",
+      "number": 46,
+      "options": [
+        {
+          "id": "A",
+          "text": "GIVEN I have 5000 on my personal account X AND I have 200 on my personal account Y WHEN I transfer 1000 from X to Y THEN I should have balance 4000 on my personal account X AND I should have balance 1200 on my personal account Y"
+        },
+        {
+          "id": "B",
+          "text": "GIVEN I have 5000 on my personal account X AND I have 200 on my personal account Y WHEN I click ‘Make transfer’ button AND I enter 3000 into Amount field AND I enter ‘X’ into ‘From which account’ field AND I enter ‘Y’ into ‘To which account’ field AND I click ‘Confirm transaction’ button THEN I should have balance $2000 on my personal account X AND I should have balance $3200 on my personal account Y"
+        },
+        {
+          "id": "C",
+          "text": "GIVEN I have 5000 on my personal account X and 600 on my personal account Y WHEN I transfer 500 from Y to X THEN I should have balance 4500 on X and balance 1100 on Y"
+        },
+        {
+          "id": "D",
+          "text": "GIVEN I have 5000 on my personal account X WHEN I have 600 on my personal account Y THEN I have 5600 in total on my personal accounts X and Y\\"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [
+        "assets/questions/exam-4-q046-1.jpeg"
+      ],
+      "question": "Which of the following is the BEST example of a Gherkin-style test for a web-based banking application?",
+      "explanation": "Refer câu 12 đề ISTQB Acceptance Testing. giải thích của họ: a) Is correct: this is a good example of a Gherkin-style test: GIVEN section describes the preconditions (a situation; a precondition), WHEN – a specified behavior (an action on the system) and THEN – the expected result (post condition, expected change) b) Is not correct: according to [AcT Syllabus], WHEN section should not refer to the user interface elements, but should only describe the action we want to invoke. c) Is not correct: this scenario contains an error in the THEN section – it should state that we have $5500 on X and $100 on Y. d) Is not correct: this scenario states an obvious state on the system resulted from simple calculation that does not need to be a part of acceptance test scenario."
+    },
+    {
+      "id": "exam-4-q047",
+      "number": 47,
+      "options": [
+        {
+          "id": "A",
+          "text": "GIVEN ii) WHEN i) THEN vi)"
+        },
+        {
+          "id": "B",
+          "text": "GIVEN ii) WHEN iv) THEN v)"
+        },
+        {
+          "id": "C",
+          "text": "GIVEN iii) WHEN ii) THEN iv)"
+        },
+        {
+          "id": "D",
+          "text": "GIVEN ii) WHEN v) AND vi) THEN i)"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [],
+      "question": "Assume you are testing functionality of the interface of an elevator. One of the requirements is that the elevator can work only if the total weight of the passengers does not exceed 200 kg. The elevator can reach the following floors: Ground Floor, 1st floor and 2nd floor. You want to create an acceptance test using the Gherkin language. You can use the following phrases for this purpose: i. the total weight of passengers is greater than 200 kg ii. the elevator is on the Ground Floor iii. a button ‘1st floor’ was pressed iv. the elevator goes to the 1st floor v. a passenger standing at the 2nd floor calls the elevator vi. a message ‘too many passengers’ is displayed on the screen Which statements correctly matches constructs of Given/When/Then with a relevant phrase in order to create TC",
+      "explanation": "Refer câu 11 đề ISTQB Acceptance Testing. Giải thích của họ: a) Is correct: this test represents a situation in which the elevator cannot operate, since the total weight of the passengers exceeds the allowed limits. ii) represents a situation, i) represents an action (event), and vi) the expected result. b) Is not correct: this test does not cover a reasonable operation/scenario – it just describes that some combination of events iv) and v) may occur, but does not contain any reasonable, expected result in the THEN section c) Is not correct: this test is not complete, since it does not take into account the restriction on the total weight of the passengers, given in the requirements. d) Is not correct: this test would represent a correct reasoning (if the weight message is shown then the"
+    },
+    {
+      "id": "exam-4-q048",
+      "number": 48,
+      "options": [
+        {
+          "id": "A",
+          "text": "TC1 – TC3 – TC4 – TC6 – TC2 – TC5"
+        },
+        {
+          "id": "B",
+          "text": "TC4 – TC3 – TC1 – TC2 – TC5 – TC6"
+        },
+        {
+          "id": "C",
+          "text": "TC4 – TC1 – TC3 – TC5 – TC6 – TC2"
+        },
+        {
+          "id": "D",
+          "text": "TC4 – TC2 – TC5 – TC1 – TC3 – TC6"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [
+        "assets/questions/exam-4-q048-1.png"
+      ],
+      "question": "Which of the following test execution schedules BEST considers the priorities and technical and logical dependencies?",
+      "explanation": "Thứ tự chạy là xem Dependency trước , TC ko phụ thuộc sẽ chạy trước như vậy có TC2, TC4 là dc chạy trước, TC4 ưu tiên cao hơn chạy đầu tiên, tiếp theo TC2, TC1, TC3 chạy đc tiếp theo ( vì 1 và 3 phụ thuộc vào TC4), TC1 hoặc TC3 chạy thứ 2 đều đc vì có độ ưu tiên như nhau. Cứ làm như vậy. A sai vì TC1 ko thể chạy trước TC4, D sai vì TC2, TC5 có độ ưu tiên thấp lại đc chạy trước, C sai vì TC5 chạy trước TC2 là không thể. Còn mỗi B đúng"
+    },
+    {
+      "id": "exam-4-q049",
+      "number": 49,
+      "options": [
+        {
+          "id": "A",
+          "text": "Apply BVA, FI, MC/DC; consider applying Formal Design Review and On Vehicle Testing"
+        },
+        {
+          "id": "B",
+          "text": "Apply BVA, FI, MC; consider applying Formal Design Review and On Vehicle Testing"
+        },
+        {
+          "id": "C",
+          "text": "Apply Formal Design Review, BVA, FI, MC/DC, MC; consider applying On Vehicle Testing"
+        },
+        {
+          "id": "D",
+          "text": "Apply Formal Design Review, BVA, MC/DC, MC, On Vehicle Testing; consider applying FI"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [
+        "assets/questions/exam-4-q049-1.jpeg"
+      ],
+      "question": "Given the table below, which of the following sets of methods should you apply?",
+      "explanation": "Câu 17 đề ASTQB Automotive exam, họ giải thích: B is correct. For ASIL C, BVA, FI and MC are highly recommended. Formal Design Review and On Vehicle are recommended. MC/DC is not needed because the tester can choose either MC/DC or MC and MC has the higher recommendation. A is not correct because it uses MC/DC when it should use MC because MC has the higher recommendation on the optional choice. C is not correct because it requires FDR when that is only recommended and also has both MC/DC and MC when only one is needed. D is not correct because it requires FDR and On Vehicle when these are only recommended and does not apply FI testing."
+    },
+    {
+      "id": "exam-4-q050",
+      "number": 50,
+      "options": [
+        {
+          "id": "A",
+          "text": "Tests of the reaction to configuration data should be done in either the SiL or the HiL environment, but cannot be done in the MiL environment"
+        },
+        {
+          "id": "B",
+          "text": "Test of the interactions at interfaces are optional in the SiL environment"
+        },
+        {
+          "id": "C",
+          "text": "Tests for usability can be done in the SiL environment and should be done in the HiL environment"
+        },
+        {
+          "id": "D",
+          "text": "The SiL environment should only be used to test the reaction to configuration data"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [
+        "assets/questions/exam-4-q050-1.jpeg"
+      ],
+      "question": "Using this table, which statement is true?",
+      "explanation": "Câu 33 đề astqb automotive exam họ trả lời C is correct as this answer reflects the content of the last row “Prove usability”. A is incorrect because the ‘o’ in the MiL column indicates such testing is possible. B is incorrect because the ‘-‘ in the SiL column indicates such testing is not sensible. D is incorrect because the bottom row has an ‘o’ in the SiL column, so testing is possible and should be considered. (see syllabus section 3.2.4.2, table 4)"
+    },
+    {
+      "id": "exam-4-q051",
+      "number": 51,
+      "options": [
+        {
+          "id": "A",
+          "text": "Cases 3, 5, 6, and 7"
+        },
+        {
+          "id": "B",
+          "text": "Cases 1, 2, 3, and 4"
+        },
+        {
+          "id": "C",
+          "text": "Cases 2, 4, 6, and 8"
+        },
+        {
+          "id": "D",
+          "text": "Cases 1, 3, 5, and 7"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [
+        "assets/questions/exam-4-q051-1.jpeg"
+      ],
+      "question": "To achieve 100% Modified Condition/Decision Coverage (MC/DC) which set of test cases should be used?",
+      "explanation": "Câu 37 đề automotive exam. đọc đề thì hiểu là MODERATE là cái decision outcome dự vào các điều kiện của 3 biến, hàm của nó là If ((SPEED or STRESS) and ACTIVE) then MODERATE. đi tìm TC để đạt 100% MC/DC"
+    },
+    {
+      "id": "exam-4-q052",
+      "number": 52,
+      "options": [
+        {
+          "id": "A",
+          "text": "1, 9, 2"
+        },
+        {
+          "id": "B",
+          "text": "1, 2, 3, 9"
+        },
+        {
+          "id": "C",
+          "text": "1, 2, 9, 5, 4, 7"
+        },
+        {
+          "id": "D",
+          "text": "1, 9, 2, 3, 5, 6, 8"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [
+        "assets/questions/exam-4-q052-1.jpeg"
+      ],
+      "question": "Which test techniques should be selected and in which order (from highest priority to lowest priority) should the tests be conducted?",
+      "explanation": "câu 40 đề automotive exam, họ giải thích là A is correct. 1, 9 and 2 are the only options that are suitable and reasonable for this level of testing. 1 would logically come first as it will likely be the basis for the rest of the testing. 9 is a higher risk than 2, so should be tested first."
+    },
+    {
+      "id": "exam-4-q054",
+      "number": 54,
+      "options": [
+        {
+          "id": "A",
+          "text": "Number of defects found in dynamic testing"
+        },
+        {
+          "id": "B",
+          "text": "Test execution status"
+        },
+        {
+          "id": "C",
+          "text": "Review and dynamic testing hours"
+        },
+        {
+          "id": "D",
+          "text": "Number of defects found in reviews"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [
+        "assets/questions/exam-4-q054-1.jpeg"
+      ],
+      "question": "Which of the following metrics would NOT be used to prove this point during review trial?",
+      "explanation": ""
+    },
+    {
+      "id": "exam-4-q055",
+      "number": 55,
+      "options": [
+        {
+          "id": "A",
+          "text": "Ask the test automation team to create several TCs covering the different features, read the input data from a file and run the tests"
+        },
+        {
+          "id": "B",
+          "text": "Ask the test automation team to adapt some existing TCs to work with given test data"
+        },
+        {
+          "id": "C",
+          "text": "Ask the test automation team to prepare a TC for one of the features, read a sample of the input data and execute the test"
+        },
+        {
+          "id": "D",
+          "text": "Ask the test automation team to prepare a general TC which reads the input data from file and executes all the tests"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [],
+      "question": "You are a QA manager of a project where each feature must be checked with a very large number of input combinations. You think the approach of data-driven testing could be the correct solution. You want to prepare a Proof of Concept (PoC) to decide if using DDT technique would help or not. Which is the best option from the list below?",
+      "explanation": "Refer câu 16 của đề ATT là Agile Technical Test trên istqb.org"
+    },
+    {
+      "id": "exam-4-q056",
+      "number": 56,
+      "options": [
+        {
+          "id": "A",
+          "text": "A Test Process Group is set up within a major in-house project and staffed from within the project. The Test Process Group implements improvements which are relevant to the project and reports to the project leader"
+        },
+        {
+          "id": "B",
+          "text": "A Test Process Group is set up to co-ordinate improvement activities between the different projects. Staff from a discontinued in-house project are permanently assigned to the Test Process Group"
+        },
+        {
+          "id": "C",
+          "text": "Establish a Management Steering Group (MSG) to coordinate test process improvements across the organization. The MSG has ownership of the test process. A Technical Working Group is set up to co-ordinate the test automation improvements and ensure good communication takes place"
+        },
+        {
+          "id": "D",
+          "text": "Establish a Management Steering Group (MSG) to implement test process improvements across the organization. The MSG has ownership of the test process and manages the contractual issues with the offshore company implementing the test automation"
+        }
+      ],
+      "correctAnswers": [
+        "B",
+        "C"
+      ],
+      "images": [],
+      "question": "A company is planning its test process improvements and has asked for your advice on how best to organize the improvement. You are given the following background information: - The company is experiencing test process problems within many of its projects - Planned improvements to test automation shall be implemented at an offshore location - The organization has not assigned responsibility for developing the test process Which of the following organizational forms would you consider to be most appropriate? select 2 options",
+      "explanation": "Câu này là câu 51 đề update 2023, nhưng thi thật họ bắt chọn 2 đáp án. Theo syllabus mục 7.1.1 có đoạn định nghĩa về \"Test Process Group (TPG) as a group of individuals who may cooperate with other quality-related organizations\" vì thế mình ko chọn A vì within a major in-house project là ko hợp lý, và loại D cũng vì từ Implement Test process ko hợp lý bằng C có từ coordinate test process improvements. Nên nếu chọn 1 ĐA thì chọn C theo sách, nếu bắt chọn 2 thì chọn B và C"
+    },
+    {
+      "id": "exam-4-q057",
+      "number": 57,
+      "options": [
+        {
+          "id": "A",
+          "text": "It can direct the testing of the project to be process-compliant"
+        },
+        {
+          "id": "B",
+          "text": "It can be used for experience sharing concerning testing"
+        },
+        {
+          "id": "C",
+          "text": "It can enable the institutionalization of changes to the testing process over a longer period"
+        },
+        {
+          "id": "D",
+          "text": "It can take on the coordinating of all process improvements in the organization"
+        }
+      ],
+      "correctAnswers": [
+        "C",
+        "D"
+      ],
+      "images": [],
+      "question": "Why should a Test Process Group ultimately be established on a permanent basis? select 2 options",
+      "explanation": "Là câu số 7 của đề Expert-ITP-Part_2_ISTQB.ORG trong hệ thống này, nhưng đi thi họ bắt chọn 2 đáp án đúng. Nếu chọn 1 thì vẫn sẽ là C, nếu bắt chọn 2 thì mình chọn thêm D vì A và B đang nói về chỉ đạo test và chia sẻ kinh nghiệm test nó ko liên quan đến cái chức năng của nhóm a Test Process Group, mình chọn D vì nó đưa ra đc coordinating of all process improvements, họ nhấn mạnh trong mục 7.1.1 của sách syllabus"
+    },
+    {
+      "id": "exam-4-q058",
+      "number": 58,
+      "options": [
+        {
+          "id": "A",
+          "text": "Project A is a better pilot project for implementing a test automation strategy than Project D because it is a very typical project for GetDailyBetter Inc."
+        },
+        {
+          "id": "B",
+          "text": "Project E is not a good project to pilot the usage of new testing techniques because innovations are always too risky"
+        },
+        {
+          "id": "C",
+          "text": "Project F is ideal to pilot the new defect report forms and analysis tools because quality is very important when building platforms"
+        },
+        {
+          "id": "D",
+          "text": "Project D is favored to projects B and C in piloting the definition of test levels with entry and exit criteria, new test level plans and usage of new metrics"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "images": [
+        "assets/questions/exam-4-q058-1.jpeg"
+      ],
+      "question": "Which of the following statements is correct? select 2 options",
+      "explanation": "Refer câu số 7 trong Improvement Process Part 2 expert trên istqb.org. Đi thi bắt chọn 2 đáp án, Đáp án D theo sách là đáp án đầu tiên đúng, theo giải thích của D họ bảo project D phù hợp nhất, sau đó đến project B rồi mới đến project C. Nếu đề có project B hoặc project C thì chọn thêm cái này."
+    },
+    {
+      "id": "exam-4-q059",
+      "number": 59,
+      "options": [
+        {
+          "id": "A",
+          "text": "It requires the use of inspections"
+        },
+        {
+          "id": "B",
+          "text": "It addresses only management reviews and audits"
+        },
+        {
+          "id": "C",
+          "text": "It requires the use of pair programming and pair testing"
+        },
+        {
+          "id": "D",
+          "text": "It defines inspections, walkthroughs, and technical reviews"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "images": [],
+      "question": "Which of the following statements about the IEEE 1028 standard is true?",
+      "explanation": "IEEE 1028: A standard for software inspections (review) Tra cứu trên mạng nó là 1 chuẩn mô tả về các hình thức của review"
+    },
+    {
+      "id": "exam-4-q060",
+      "number": 60,
+      "options": [
+        {
+          "id": "A",
+          "text": "If the team tries to implement too many improvements, they may feel defeated and lose motivation"
+        },
+        {
+          "id": "B",
+          "text": "If the team tries to implement too many improvements it may disrupt their ability to produce at a sustained pace"
+        },
+        {
+          "id": "C",
+          "text": "If the team tries to implement too many improvements it may set a management expectation of radical change with each iteration"
+        },
+        {
+          "id": "D",
+          "text": "If the team tries to implement too many improvements they may lose sight of the definition of “done”"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [],
+      "question": "Why is it important for a team to implement only a few improvements in an iteration?",
+      "explanation": "Câu 10 đề Agile foundation trên trang astqb.org, họ giải thích là B is correct. Trying to make too many changes may result in disruption of the sustained pace they are trying to achieve"
+    },
+    {
+      "id": "exam-4-q061",
+      "number": 61,
+      "options": [
+        {
+          "id": "A",
+          "text": "(5, 3, 2)"
+        },
+        {
+          "id": "B",
+          "text": "(5, 3, 2); (5, 4, 0)"
+        },
+        {
+          "id": "C",
+          "text": "(5, 4, 0); (4, 5, 0)"
+        },
+        {
+          "id": "D",
+          "text": "(4, 5, 0); (5, 4, 5)"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [],
+      "question": "Consider the following code fragment: if (a>b) && (b>c) { b = (a+c/2; } Assume that, in the following options, each of the three numbers in parentheses represents the inputs for a test case, where the first number is a, the second number b, and the third number c. Which of the following gives a set of test case inputs that achieves decision coverage for this fragment of code in the minimum number of test cases?",
+      "explanation": ""
+    }
+  ]
+}

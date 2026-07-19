@@ -1,0 +1,1785 @@
+{
+  "id": "exam-10",
+  "title": "EXAM 10 AL2023_ update 2023 có video",
+  "questions": [
+    {
+      "id": "exam-10-q001",
+      "number": 1,
+      "options": [
+        {
+          "id": "A",
+          "text": "(5, 3, 2)"
+        },
+        {
+          "id": "B",
+          "text": "(5, 3, 2); (5, 4, 0)"
+        },
+        {
+          "id": "C",
+          "text": "(5, 4, 0); (4, 5, 0)"
+        },
+        {
+          "id": "D",
+          "text": "(4, 5, 0); (5, 4, 5)"
+        },
+        {
+          "id": "E",
+          "text": "(5, 3, 2); (5, 4, 5)"
+        }
+      ],
+      "correctAnswers": [
+        "C",
+        "E"
+      ],
+      "images": [],
+      "question": "Consider the following code fragment: if (a>b && (b>c) { b = (a+c/2; } Assume that, in the following options, each of the three numbers in parentheses represents the inputs for a test case, where the first number is a, the second number b, and the third number c. Which of the following gives a set of test case inputs that achieves decision coverage for this fragment of code in the minimum number of test cases?",
+      "explanation": "Chapter 4 whitebox test, cả C,E đều thỏa mãn chạy đc TF"
+    },
+    {
+      "id": "exam-10-q002",
+      "number": 2,
+      "options": [
+        {
+          "id": "A",
+          "text": "You should plan for lightweight exit-phase reviews at the end of each development and testing phase, and plan for a process of gathering information from testing to perform an analysis aimed at identifying the larger cluster of defects"
+        },
+        {
+          "id": "B",
+          "text": "You should plan for formal exit-phase reviews at the end of each development and testing phase, and plan for a process of gathering information from testing to perform an analysis aimed at identifying the larger cluster of defects"
+        },
+        {
+          "id": "C",
+          "text": "You should plan for formal exit-phase reviews at the end of each development phase and testing phase, and plan for a process of gathering information from testing to perform an analysis of the bugs found during testing to determine the people responsible for those bugs"
+        },
+        {
+          "id": "D",
+          "text": "You should plan for formal exit-phase reviews at the end of each development and testing phase, and plan for a process of gathering information from testing to perform an analysis of the bugs found during testing to determine the phase in which they have been introduced"
+        },
+        {
+          "id": "E",
+          "text": "You should plan for informal exit-phase reviews at the end of each development and testing phase, and plan for a process of gathering information from testing to perform an analysis of the bugs found during testing to determine the phase in which they have been introduced"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "images": [],
+      "question": "The main objectives the senior management team wants to achieve are: - to reduce the costs associated with dynamic testing - to use reviews to ensure that the project is on course for success and following the plan - to use reviews as a well-documented and effective bug-removal activity following a formal process with well-defined roles - to determine the effectiveness of reviews in terms of phase containment - to improve phase containment effectiveness Which of the following answers would you expect to describe the best way to achieve these objectives? K4 3 credits",
+      "explanation": "refer 6.1.4 Managing Formal Reviews. Để đạt được các objective trên phải áp dụng các tiêu chí của formal review : planning đầy đủ, define entry exit criteria, có đo đạc metrics"
+    },
+    {
+      "id": "exam-10-q003",
+      "number": 3,
+      "options": [
+        {
+          "id": "A",
+          "text": "Writing test specifications according to the test design"
+        },
+        {
+          "id": "B",
+          "text": "Training developers to better understand the new features of the coding language they will use on the project"
+        },
+        {
+          "id": "C",
+          "text": "Re-running a test case, during the system testing phase, to verify that a fix eliminates a previously found defect"
+        },
+        {
+          "id": "D",
+          "text": "Fixing field failures"
+        },
+        {
+          "id": "E",
+          "text": "Re-running a test case after the system testing phase"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [],
+      "question": "Which of the following activities would the costs be classified as a cost of detection?",
+      "explanation": ""
+    },
+    {
+      "id": "exam-10-q004",
+      "number": 4,
+      "options": [
+        {
+          "id": "A",
+          "text": "Security testing"
+        },
+        {
+          "id": "B",
+          "text": "Reliability testing"
+        },
+        {
+          "id": "C",
+          "text": "Accessibility testing"
+        },
+        {
+          "id": "D",
+          "text": "Performance testing"
+        },
+        {
+          "id": "E",
+          "text": "Automation test"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [],
+      "question": "Which of the following is a type of testing that someone in the role of a test analyst, working with the test manager, should typically consider and plan for?",
+      "explanation": "Refer chapter 5 bảng ISO25010, mảng mà TA phải chịu trách nhiệm thì Accessibility testing là thuộc tính con của Usability test"
+    },
+    {
+      "id": "exam-10-q005",
+      "number": 5,
+      "options": [
+        {
+          "id": "A",
+          "text": "The test analyst is responsible for supplying accurate information"
+        },
+        {
+          "id": "B",
+          "text": "The test analyst should be able to use the reporting tools"
+        },
+        {
+          "id": "C",
+          "text": "The test analyst will contribute to the final report at the end of the testing"
+        },
+        {
+          "id": "D",
+          "text": "The test analyst should write final test reports objectively"
+        },
+        {
+          "id": "E",
+          "text": "The test analyst should create master test plan"
+        }
+      ],
+      "correctAnswers": [
+        "D",
+        "E"
+      ],
+      "images": [],
+      "question": "Which of the following tasks and responsibilities do NOT belong to that of a test analyst in the context of evaluating exit criteria and reporting?",
+      "explanation": "Refer chapter 10 đã bổ sung bảng task của test leader và tester."
+    },
+    {
+      "id": "exam-10-q006",
+      "number": 6,
+      "options": [
+        {
+          "id": "A",
+          "text": "Quick to set up and cheap"
+        },
+        {
+          "id": "B",
+          "text": "Electronic rather than manual"
+        },
+        {
+          "id": "C",
+          "text": "Allows attachments (e.g. screen prints) to be linked to the incident reports"
+        },
+        {
+          "id": "D",
+          "text": "Can easily be integrated with open source tools"
+        },
+        {
+          "id": "E",
+          "text": "High level of Usability"
+        },
+        {
+          "id": "F",
+          "text": "Large files are not a problem"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "B",
+        "E"
+      ],
+      "images": [
+        "assets/questions/exam-10-q006-1.jpeg"
+      ],
+      "question": "Identify THREE main advantages of this approach to incident management.",
+      "explanation": "Quản lý lỗi bằng một công cụ Word process, mỗi lỗi là 1 file riêng và được quản lý các thông tin quan trọng trong 1 spreedsheet, nên chọn đc ABE, Còn lại các vấn đề kỹ thuật khác ko đc nhắc đến trong bài nên ta ko thể bảo nó có chứa Large file đc ko ở F, Integrated với tool khác đc ko cũng ko biết ở D, attachments ko rõ ở C"
+    },
+    {
+      "id": "exam-10-q007",
+      "number": 7,
+      "options": [
+        {
+          "id": "A",
+          "text": "1"
+        },
+        {
+          "id": "B",
+          "text": "2"
+        },
+        {
+          "id": "C",
+          "text": "3"
+        },
+        {
+          "id": "D",
+          "text": "4"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [
+        "assets/questions/exam-10-q007-1.png"
+      ],
+      "question": "What is the MINIMUM number of test conditions that must be added to fulfill both the EXCR1 and EXCR2 exit criteria?",
+      "explanation": "Câu này cứ đếm số Req và số risk và map với TC đã cho thì tìm ra test case còn thiếu theo EXCR1 và EXCR2 là mỗi cái phải có ít nhất 1 test case để kiểm tra"
+    },
+    {
+      "id": "exam-10-q008",
+      "number": 8,
+      "options": [
+        {
+          "id": "A",
+          "text": "Management support"
+        },
+        {
+          "id": "B",
+          "text": "Participant support"
+        },
+        {
+          "id": "C",
+          "text": "Definition and use of metrics to measure the ROI (Return On Investment)"
+        },
+        {
+          "id": "D",
+          "text": "Training in the review process"
+        },
+        {
+          "id": "E",
+          "text": "Stakeholder support"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [],
+      "question": "You are a Test Manager working for a software organization where reviews have never been applied. After a meeting with your managers examining a business case for reviews, (including their costs, benefits, and potential issues), the management finally decides to adopt formal reviews for future projects. You have been given a budget that you have spent to provide training in the review process and to introduce the review process on a pilot project. On that pilot project the introduction of reviews has been very positive in terms of positive involvement from all the participants. All the reviews applied to different documents have been very effective for their purposes (especially at revealing defects). Which of an important factor for the introduce of formal reviews which is missing? 3 P",
+      "explanation": "Câu này dựa vào keyword của đề bài ta thấy \"the management finally decides to adopt formal reviews for future projects.\" là có A rồi, \"provide training in the review process\" là có D rồi, \"positive involvement from all the participant\" là có B rồi, thiếu mỗi C nên là đáp án đúng, Còn E là không yêu cầu trong nhân tố thành công của Review"
+    },
+    {
+      "id": "exam-10-q009",
+      "number": 9,
+      "options": [
+        {
+          "id": "A",
+          "text": "ISO 9126-1 ‘Software engineering- Product quality Part 1: Quality model’ is an international standard, that provides a basis on which to define quality assurance solutions."
+        },
+        {
+          "id": "B",
+          "text": "ISA 4126-1 ‘Software engineering- Product quality Part 1: Quality model’ is an international standard, that provides a basis on which to define quality assurance solutions"
+        },
+        {
+          "id": "C",
+          "text": "BS-7925-2 ‘Software testing. Software component testing is a national standard used internationally. It covers a number of testing techniques that may be useful both on component testing level and on system testing level."
+        },
+        {
+          "id": "D",
+          "text": "SY-395-01 ‘Standard for East Coast Hospital software’ is a regional standard adapted from a national one. Besides hospital software, this standard ought to be used also by other types of software system in the region."
+        },
+        {
+          "id": "E",
+          "text": "IEEE 829 ‘standard for software test documentation’ is an international standard to be following mandatory by all testing origination regardless of lifecycle models."
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "C"
+      ],
+      "images": [],
+      "question": "Topic 8, Scenario 8, V2 “Test Project Improvement’ You have raised the issue that improving the testing process is also dependent on the status of the software development process. ******************************* During test process improvement it is recommended to use standards where possible. Standards originate from various sources and they cover different subjects in relation to testing Pick TWO sources of software standards, useful to software testing from the ones mentioned below.",
+      "explanation": ""
+    },
+    {
+      "id": "exam-10-q010",
+      "number": 10,
+      "options": [
+        {
+          "id": "A",
+          "text": "Issues regarding time-behavior"
+        },
+        {
+          "id": "B",
+          "text": "Issues regarding interoperability"
+        },
+        {
+          "id": "C",
+          "text": "More test cases needed to achieve full coverage"
+        },
+        {
+          "id": "D",
+          "text": "Expected results not clearly defined"
+        },
+        {
+          "id": "E",
+          "text": "Performance issue"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "E"
+      ],
+      "images": [],
+      "question": "You are testing an ATM based on the following use case; ATM start screen is showing 1. The user inserts card 2. The user types in PIN 3. The user selects `cash with receipt' 4. The user selects 50 5. The user selects `no further service' Expected results - The ATM provides 50 to the user - The ATM return the card and balance slip - The ATM clears the screen - The ATM returns to start menu In your test log which of the following could be noted as part of additional attention points? [K3] 2 credits",
+      "explanation": "Xem hình của câu 32 đề TM12 sẽ thấy họ đánh dấu vấn đề cần thêm vào mô tả cho Use case này là Additional attention points: Note Response times"
+    },
+    {
+      "id": "exam-10-q011",
+      "number": 11,
+      "options": [
+        {
+          "id": "A",
+          "text": "Defined entry and exit criteria"
+        },
+        {
+          "id": "B",
+          "text": "Checklists to be used by the reviewers"
+        },
+        {
+          "id": "C",
+          "text": "Deliverables such as reports, evaluation sheets or other review summary sheets"
+        },
+        {
+          "id": "D",
+          "text": "Metrics for reporting on the review effectiveness, efficiency, and progress"
+        },
+        {
+          "id": "E",
+          "text": "Project documents fully and detail"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "images": [],
+      "question": "During the follow-up phase the following conditions are checked: X1. The code has been completely reviewed X2. All the identified defects have been correctly fixed and the modified code has been compiled successfully and run through all the static analyzers used by the project without warnings and errors X3. The modified code is available under the configuration management system with a new version number for the specified CI If these conditions are fulfilled then the review process terminates. Which of the following characteristics of a formal review is missing in this description? K2 1 credit",
+      "explanation": ""
+    },
+    {
+      "id": "exam-10-q012",
+      "number": 12,
+      "options": [
+        {
+          "id": "A",
+          "text": "ISO 9126"
+        },
+        {
+          "id": "B",
+          "text": "IEEE 829"
+        },
+        {
+          "id": "C",
+          "text": "BS 7925/2"
+        },
+        {
+          "id": "D",
+          "text": "DO-178B"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "images": [],
+      "question": "The test improvement project will take place in an organization developing a safety-critical avionics application. Which one of the following standards do you believe would be most appropriate to take into account for compliance during your assignment?",
+      "explanation": ""
+    },
+    {
+      "id": "exam-10-q013",
+      "number": 13,
+      "options": [
+        {
+          "id": "A",
+          "text": "Developing unit tests"
+        },
+        {
+          "id": "B",
+          "text": "Executing unit tests"
+        },
+        {
+          "id": "C",
+          "text": "Planning and executing tests during the integration test phase to detect interface defects"
+        },
+        {
+          "id": "D",
+          "text": "Supporting the customer in the execution of acceptance testing"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "images": [],
+      "question": "Consider an agile team adopting Extreme Programming (XP) with five developers and one tester without any coding experience. To which of the following activities would you expect the tester will contribute most?",
+      "explanation": "AB thì là của Developer không phù hợp để tester làm, C là task của TM, chọn D thôi"
+    },
+    {
+      "id": "exam-10-q014",
+      "number": 14,
+      "options": [
+        {
+          "id": "A",
+          "text": "On the purchase page (“purchase state”), click the logout button; verify that the browse page (“browse state”) is displayed"
+        },
+        {
+          "id": "B",
+          "text": "On the select page (“select state”), click the logout button"
+        },
+        {
+          "id": "C",
+          "text": "On the purchase page (“purchase state”), click the logout button; verify that the “Impossible to logout – complete or cancel the current transaction” message is displayed"
+        },
+        {
+          "id": "D",
+          "text": "On the browse page (“browse state”), click the logout button"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [
+        "assets/questions/exam-10-q014-1.png"
+      ],
+      "question": "Which of the following is a positive logical test that is complete, is correct, and covers the REG-LOGO-001 requirement?",
+      "explanation": ""
+    },
+    {
+      "id": "exam-10-q015",
+      "number": 15,
+      "options": [
+        {
+          "id": "A",
+          "text": "Select a 6-bottles package, then try to insert 5 bottles; verify that no error messages are displayed"
+        },
+        {
+          "id": "B",
+          "text": "Select a 6-bottles package, then try to insert 7 bottles; verify that no error messages are displayed"
+        },
+        {
+          "id": "C",
+          "text": "Select a 6-bottles package, then try to insert 7 bottles; verify that the 'Invalid number of bottles' message is displayed"
+        },
+        {
+          "id": "D",
+          "text": "Select a 6-bottles package, then try to insert 7 bottles"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [
+        "assets/questions/exam-10-q015-1.jpeg"
+      ],
+      "question": "Which of the following is a positive logical test that is complete and correct, and covers the REQ-SEL-4 requirement?",
+      "explanation": "REQ-SEL-4: user nhập 1 số bị sai như là 0 hoặc lớn hơn 6 ( vì họ chọn package 6-bottles) thì hệ thống sẽ thông báo lỗi, vậy chọn đáp án để ra được thông báo lỗi là TC đúng với REQ-SEL-4."
+    },
+    {
+      "id": "exam-10-q016",
+      "number": 16,
+      "options": [
+        {
+          "id": "A",
+          "text": "Business Analyst"
+        },
+        {
+          "id": "B",
+          "text": "Customer"
+        },
+        {
+          "id": "C",
+          "text": "User"
+        },
+        {
+          "id": "D",
+          "text": "Project Manager"
+        },
+        {
+          "id": "E",
+          "text": "Stakeholder"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "images": [],
+      "question": "Q5. Which one of the following is LEAST likely to be involved in the review of requirements specifications? [K2]",
+      "explanation": "Người ít tham gia vào hoạt động review requirement nhất là PM ( ông này tập trung vào quản lý dự án). Còn custeomer, user , stakeholder là những người hoàn toàn rất hữu ích giúp review requirement, cần kéo, mời họ vào hoạt động này."
+    },
+    {
+      "id": "exam-10-q017",
+      "number": 17,
+      "options": [
+        {
+          "id": "A",
+          "text": "Test planning, test case preparation and test execution for each of the four iterations"
+        },
+        {
+          "id": "B",
+          "text": "Work should be explicitly allocated to test completion, test management, installation and to training on using the system"
+        },
+        {
+          "id": "C",
+          "text": "Activities to deploy the system in the user environment"
+        },
+        {
+          "id": "D",
+          "text": "Regression testing in the second, third and fourth iterations"
+        },
+        {
+          "id": "E",
+          "text": "Development activities for unit and integration testing"
+        },
+        {
+          "id": "F",
+          "text": "Reviews on requirements documentation"
+        },
+        {
+          "id": "G",
+          "text": "Defining test environment requirements for system testing"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "B",
+        "D"
+      ],
+      "images": [
+        "assets/questions/exam-10-q017-1.png"
+      ],
+      "question": "Identify THREE items that would be part of the work-breakdown structure showing the key testing activities for the acceptance test project.",
+      "explanation": "Câu này hiểu đơn giản WBS sử dụng để estimate cho các hoạt động test, vậy các hoạt động chính nào của test cần phải được đưa vào bản estimation"
+    },
+    {
+      "id": "exam-10-q018",
+      "number": 18,
+      "options": [
+        {
+          "id": "A",
+          "text": "60%"
+        },
+        {
+          "id": "B",
+          "text": "70%"
+        },
+        {
+          "id": "C",
+          "text": "75%"
+        },
+        {
+          "id": "D",
+          "text": "80%"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [
+        "assets/questions/exam-10-q018-1.jpeg"
+      ],
+      "question": "If you are flying with an economy ticket, there is a possibility that you may get upgraded to business class, especially if you hold a gold card in the airline's frequent flier program. If you don't hold a gold card, there is a possibility that you will get 'bumped' off the flight if it is full and you check in late. Note that each box (i.e. statement) has been numbered. Three tests have been run: Test 1: Gold card holder who gets upgraded to business class Test 2: Non-gold card holder who stays in economy Test 3: A person who is bumped from the flight What is the Decision coverage of these three tests?",
+      "explanation": "Cái này xem thêm chapter 4 phần white box test, sơ đồ kia có 10 statement ( trám và chữ nhật đều là statement, trám là statement đặc biệt gọi là decision), dùng bút vẽ vào sơ đồ 3 cái TC xem nó đã đi qua đc bao nhiêu trám và chữ nhật. Công thức tính statement coverage là số statement được test trên tổng số statement (10) nhân 100%"
+    },
+    {
+      "id": "exam-10-q019",
+      "number": 19,
+      "options": [
+        {
+          "id": "A",
+          "text": "06:00, 10:00, 12:00"
+        },
+        {
+          "id": "B",
+          "text": "10:01, 13:00, 22:59"
+        },
+        {
+          "id": "C",
+          "text": "01:00, 08:00, 22:00"
+        },
+        {
+          "id": "D",
+          "text": "24:00, 10:00, 23:01"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [],
+      "question": "A booking system for a city bus service prices its fares according to the time of travel: Peak-time tariff starts at 06:00 and finishes at 10:00 am Off-peak tariff applied during all other times of services. The bus service does not operate between 23:00 and the start of the next day’s peak service. Note that all times mentioned are inclusive. When applying the equivalence partitioning test design technique, which of the following options shows test case inputs that each fall into a same equivalence partition?",
+      "explanation": "chapter 4, vẽ sơ đồ Equivalence Partition ra là tìm đc"
+    },
+    {
+      "id": "exam-10-q020",
+      "number": 20,
+      "options": [
+        {
+          "id": "A",
+          "text": "Align technical concepts during the design phase"
+        },
+        {
+          "id": "B",
+          "text": "Establish a common understanding of requirement"
+        },
+        {
+          "id": "C",
+          "text": "Provide independent evaluation of compliance to process, regulation, standard, etc"
+        },
+        {
+          "id": "D",
+          "text": "To monitoring progress, assess the status of a project, and make a decision about future actions"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "images": [],
+      "question": "IEEE 1028 also defines \"management review\" as a type of review. What is the main purpose of a management review?",
+      "explanation": "Xem tài liệu lý thuyết chapter 6, mục đích của management review"
+    },
+    {
+      "id": "exam-10-q021",
+      "number": 21,
+      "options": [
+        {
+          "id": "A",
+          "text": "The bug find rate has not leveled off."
+        },
+        {
+          "id": "B",
+          "text": "Developers aren't fixing bugs fast enough."
+        },
+        {
+          "id": "C",
+          "text": "The complete set of tests has not yet been run."
+        },
+        {
+          "id": "D",
+          "text": "A number of unresolved bugs remain in the backlog."
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "images": [
+        "assets/questions/exam-10-q021-1.png"
+      ],
+      "question": "Which of the following interpretations of this chart provides a reason to not declare the system integration testing complete?",
+      "explanation": "Câu này ở Chapter 3 vol 123 cũng có nhé, biểu đồ cho thấy còn 1 số lượng lỗi chưa xử lý hết nên chưa kết thúc đc"
+    },
+    {
+      "id": "exam-10-q022",
+      "number": 22,
+      "options": [
+        {
+          "id": "A",
+          "text": "Show details on effort spent"
+        },
+        {
+          "id": "B",
+          "text": "List of all outstanding defects with their priority and severity"
+        },
+        {
+          "id": "C",
+          "text": "Give product risk status"
+        },
+        {
+          "id": "D",
+          "text": "Show trend analysis"
+        },
+        {
+          "id": "E",
+          "text": "State recommentdations for release"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "B"
+      ],
+      "images": [],
+      "question": "Scenario \"Medical domain\". You are working as a test manager in the medical domain leading a team of system testers. You are currently working on a major release of the product which gives customers many new features and resolves a number of problem reports from previous releases. Explain how the above mentioned report may differ from a report that you produce for the project manager, who is a test specialist. Select TWO items from the following options that can be used to report to the project manager and would not be included in a report to senior manager",
+      "explanation": "Vì Project manager theo sát dự án nên các thông tin báo cáo phải rất cụ thể, detail, còn senior manager là quản lý cấp cao không thường xuyên vào dự án nên các thông tin phải ở mức cao, tóm gọn và những cái quan trọng để giúp họ đưa ra các quyết định như Risk, biểu đồ,"
+    },
+    {
+      "id": "exam-10-q023",
+      "number": 23,
+      "options": [
+        {
+          "id": "A",
+          "text": "(iv)"
+        },
+        {
+          "id": "B",
+          "text": "(ii)"
+        },
+        {
+          "id": "C",
+          "text": "(iii)"
+        },
+        {
+          "id": "D",
+          "text": "(i)"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [
+        "assets/questions/exam-10-q023-1.jpeg"
+      ],
+      "question": "Based on the tax system specification as described below, using boundary value analysis, which would be the best test set to explicitly test on single boundary value fully? Tax system A tax system needs to be updated due to new legislation. For a person with a salary of less than € 20 000 and who is married, the tax needs to be recalculated. If a person has at least three and less than six children, an additional 10% reduction is applicable.",
+      "explanation": ""
+    },
+    {
+      "id": "exam-10-q024",
+      "number": 24,
+      "options": [
+        {
+          "id": "A",
+          "text": "9:29 am, 5 01 pm, 7:30 pm, 7:31 pm, 8:00 pm"
+        },
+        {
+          "id": "B",
+          "text": "9:30 am, 4:00 pm, 6:00 pm, 8 00 pm, 8:30 pm"
+        },
+        {
+          "id": "C",
+          "text": "9:30 am, 9:31 am, 4:59 pm, 5:00 pm, 8:00 pm"
+        },
+        {
+          "id": "D",
+          "text": "8:00 am, 10:00 am, 5:15 pm, 7:01 pm, 11:00 pm"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "images": [
+        "assets/questions/exam-10-q024-1.png"
+      ],
+      "question": "Consider the following scenario for a metro fare system: If you take the metro before 9:30 am or in the afternoon between 5:00 pm until 7:00 pm, you must pay full fare A saver ticket is available for metro rides between 9:30 am and 5:00 pm [both inclusive], and after 7:00 pm. Which off the following test sets will provide the best equivalence partitioning coverage?",
+      "explanation": ""
+    },
+    {
+      "id": "exam-10-q025",
+      "number": 25,
+      "options": [
+        {
+          "id": "A",
+          "text": "Multiple condition testing"
+        },
+        {
+          "id": "B",
+          "text": "State transition testing"
+        },
+        {
+          "id": "C",
+          "text": "Heuristic evaluation"
+        },
+        {
+          "id": "D",
+          "text": "Vulnerability scan"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [],
+      "question": "A car navigation system needs to be integrated in the overall car software It is important to verify that the car navigation is functioning correctly once integrated. Thus, functional correctness is considered to be important. Which of the following techniques is most likely to support the required functional correctness testing?",
+      "explanation": "A là của White box, trong thực tế ko làm đc, D là của static analysis để test security, C giống như free test ko test correctness đc. Chỉ còn mỗi B để chọn"
+    },
+    {
+      "id": "exam-10-q026",
+      "number": 26,
+      "options": [
+        {
+          "id": "A",
+          "text": "Finalizing test data and test environments"
+        },
+        {
+          "id": "B",
+          "text": "Creating automated tests"
+        },
+        {
+          "id": "C",
+          "text": "Creating a test execution schedule"
+        },
+        {
+          "id": "D",
+          "text": "Analysing anomalies to establish their likely causes"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "images": [],
+      "question": "Which of the following is an appropriate task for the Test Analyst to perform during the test execution phase?",
+      "explanation": "Xem cái báng task công việc của quy trình test ở mục 1.4 sách tóm tắt thì A B C đều là của hoạt động Preparation, (a test execution schedule là test procedures nhé) nên chọn đc đáp án D ( dịch là phân tích các điểm bất thường ( anomaly = incident) để xem có thể là nguyên nhân của lỗi không)"
+    },
+    {
+      "id": "exam-10-q027",
+      "number": 27,
+      "options": [
+        {
+          "id": "A",
+          "text": "4"
+        },
+        {
+          "id": "B",
+          "text": "7"
+        },
+        {
+          "id": "C",
+          "text": "8"
+        },
+        {
+          "id": "D",
+          "text": "28"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [
+        "assets/questions/exam-10-q027-1.jpeg"
+      ],
+      "question": "A PIN entry component of an ATM system has been developed using the following state table: Using the state transition test technique, how many 0-switch test cases are needed to achieve 100% 0-switch coverage?",
+      "explanation": "trường hợp này là 8 thôi nhé chỉ tính đến trường hợp đúng thôi, đề không hỏi invalid"
+    },
+    {
+      "id": "exam-10-q028",
+      "number": 28,
+      "options": [
+        {
+          "id": "A",
+          "text": "Define keywords to be implemented, eg, check balance."
+        },
+        {
+          "id": "B",
+          "text": "Design test navigation scripts"
+        },
+        {
+          "id": "C",
+          "text": "Select a tool to support keyword-driven testing"
+        },
+        {
+          "id": "D",
+          "text": "Work together with a developer to define a test automaton architecture"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [],
+      "question": "In the recent past, you have learned that test automation just using capture & playback tooling, possibly enhanced with some test programming, has limitations. For the next banking project, that will be run using Agile methods, you want to implement a keyword-driven test automation approach. You have already started to define some high-level test cases for the account transfer user story: TC 1: transfer 150 from Lars to Ann, verify Ann's balance to be 150 TC 2: transfer 300 from Tim to Ann, verify Ann's balance to be 450 In the context of implementing the keyword-driven test automation approach, which of the following activities should now be conducted by the Test Analyst?",
+      "explanation": "TA thì chỉ có thể làm được A thôi bởi vì script thì cần phải biết code, TA định nghĩa ra các yêu cầu về Keywords để TTA viết thành script"
+    },
+    {
+      "id": "exam-10-q029",
+      "number": 29,
+      "options": [
+        {
+          "id": "A",
+          "text": "Use case testing"
+        },
+        {
+          "id": "B",
+          "text": "Pairwise testing"
+        },
+        {
+          "id": "C",
+          "text": "Equivalence partitioning enhanced with boundary value analysis"
+        },
+        {
+          "id": "D",
+          "text": "State transition testing"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [],
+      "question": "You are testing the processing of a critical traffic control system to which various regulations apply The processing of the input variables is dependent on defined ranges within which the actual retrieved data values can lie. Which of the following black-box test techniques should you use to test the processing functionality of this system?",
+      "explanation": "Chú ý \"the input variables is dependent on defined ranges\" các input dựa vào các vùng ranges = areas nên ta chọn EP và BVA"
+    },
+    {
+      "id": "exam-10-q030",
+      "number": 30,
+      "options": [
+        {
+          "id": "A",
+          "text": "Pairwise testing"
+        },
+        {
+          "id": "B",
+          "text": "Exploratory testing"
+        },
+        {
+          "id": "C",
+          "text": "Use case testing"
+        },
+        {
+          "id": "D",
+          "text": "Decision table testing"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [],
+      "question": "A new web site must operate correctly with different browsers (Internet Explorer, Google Chrome, Firefox, Opera, Safari), using different plug-ins (Realplayer, Mediaplayer), will be receiving pages from different servers (IIS, Apache and WebLogic) and will be running on various operating systems (Windows, Android, iOS and Linux). Which of the following test techniques should you use to define the required test cases for testing this new web site in its various environments?",
+      "explanation": "Mình chỉ chọn A thôi, với câu này họ chỉ chọn một đáp án và đang tập trung vào test trên nhiều môi trường khác nhau"
+    },
+    {
+      "id": "exam-10-q031",
+      "number": 31,
+      "options": [
+        {
+          "id": "A",
+          "text": "Portability"
+        },
+        {
+          "id": "B",
+          "text": "Maintainability"
+        },
+        {
+          "id": "C",
+          "text": "Interoperability"
+        },
+        {
+          "id": "D",
+          "text": "Reliability"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [],
+      "question": "Rather than developing an e-commerce product, management has decided to acquire a COTS package The e-commerce product needs to interface with backend applications such a finance, stock control and order delivery. You are asked to define a test plan for this project. Given just the information in the scenario, which of the following software quality characteristics must be included in your test plan?",
+      "explanation": "Trong đề nó chỉ nhắc đến interface với các hệ thống thì cái test Mình phải quan tâm nhất là interoperability, Nếu mà đề nó thêm một số mô tả nữa về việc tương lai sẽ phải kết nối thêm các hệ thống khác hay là cần phải nâng cấp cái gì đó lên thì mới quan tâm đến maintainability."
+    },
+    {
+      "id": "exam-10-q032",
+      "number": 32,
+      "options": [
+        {
+          "id": "A",
+          "text": "The requirement is unclear in terms of advance limits."
+        },
+        {
+          "id": "B",
+          "text": "The requirement indicates potential performance problems"
+        },
+        {
+          "id": "C",
+          "text": "The requirement indicates potential usability problems"
+        },
+        {
+          "id": "D",
+          "text": "The requirement is ambiguous in terms of supported cards"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [],
+      "question": "You are a Test Analyst in the banking domain. You have received the following requirement: \"The system shall allow cash advances of at least 200 Euros for all supported credit cards. The following credit cards are supported: American Express, Diners, Visa, Mastercard and Eurocard. Which one of the findings described below is true regarding this requirement?",
+      "explanation": "chỗ này là các yêu cầu về functional, nó không nói về non- function nên không chọn B C đc, còn D thì card đã liệt kê rồi. Chốt lại chỉ thiếu advance limits"
+    },
+    {
+      "id": "exam-10-q033",
+      "number": 33,
+      "options": [
+        {
+          "id": "A",
+          "text": "40%"
+        },
+        {
+          "id": "B",
+          "text": "60%"
+        },
+        {
+          "id": "C",
+          "text": "80%"
+        },
+        {
+          "id": "D",
+          "text": "100%"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [
+        "assets/questions/exam-10-q033-1.jpeg"
+      ],
+      "question": "If you are flying with an economy ticket, there is a possibility that you may get upgraded to business class, especially if you hold a gold card in the airline's frequent flier program. If you don't hold a gold card, there is a possibility that you will get 'bumped' off the flight if it is full and you check in late. Note that each box (i.e. statement) has been numbered. Three tests have been run: Test 1: Gold card holder who gets upgraded to business class Test 2: Non-gold card holder who stays in economy Test 3: A person who is bumped from the flight What is the statement coverage of these three tests?",
+      "explanation": ""
+    },
+    {
+      "id": "exam-10-q034",
+      "number": 34,
+      "options": [
+        {
+          "id": "A",
+          "text": "State transition testing"
+        },
+        {
+          "id": "B",
+          "text": "Decision table testing"
+        },
+        {
+          "id": "C",
+          "text": "Boundary value analysis"
+        },
+        {
+          "id": "D",
+          "text": "Use case testing"
+        },
+        {
+          "id": "E",
+          "text": "Pairwise testing"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "C"
+      ],
+      "images": [],
+      "question": "A new mobile app is to be developed for managing the membership of a soccer club which runs several teams. One of the key objectives of the club owners is to replace the outdated manual method required for registration of new members. The functionality of the app is to remain relatively simple because not all users will be familiar with modern user interfaces. The club owners have therefore placed emphasis on the ease with which users can navigate between the various screens and the usability of the application. An objective is also to manage the numbers of players who can register for a team. Limits are therefore to be enforced which may result in applicants being placed on a waiting list. Which TWO of the following test techniques would be MOST appropriate for testing the mobile app?",
+      "explanation": "Refer đề TA trên istqb.org. Chú ý vào 2 keyword là \"navigate between the various screens\" thì nên chọn đáp án A và \"Limits are therefore to be enforced\" cần test về giới hạn số lượng người đăng ký theo team thì nên chọn C"
+    },
+    {
+      "id": "exam-10-q035",
+      "number": 35,
+      "options": [
+        {
+          "id": "A",
+          "text": "3"
+        },
+        {
+          "id": "B",
+          "text": "4"
+        },
+        {
+          "id": "C",
+          "text": "6"
+        },
+        {
+          "id": "D",
+          "text": "7"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [
+        "assets/questions/exam-10-q035-1.png"
+      ],
+      "question": "Considering only the READY state, what is the number of test cases required to achieve round-trip coverage for this state?",
+      "explanation": "Round trip nghĩa là đi ra từ state nào thì về lại chính state đó đc gọi là 1 TC, ở đây chỉ tính cho READY thì có 3 case: 1. READY > STAND-BY > READY 2. READY > IDLE > READY 3. READY > STAND-BY > IDLE > READY"
+    },
+    {
+      "id": "exam-10-q036",
+      "number": 36,
+      "options": [
+        {
+          "id": "A",
+          "text": "Detect defects that would result in customer dissatisfaction."
+        },
+        {
+          "id": "B",
+          "text": "Work with marketing and project management to plan test execution cycles that minimize quality risk within schedule constraints."
+        },
+        {
+          "id": "C",
+          "text": "Ensure that 100% of the stated requirements work correctly, without any failures."
+        },
+        {
+          "id": "D",
+          "text": "Design tests using sophisticated techniques for compatibility testing including pairwise testing."
+        },
+        {
+          "id": "E",
+          "text": "Ensure 100% defect detection effectiveness for all releases of applications and features."
+        },
+        {
+          "id": "F",
+          "text": "Remove all defects that would affect customer satisfaction."
+        },
+        {
+          "id": "G",
+          "text": "Provide the development teams with feedback on the quality of individual developers’ work products."
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "B"
+      ],
+      "images": [],
+      "question": "You are working as the Director of Testing for a company that sells smartphone applications for the ass consumer market. The CEO has stated the following quality related goals for the organization: 1. Minimize the number of customer complaints about the applications, especially on social media such as Twitter, Facebook, Google+, etc. 2. Deliver new applications, and features for those applications, to customers as quickly as possible while still maintaining the highest level of customer satisfaction. You are defining the test team’s mission for the organization. Select two of the options that belong in the test policy document as part of the mission for testing.",
+      "explanation": "Refer TM expert trên trang istqb.org câu số 12. Vì là nội dung cần đưa vào the test policy document nên cần phải chung chung về nguyên lý để hướng cho các dự án, phải bỏ các đáp án quá cụ thể và chi tiết đi nó ko hợp với policy. Như là C sai ở \"100% of the stated requirements work correctly\", D sai ở \"compatibility testing including pairwise testing\", E sai ở \"100% defect detection effectiveness for all releases\", F sai ở \"Remove all defects \", F sai ở \"quality of individual developers\""
+    },
+    {
+      "id": "exam-10-q037",
+      "number": 37,
+      "options": [
+        {
+          "id": "A",
+          "text": "User unfriendly messages"
+        },
+        {
+          "id": "B",
+          "text": "Test environment problems"
+        },
+        {
+          "id": "C",
+          "text": "Unstable production system"
+        },
+        {
+          "id": "D",
+          "text": "Loss of data"
+        },
+        {
+          "id": "E",
+          "text": "Compliance regarding the book not being found"
+        }
+      ],
+      "correctAnswers": [
+        "C",
+        "D"
+      ],
+      "images": [
+        "assets/questions/exam-10-q037-1.jpeg"
+      ],
+      "question": "Which TWO of the defects listed below should be selected for a detailed root cause analysis?",
+      "explanation": "Refer câu 17 đề expert trên istqb.org của module Test Processes (CTEL-ITP-ATP)"
+    },
+    {
+      "id": "exam-10-q038",
+      "number": 38,
+      "options": [
+        {
+          "id": "A",
+          "text": "The open-source tool can be modified but only if the community of developers of that tool gives you the formal permission to modify it"
+        },
+        {
+          "id": "B",
+          "text": "There are no initial costs for the open-source tool but you should carefully consider the costs associated to the integration with the existing tools and also evaluate the recurring costs"
+        },
+        {
+          "id": "C",
+          "text": "There are no initial costs for the open-source tool because open-source tools are usually low-quality, while vendor tools have always a better quality than the corresponding open-source tools"
+        },
+        {
+          "id": "D",
+          "text": "The open-source tool can be modified but it can't be distributed further in any way"
+        },
+        {
+          "id": "E",
+          "text": "There are initial costs for the open-source tool but you should carefully consider the costs associated to the integration with the existing tools and also evaluate the recurring costs"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [],
+      "question": "In your organization the following tools of the same vendor are currently in usE. a requirements management tool, a test management tool and a bug tracking tool. You are the Test Manager. You are currently evaluating a test automation tool of the same vendor (to complete the vendor's tool suitE. against an interesting open-source test automation tool under the GNU GPL (General Public LicensE.. There are no initial costs associated to that open-source tool. Which of the following statements associated to the selection of the open-source tool is correct in this scenario?",
+      "explanation": ""
+    },
+    {
+      "id": "exam-10-q039",
+      "number": 39,
+      "options": [
+        {
+          "id": "A",
+          "text": "New, Working, Verification, Working, Clarification, Working, Verification, Closed"
+        },
+        {
+          "id": "B",
+          "text": "New, Working, Clarification, Working, Verification, Closed"
+        },
+        {
+          "id": "C",
+          "text": "New, Working, Verification, Closed"
+        },
+        {
+          "id": "D",
+          "text": "New, Working, Verification, Working, Clarification, Working, Closed"
+        },
+        {
+          "id": "E",
+          "text": "New, Working, Clarification, Closed"
+        }
+      ],
+      "correctAnswers": [
+        "D",
+        "E"
+      ],
+      "images": [],
+      "question": "Consider a defect report and assume that a part of its life cycle includes the following states: New: Is the initial state Working. Means that the developers are addressing the defect in order to produce a fix for the defect Clarification: Means that the developers need more information from the tester to address the defect and produce a fix for the defect and the tester is working to provide this information to the developers Verification: Means that a fix for the defect has been produced and the tester is running the adequate tests to verify whether the fix solves the defect Closed: is the final state Which TWO of the following answers represents an invalid sequence of states that can't lead the bug report to the \"Closed\" state?",
+      "explanation": "Thứ tự nào sau đây sai về trạng thái của lỗi mà đi đến trạng thái cuối Closed ko đúng, chọn D và E vì Working hoặc Clarification xong chưa dc Verification thì ko thể đóng luôn đc"
+    },
+    {
+      "id": "exam-10-q040",
+      "number": 40,
+      "options": [
+        {
+          "id": "A",
+          "text": "The system test phase should start when all the requirements are frozen"
+        },
+        {
+          "id": "B",
+          "text": "You should allocate a large effort for system testing during the first three iterations"
+        },
+        {
+          "id": "C",
+          "text": "You should allocate all the effort for the system test phase only in the last iteration"
+        },
+        {
+          "id": "D",
+          "text": "You should apply the same test strategy as used in a sequential life cycle model"
+        },
+        {
+          "id": "E",
+          "text": "You should allocate all effort for system testing during the first three iterations"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [],
+      "question": "You are the Test Manager on a project following an iterative life-cycle model. The project should consist of nine iterations of one month duration each. It is planned to develop the most important features to have a stable core of the application in the first three iterations and to add the additional features in the last six iterations. At the beginning of the first iteration, only a draft version of the requirements specification document for the core features is available. Assume that during each of the first three iterations, the chosen features are fully completed and unit tested. Which of the following statements is true in this context?",
+      "explanation": ""
+    },
+    {
+      "id": "exam-10-q041",
+      "number": 41,
+      "options": [
+        {
+          "id": "A",
+          "text": "300 person-hours have been spent on the project during the system testing phase, because of the failed confirmation tests and this cost belongs to the costs of internal failure"
+        },
+        {
+          "id": "B",
+          "text": "340 person-hours have been spent on the project during the system testing phase, because of the failed confirmation tests and this cost belongs to the costs of external failure"
+        },
+        {
+          "id": "C",
+          "text": "340 person-hours have been spent on the project during the system testing phase, because of the failed confirmation tests and this cost belongs to the costs of internal failure"
+        },
+        {
+          "id": "D",
+          "text": "300 person-hours have been spent on the project during the system testing phase, because of the failed confirmation tests and this cost belongs to the costs of detection"
+        },
+        {
+          "id": "E",
+          "text": "320 person-hours have been spent on the project during the system testing phase, because of the failed confirmation tests and this cost belongs to the costs of internal failure"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [],
+      "question": "Assume you have some data related to confirmation testing during system testing of a past project. In that project 240 bug reports have been opened once, 80 were opened twice, 10 were opened three times and no bug reports have been opened more than three times. You estimate that a bug report, which has failed its confirmation test, costs, on average, 3 person-hours. Which of the following statements correctly describe the value of these confirmatory testing activities based on cost of quality?",
+      "explanation": ""
+    },
+    {
+      "id": "exam-10-q042",
+      "number": 42,
+      "options": [
+        {
+          "id": "A",
+          "text": "What are the problems we are trying to address?"
+        },
+        {
+          "id": "B",
+          "text": "How will the implementation be organized?"
+        },
+        {
+          "id": "C",
+          "text": "Which project will be selected to perform the tool pilot?"
+        },
+        {
+          "id": "D",
+          "text": "Has there been sufficient comparison of tools?"
+        },
+        {
+          "id": "E",
+          "text": "Do we have a set of tool requirements to validate the tool against?"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "D",
+        "E"
+      ],
+      "images": [],
+      "question": "Topic 3, Scenario 3 “Tool Selection and Implementation” Your company is considering whether or not to purchase a test tool suite from a respectable vendor. Your manager has searched the internet for comparable products but none of them meets his specific requirements. A tool demonstration has been arranged for next week and your team has been invited to attend. The tool suite consists of a test management tool, test execution tool and a requirements management tool. There is the possibility of adding a performance testing tool at a later stage. You have decided to attend the demo but raise some issues before hand regarding expectations. **************************** Select THREE issues from the options provided that should at least be raised.",
+      "explanation": ""
+    },
+    {
+      "id": "exam-10-q043",
+      "number": 43,
+      "options": [
+        {
+          "id": "A",
+          "text": "Only 1, 3 and 4 are parts of the “Initiating” phase of the IDEAL improvement model"
+        },
+        {
+          "id": "B",
+          "text": "Only 1, 2 and 5 are parts of the “Initiating” phase of the IDEAL improvement model"
+        },
+        {
+          "id": "C",
+          "text": "Only 1, 2, 3, 4 and 5 are parts of the “Initiating” phase of the IDEAL improvement model"
+        },
+        {
+          "id": "D",
+          "text": "Only 1 and 3 are parts of the “Initiating” phase of the IDEAL improvement model"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [],
+      "question": "Considering the following high-level activities: 1. Set context and establish sponsorship 2. Define performance indicators 3. Identify stimulus for improvement 4. Establish an improvement infrastructure (i.e., organization) 5. Set detailed objectives and establish test improvement team commitment 6. Plan an assessment 7. Define the impact of improvement measures Which of the high-level activities are parts of the “Initiating” phase of the IDEAL improvement model?",
+      "explanation": "Refer câu 23 đề expert trên istqb.org của module CTEL-ITP-Part_1 (Improving the Test Process)"
+    },
+    {
+      "id": "exam-10-q044",
+      "number": 44,
+      "options": [
+        {
+          "id": "A",
+          "text": "Q.1 to Q.7 and M.01 to M.12 are all equally necessary"
+        },
+        {
+          "id": "B",
+          "text": "Q.1, Q.2, Q4 and Q.6 with M.01 to M.05, M.07, M.08, and M.10 adhere to the given goal"
+        },
+        {
+          "id": "C",
+          "text": "Q.3 is sufficient, but all M.01 to M.12 answer that question"
+        },
+        {
+          "id": "D",
+          "text": "Q.1, Q.5 and Q.7 are the only questions that need to be answered, M.02 to M.04, M.09, M.11, and M.12 answer these questions"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [
+        "assets/questions/exam-10-q044-1.jpeg"
+      ],
+      "question": "An insurance company has a dedicated test team consisting of a small number of core testers that lead testing projects as part of the internally run software projects. They write and execute tests together with non-professional testers from the different departments that will later use the new or changed products. The test team has defined the following measurement goal to improve their test processes: xem ảnh Which of these should best be used in the GQM plan to fulfill the given goal?",
+      "explanation": "Refer câu 20 đề expert trên istqb.org của module CTEL-ITP-Part_1 (Improving the Test Process)"
+    },
+    {
+      "id": "exam-10-q045",
+      "number": 45,
+      "options": [
+        {
+          "id": "A",
+          "text": "ii and iv are good metrics to show the efficiency with which the test automation team helps the Enterprise Test Group reduce risk."
+        },
+        {
+          "id": "B",
+          "text": "iv and v are good metrics of test automation team effectiveness within the Enterprise Test Group."
+        },
+        {
+          "id": "C",
+          "text": "iii is a good metric for the test automation team’s effectiveness at producing defect-finding test harnesses."
+        },
+        {
+          "id": "D",
+          "text": "i is a good metric for the ability of the test automation team to supply useful information to Enterprise Test Group stakeholders."
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [],
+      "question": "Consider the following metrics: i. The percentage of test cases for a given product which have been automated ii. The percentage of test effort saved for a given product due to test automation iii. The percentage of defects detected by a product test team during system testing iv. The number of people working on the test automation team v. The total number of years of experience for all the people working on the test automation team vi. The average cost to develop, execute, and maintain each automated test case Remember that good metrics map to specific objectives and motivate correct behavior by the people involved in the process being measured. Which one of the following statements is true?",
+      "explanation": "Refer câu 14 đề expert trên istqb.org của module TM"
+    },
+    {
+      "id": "exam-10-q046",
+      "number": 46,
+      "options": [
+        {
+          "id": "A",
+          "text": "The Test Manager should be involved in impact analysis even when the proposed change is not expected to affect the schedule."
+        },
+        {
+          "id": "B",
+          "text": "The Test Manager should require documentation for any change proposed for an agile project."
+        },
+        {
+          "id": "C",
+          "text": "The Test Manager should not attend impact analysis sessions as it will tend to discourage others from speaking and participating."
+        },
+        {
+          "id": "D",
+          "text": "The Test Manager’s role in change management is not restricted to the testing aspects of the project."
+        },
+        {
+          "id": "E",
+          "text": "The Test Manager is responsible for the change management process."
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "D"
+      ],
+      "images": [],
+      "question": "Which TWO of the following is true regarding the Test Manager’s role in change management?",
+      "explanation": "Refer câu 8 đề expert trên istqb.org của module TM"
+    },
+    {
+      "id": "exam-10-q047",
+      "number": 47,
+      "options": [
+        {
+          "id": "A",
+          "text": "Indicators i, ii and v should be used."
+        },
+        {
+          "id": "B",
+          "text": "Indicators i, ii, iii and v should be used."
+        },
+        {
+          "id": "C",
+          "text": "All of these indicators should be used."
+        },
+        {
+          "id": "D",
+          "text": "Indicators i, ii, iv, v, and vi should be used."
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "images": [],
+      "question": "Scenario 1 “Test Project Evaluation and Reporting” provides the context for this question. Your next task as Test Manager is to decide which metrics and indicators should be measured and analyzed. Consider the following indicators: i. The weekly rate at which actual versus planned test cases are being written ii. The amount of time per day that the test labs are inoperable when they are required for testing iii. Summary of unmitigated risks iv. Daily report of the re-opened defects v. Weekly defect discovery rate vi. Daily report of the number of newly opened show-stopper defects Which one of the following statements correctly defines indicators that should be measured and analyzed for internal test reporting (i.e., reporting within the test organization)?",
+      "explanation": "Refer câu 2 đề expert trên istqb.org của module TM"
+    },
+    {
+      "id": "exam-10-q048",
+      "number": 48,
+      "options": [
+        {
+          "id": "A",
+          "text": "Options i, iii and iv are correct."
+        },
+        {
+          "id": "B",
+          "text": "Options ii, iii and iv are correct."
+        },
+        {
+          "id": "C",
+          "text": "All the options are correct."
+        },
+        {
+          "id": "D",
+          "text": "Options ii, iv and v are correct."
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "images": [
+        "assets/questions/exam-10-q048-1.jpeg"
+      ],
+      "question": "Which one of the following statements correctly identifies basic quality control techniques that a Test Manager must understand and be able to implement in order to improve the test process?",
+      "explanation": "Refer câu 4 đề expert trên istqb.org của module TM"
+    },
+    {
+      "id": "exam-10-q049",
+      "number": 49,
+      "options": [
+        {
+          "id": "A",
+          "text": "line 6: variable “total” is not assigned a value before using it line 12: variable “commission_lo” is defined but subsequently not used"
+        },
+        {
+          "id": "B",
+          "text": "line 6: an invalid value is assigned to variable “total” line 12: variable “commission_lo” is redefined before it is used"
+        },
+        {
+          "id": "C",
+          "text": "line 6: variable “total” is out of scope line 12: the “hard-coded” value “0.15” should not be used"
+        },
+        {
+          "id": "D",
+          "text": "line 6: the variable “number” is undefined line 12: the variable “total” is redefined before it is used"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [
+        "assets/questions/exam-10-q049-1.png"
+      ],
+      "question": "Below is the pseudo-code for a program that calculates and prints sales commissions: (image) The code contains data flow anomalies on lines 6 and 12 (highlighted text). Which examples of data flow anomalies can be found on these lines?",
+      "explanation": "TM thi câu này, Refer câu 13 của đề TTA trên istqb.org. Đáp A, nhìn vào đoạn code ta thấy biến \"total\" ở dòng số 6 đang được sử dụng ( gọi đến) trước khi được khai báo, và biến “commission_lo” dòng code số 12 thì được khai báo nhưng ko đc sử dụng đến sau đó."
+    },
+    {
+      "id": "exam-10-q050",
+      "number": 50,
+      "options": [
+        {
+          "id": "A",
+          "text": "Project A is a better pilot project for implementing a test automation strategy than Project D because it is a very typical project for GetDailyBetter Inc."
+        },
+        {
+          "id": "B",
+          "text": "Project E is not a good project to pilot the usage of new testing techniques because innovations are always too risky"
+        },
+        {
+          "id": "C",
+          "text": "Project F is ideal to pilot the new defect report forms and analysis tools because quality is very important when building platforms"
+        },
+        {
+          "id": "D",
+          "text": "Project D is favored to projects B and C in piloting the definition of test levels with entry and exit criteria, new test level plans and usage of new metrics"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "images": [
+        "assets/questions/exam-10-q050-1.png"
+      ],
+      "question": "Which of the following statements is correct?",
+      "explanation": "TM thi câu này Refer câu số 7 trong Improvement Process Part 2 expert trên istqb.org."
+    },
+    {
+      "id": "exam-10-q051",
+      "number": 51,
+      "options": [
+        {
+          "id": "A",
+          "text": "A Test Process Group is set up within a major in-house project and staffed from within the project. The Test Process Group implements improvements which are relevant to the project and reports to the project leader"
+        },
+        {
+          "id": "B",
+          "text": "A Test Process Group is set up to co-ordinate improvement activities between the different projects. Staff from a discontinued in-house project are permanently assigned to the Test Process Group"
+        },
+        {
+          "id": "C",
+          "text": "Establish a Management Steering Group (MSG) to coordinate test process improvements across the organization. The MSG has ownership of the test process. A Technical Working Group is set up to co-ordinate the test automation improvements and ensure good communication takes place"
+        },
+        {
+          "id": "D",
+          "text": "Establish a Management Steering Group (MSG) to implement test process improvements across the organization. The MSG has ownership of the test process and manages the contractual issues with the offshore company implementing the test automation"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [],
+      "question": "A company is planning its test process improvements and has asked for your advice on how best to organize the improvement. You are given the following background information: - The company is experiencing test process problems within many of its projects - Planned improvements to test automation shall be implemented at an offshore location - The organization has not assigned responsibility for developing the test process Which of the following organizational forms would you consider to be most appropriate?",
+      "explanation": "TM thi câu này, Refer câu số 9 của Improvement Process part 2 expert trên istqb.org. EX-ITP-Part_2- Câu 9"
+    },
+    {
+      "id": "exam-10-q052",
+      "number": 52,
+      "options": [
+        {
+          "id": "A",
+          "text": "SOA"
+        },
+        {
+          "id": "B",
+          "text": "CRM"
+        },
+        {
+          "id": "C",
+          "text": "BRM"
+        },
+        {
+          "id": "D",
+          "text": "SMS"
+        },
+        {
+          "id": "E",
+          "text": "SOA and CRM"
+        }
+      ],
+      "correctAnswers": [
+        "B",
+        "E"
+      ],
+      "images": [
+        "assets/questions/exam-10-q052-1.jpeg"
+      ],
+      "question": "Which of the following subsystems, based on the risk scores of the table, is most risky?",
+      "explanation": "Refer câu số 10 của đề TM12, họ chỉ thêm 1 đáp án E là có SOA và CRM, nếu tính toán thì CRM rủi ro cao nhất, ở câu này họ thêm đáp án E nên chúng tôi quyết định tính 2 đáp án cho an toàn"
+    },
+    {
+      "id": "exam-10-q053",
+      "number": 53,
+      "options": [
+        {
+          "id": "A",
+          "text": "3, 4, 5, 8"
+        },
+        {
+          "id": "B",
+          "text": "1, 3, 5"
+        },
+        {
+          "id": "C",
+          "text": "2, 4, 6, 7, 8"
+        },
+        {
+          "id": "D",
+          "text": "2, 7"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [
+        "assets/questions/exam-10-q053-1.png"
+      ],
+      "question": "You are testing a photo-enforcement system for traffic control at an intersection. The requirements state a photo shall be taken if the signal light is red (RED), or the car is speeding (SPEED), and if the front wheels of the car are over the line marking the beginning of the intersection (WHEELS). The logic in the code looks like the following: (image) Assuming no short-circuiting, which set of test input values is required to achieve 50% multiple condition coverage?",
+      "explanation": "TM có thi câu này, Refer câu 7 đề TTA trên istqb.org. Ở đây ta có 3 biến RED, SPEED, WHEEL, mỗi biến có 2 giá trị T F, nếu đạt 100% multiple condition coverage thì cần có 8 test case như trong hình, nên để đạt được 50% thì ta cần 4 TC vậy nên chọn A"
+    },
+    {
+      "id": "exam-10-q054",
+      "number": 54,
+      "options": [
+        {
+          "id": "A",
+          "text": "Decision coverage + Modified Condition/Decision coverage"
+        },
+        {
+          "id": "B",
+          "text": "Decision coverage + Statement coverage"
+        },
+        {
+          "id": "C",
+          "text": "Modified Condition/Decision coverage"
+        },
+        {
+          "id": "D",
+          "text": "Multiple Condition coverage"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "images": [],
+      "question": "You are the Technical Test Analyst working on the testing of software that will control the movement of the roof on a new national sports stadium that seats 100,000 spectators. A failure analysis has shown that if the software system fails it may cause the roof to break up and fall on the spectators. The government has requested that the level of testing for this software exceeds that required by the IEC 61508 standard. Which level of test coverage would you expect to be achieved in the testing of the control software for the stadium roof?",
+      "explanation": "TM có thi câu này, Refer câu số 9 đề TTA trên istqb.org. Vì mái nhà di chuyển của sân vận động có hơn 100.000 khán giả nên mức độ an toàn phải rất cao, ko đc xảy ra lỗi khi di chuyển, ở đây họ yêu cầu test \"exceeds that required by the IEC 61508 standard\" vượt qua cả mức tiêu chuẩn, mà tiêu chuẩn cao nhất chỉ yêu cầu MC/DC ở đáp án C thôi, nên nếu yêu câu cao hơn tiêu chuẩn thì phải là đáp án D"
+    },
+    {
+      "id": "exam-10-q055",
+      "number": 55,
+      "options": [
+        {
+          "id": "A",
+          "text": "I: Condition determination coverage, II: Decision Coverage, III: Statement coverage"
+        },
+        {
+          "id": "B",
+          "text": "I: Condition determination coverage, II: Statement coverage, III: Decision coverage"
+        },
+        {
+          "id": "C",
+          "text": "I: Decision coverage, II: Condition determination coverage, III: Statement Coverage"
+        },
+        {
+          "id": "D",
+          "text": "I: Multiple condition coverage, II: Decision coverage, III: Condition determination coverage"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "images": [
+        "assets/questions/exam-10-q055-1.png"
+      ],
+      "question": "The result of a product risk analysis performed on components I, II and III of the airplane control system shows the following risk matrix: The project wants to mitigate the risks by defining different types of coverage depending on the risk level of the components. Which of the following would be a meaningful solution for setting the coverage targets? Number of correct answers: 1",
+      "explanation": ""
+    },
+    {
+      "id": "exam-10-q056",
+      "number": 56,
+      "options": [
+        {
+          "id": "A",
+          "text": "Description: Boundary value not correctly implemented Priority: High Repeatability: Yes Tester: WVU Test case: 35 (test specification “bonus program”), V1.2"
+        },
+        {
+          "id": "B",
+          "text": "Description: Boundary value not correctly implemented for bonus Priority: Medium Tester: WVU Test case: 35 (test specification “bonus program”)"
+        },
+        {
+          "id": "C",
+          "text": "Description: Boundary value not correctly implemented for bonus (line 26: 10 according to design, now 5 implemented) Priority: High Repeatability: Yes Tester: WVU Test case: 35 (test specification “bonus program”), V1.2"
+        },
+        {
+          "id": "D",
+          "text": "Description: Boundary value not correctly implemented for bonus Priority: High Repeatability: Yes Tester: WVU Test case: 35 (test specification “bonus program”), V1.2"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "images": [],
+      "question": "You have tested the program and have found that with “bonus” a boundary value has not been implemented according to design. You have written an incident report. Which of the following is the incident report of the highest quality? Number of correct answers: 1",
+      "explanation": ""
+    },
+    {
+      "id": "exam-10-q057",
+      "number": 57,
+      "options": [
+        {
+          "id": "A",
+          "text": "Inspection"
+        },
+        {
+          "id": "B",
+          "text": "Management review"
+        },
+        {
+          "id": "C",
+          "text": "Walkthrough"
+        },
+        {
+          "id": "D",
+          "text": "Audit"
+        },
+        {
+          "id": "E",
+          "text": "informal review"
+        },
+        {
+          "id": "F",
+          "text": "Assessment"
+        },
+        {
+          "id": "G",
+          "text": "Technical review"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "C",
+        "G"
+      ],
+      "images": [],
+      "question": "Identify THREE type formal peer review?",
+      "explanation": "Peer review là review có nhóm từ 3 người trở lên và thường nói về review tài liệu kỹ thuật nên mình bỏ mấy cái thuộc về management reivew và audit đi, chỉ chọn đc A, C, G"
+    }
+  ]
+}
