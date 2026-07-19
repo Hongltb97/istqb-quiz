@@ -2,4 +2,5 @@
 .explanation.answer-correct{border-left-color:var(--good);background:#16a34a10}.explanation.answer-wrong{border-left-color:var(--bad);background:#dc262610}
 .multi-answer-note{margin:8px 0 14px;padding:9px 12px;border-radius:10px;background:#d9770615;color:var(--warn);font-size:.9rem;font-weight:700}
 .option{flex-direction:row;align-items:flex-start}.option input{flex:0 0 auto}.option b{flex:0 0 auto;white-space:nowrap}.option span{min-width:0;overflow-wrap:anywhere}
+#question h2{font-size:1rem;line-height:1.5;font-weight:600}
 @media(max-width:430px){header,main,footer{padding-left:12px;padding-right:12px}header{align-items:flex-start}header h1{font-size:1.55rem}header p{margin:.25rem 0;font-size:.9rem}.panel{padding:14px;border-radius:14px}.topbar{display:grid;grid-template-columns:1fr auto;gap:8px}.topbar #submitBtn{grid-column:1/-1;width:100%}.quiz-layout{gap:12px}#nav{grid-template-columns:repeat(6,1fr);gap:6px}.nav-btn{min-height:38px}.option{gap:8px;padding:12px 10px}.option input{margin:3px 0 0;padding:0}.actions{gap:8px}.actions button{flex:1 1 auto;padding:11px 10px}.multi-answer-note{font-size:.85rem}.explanation{padding:12px;font-size:.95rem}}
