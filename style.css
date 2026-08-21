@@ -3,6 +3,10 @@
 .multi-answer-note{margin:8px 0 14px;padding:9px 12px;border-radius:10px;background:#d9770615;color:var(--warn);font-size:.9rem;font-weight:700}
 .option{flex-direction:row;align-items:flex-start}.option input{flex:0 0 auto}.option b{flex:0 0 auto;white-space:nowrap}.option span{min-width:0;overflow-wrap:anywhere}
 #question h2{font-size:1rem;line-height:1.5;font-weight:600}
+.question-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:16px}
+.question-heading h2{flex:1}
+.translate-toggle{flex:0 0 auto;flex-direction:row;align-items:center;gap:6px;font-size:.9rem;font-weight:600;white-space:nowrap}
+.translate-toggle input{margin:0;padding:0}
 .question-original,.option-original{display:block}
 .translation{display:block;margin-top:3px;color:var(--muted);font-size:.82em;font-weight:400;line-height:1.4}
 .translation-loading{font-style:italic}
