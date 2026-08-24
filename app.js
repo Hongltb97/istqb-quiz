@@ -4,20 +4,23 @@ const state=()=>JSON.parse(localStorage.getItem(LS)||'{"attempts":[],"wrong":[],
 const save=s=>localStorage.setItem(LS,JSON.stringify(s));
 const shuffle=a=>{a=[...a];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a};
 const TRANSLATIONS_LS='istqb-practice-vi-translations-v1';
-let translations=JSON.parse(localStorage.getItem(TRANSLATIONS_LS)||'{}'), translating=new Set();
+let translations=JSON.parse(localStorage.getItem(TRANSLATIONS_LS)||'{}'), translating=new Map();
 const escapeHtml=value=>String(value).replace(/[&<>'"]/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[char]));
 const translationKey=text=>encodeURIComponent(text);
 function saveTranslations(){localStorage.setItem(TRANSLATIONS_LS,JSON.stringify(translations))}
 function translateToVietnamese(text){
   const key=translationKey(text);
-  if(translations[key]||translating.has(key))return;
-  translating.add(key);
-  fetch(`https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=vi&dt=t&q=${key}`)
+  if(translations[key])return Promise.resolve();
+  if(translating.has(key))return translating.get(key);
+  const request=fetch(`https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=vi&dt=t&q=${key}`)
     .then(response=>response.ok?response.json():Promise.reject())
     .then(data=>{const translated=data?.[0]?.map(part=>part[0]).join('').trim();if(translated){translations[key]=translated;saveTranslations()}})
     .catch(()=>{})
-    .finally(()=>{translating.delete(key);if(!submitted&&pool.length)render()});
+    .finally(()=>{translating.delete(key);let q=pool[index];if(!submitted&&q&&translatedQuestions.has(q.id)&&(q.question===text||q.options.some(option=>option.text===text)))render()});
+  translating.set(key,request);
+  return request;
 }
+function preloadTranslations(questions){let texts=[...new Set(questions.flatMap(q=>[q.question,...q.options.map(option=>option.text)]))].filter(text=>!translations[translationKey(text)]);let next=0;let worker=async()=>{while(next<texts.length){let text=texts[next++];await translateToVietnamese(text)}};return Promise.all(Array.from({length:Math.min(4,texts.length)},worker))}
 function bilingualText(text, className, showTranslation=false){
   if(!showTranslation)return `<span class="${className}">${escapeHtml(text)}</span>`;
   const key=translationKey(text), translated=translations[key];
@@ -27,7 +30,7 @@ function bilingualText(text, className, showTranslation=false){
 async function init(){manifest=await fetch('data/manifest.json').then(r=>r.json()); $('#examSelect').innerHTML='<option value="all">Tất cả bộ đề</option>'+manifest.exams.map(e=>`<option value="${e.id}">${e.title} (${e.questionCount})</option>`).join(''); applyTheme(); renderStats();}
 async function loadExam(id){if(!exams.has(id)){let m=manifest.exams.find(e=>e.id===id);exams.set(id,await fetch(m.file).then(r=>r.json()))}return exams.get(id)}
 async function buildPool(mode='normal'){let ids=$('#examSelect').value==='all'?manifest.exams.map(e=>e.id):[$('#examSelect').value], all=[];for(const id of ids)all.push(...(await loadExam(id)).questions.map(q=>({...q,examId:id})));if(mode==='wrong'){let wrong=new Set(state().wrong);all=all.filter(q=>wrong.has(q.id));}if($('#shuffleQ').checked)all=shuffle(all);let n=$('#countSelect').value;if(n!=='all')all=all.slice(0,+n);return all}
-async function start(mode='normal'){pool=await buildPool(mode);if(!pool.length){alert(mode==='wrong'?'Chưa có câu sai để luyện.':'Không có câu hỏi.');return}answers={};flags=new Set();revealed=new Set();translatedQuestions=new Set();index=0;submitted=false;remaining=Math.max(0,(+$(`#minutes`).value||0)*60);clearInterval(timerId);if(remaining){tick();timerId=setInterval(()=>{remaining--;tick();if(remaining<=0){clearInterval(timerId);submit()}},1000)}else $('#timer').textContent='Không giới hạn';$('#home').classList.add('hidden');$('#result').classList.add('hidden');$('#quiz').classList.remove('hidden');render()}
+async function start(mode='normal'){pool=await buildPool(mode);if(!pool.length){alert(mode==='wrong'?'Chưa có câu sai để luyện.':'Không có câu hỏi.');return}let selectedIds=$('#examSelect').value==='all'?manifest.exams.map(exam=>exam.id):[$('#examSelect').value], translationSource=selectedIds.flatMap(id=>exams.get(id).questions);void preloadTranslations(translationSource);answers={};flags=new Set();revealed=new Set();translatedQuestions=new Set();index=0;submitted=false;remaining=Math.max(0,(+$(`#minutes`).value||0)*60);clearInterval(timerId);if(remaining){tick();timerId=setInterval(()=>{remaining--;tick();if(remaining<=0){clearInterval(timerId);submit()}},1000)}else $('#timer').textContent='Không giới hạn';$('#home').classList.add('hidden');$('#result').classList.add('hidden');$('#quiz').classList.remove('hidden');render()}
 function tick(){let m=Math.floor(remaining/60),s=remaining%60;$('#timer').textContent=`${m}:${String(s).padStart(2,'0')}`}
 function render(){let q=pool[index], showTranslation=translatedQuestions.has(q.id);$('#progress').textContent=`Câu ${index+1}/${pool.length}`;$('#question').innerHTML=`<div class="question-heading"><h2>${bilingualText(q.question,'question-original',showTranslation)}</h2><label class="translate-toggle"><input id="translateToggle" type="checkbox" ${showTranslation?'checked':''}> Dịch</label></div>${q.images.map(x=>`<img class="question-image" src="${x}" alt="Hình minh họa">`).join('')}`;let multi=q.correctAnswers.length>1, showFeedback=submitted||revealed.has(q.id), selected=answers[q.id]||[], isCorrect=showFeedback&&same(selected,q.correctAnswers), opts=$('#shuffleA').checked?(q._shuffled||(q._shuffled=shuffle(q.options))):q.options, note=multi?`<div class="multi-answer-note">ℹ Câu hỏi chọn nhiều đáp án — hãy chọn ${q.correctAnswers.length} đáp án.</div>`:'';$('#options').innerHTML=note+opts.map(o=>`<label class="option ${showFeedback?(q.correctAnswers.includes(o.id)?'correct':(selected.includes(o.id)?'wrong':'')):''}"><input ${multi?'type="checkbox"':'type="radio"'} name="answer" value="${o.id}" ${selected.includes(o.id)?'checked':''} ${submitted?'disabled':''}><b>${o.id}.</b><span class="option-copy">${bilingualText(o.text,'option-original',showTranslation)}</span></label>`).join('')+(showFeedback?`<div class="explanation ${isCorrect?'answer-correct':'answer-wrong'}"><b>${isCorrect?'Chính xác!':'Chưa chính xác.'} Đáp án đúng: ${q.correctAnswers.join(', ')}</b><br>${q.explanation||'Chưa có lời giải.'}</div>`:'');$('#translateToggle').onchange=event=>{event.target.checked?translatedQuestions.add(q.id):translatedQuestions.delete(q.id);render()};$('#options').querySelectorAll('input').forEach(i=>i.onchange=()=>{let cur=answers[q.id]||[];if(multi){answers[q.id]=i.checked?[...new Set([...cur,i.value])]:cur.filter(x=>x!==i.value);answers[q.id].length===q.correctAnswers.length?revealed.add(q.id):revealed.delete(q.id)}else{answers[q.id]=[i.value];revealed.add(q.id)}render()});$('#flagBtn').textContent=flags.has(q.id)?'★ Đã đánh dấu':'☆ Đánh dấu';$('#prevBtn').disabled=index===0;$('#nextBtn').disabled=index===pool.length-1;renderNav()}
 function goToQuestion(i){index=i;render();requestAnimationFrame(()=>$('#quiz').scrollIntoView({behavior:'smooth',block:'start'}))}
