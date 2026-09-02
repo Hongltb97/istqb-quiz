@@ -971,7 +971,7 @@
         "B"
       ],
       "images": [],
-      "question": "The following code snippet reads through a file and determines whether the numbers contained are prime or not. 1 Read (Val); 2 While NOT End of File Do 3 Prime := TRUE; 4 For Holder := 2 TO Val DIV 2 Do 5 if Val – (Val DIV Holder) * Holder= 0 Then 6 Write (Holder, � is a factor of �, Val); 7 Prime := FALSE; 8 Endif; 9 Endfor; 10 if Prime = TRUE Then 11 Write (Val, � is prime�); 12 Endif; 13 Read (Val); 14 Endwhile; 15 Write (‘End of run) Calculate the cyclomatic complexity of the code.",
+      "question": "The following code snippet reads through a file and determines whether the numbers contained are prime or not. 1 Read (Val); 2 While NOT End of File Do 3 Prime := TRUE; 4 For Holder := 2 TO Val DIV 2 Do 5 if Val – (Val DIV Holder) * Holder= 0 Then 6 Write (Holder,   is a factor of  , Val); 7 Prime := FALSE; 8 Endif; 9 Endfor; 10 if Prime = TRUE Then 11 Write (Val,   is prime ); 12 Endif; 13 Read (Val); 14 Endwhile; 15 Write (‘End of run) Calculate the cyclomatic complexity of the code.",
       "explanation": ""
     },
     {
@@ -1029,7 +1029,8 @@
       ],
       "correctAnswers": [
         "A",
-        "D"
+        "D",
+	"C"
       ],
       "images": [
         "assets/questions/exam-4-q035-1.jpeg"

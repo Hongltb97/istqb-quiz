@@ -306,7 +306,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "images": [],
       "question": "Analyzing the requirement, \"The system shall allow cash advances of at least 200 Euros for all supported credit cards. The correct list of credit cards is American Express, Diners, VISA, Mastercard and Eurocard.\" There are arguments to be made for several test design techniques. Which of the following test design techniques is LEAST likely to be used for identifying test cases for the requirement? [K4] 3 credits",
