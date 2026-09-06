@@ -1118,8 +1118,8 @@
         }
       ],
       "correctAnswers": [
-        "B",
-        "G"
+        "A",
+        "B"
       ],
       "images": [],
       "question": "You are working as the Director of Testing for a company that sells smartphone applications for the ass consumer market. The CEO has stated the following quality related goals for the organization: 1. Minimize the number of customer complaints about the applications, especially on social media such as Twitter, Facebook, Google+, etc. 2. Deliver new applications, and features for those applications, to customers as quickly as possible while still maintaining the highest level of customer satisfaction. You are defining the test team’s mission for the organization. Select two of the options that belong in the test policy document as part of the mission for testing.",
