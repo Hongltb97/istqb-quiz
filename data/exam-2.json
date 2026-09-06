@@ -531,7 +531,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "images": [],
       "question": "In what ways should a Technical Test Analyst respond to risks that are identified after testing has started?",
@@ -559,7 +559,7 @@
         }
       ],
       "correctAnswers": [
-        "B"
+        "A"
       ],
       "images": [],
       "question": "You have now also been given the task to identify the key fields for logging the incident reports. So far the following fields have been in use in the Excel sheet: - Incident description - Date - Author - State Which of the following would you recommend as the best combination of fields to add?",
