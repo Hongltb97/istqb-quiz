@@ -559,7 +559,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "images": [],
       "question": "You have now also been given the task to identify the key fields for logging the incident reports. So far the following fields have been in use in the Excel sheet: - Incident description - Date - Author - State Which of the following would you recommend as the best combination of fields to add?",
